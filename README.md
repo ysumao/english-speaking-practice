@@ -27,6 +27,8 @@ const lessons = [];
 
 不要把每日内容直接写死在 `index.html` 中，页面会根据 `script.js` 中的数据自动生成导航和内容卡片。
 
+后续每天新增内容时，请优先参考 `DAILY_TRAINING_LOG.md` 中的格式规范，保证所有 Day 的结构和显示风格统一。
+
 ## 如何修改主题颜色
 
 主题颜色集中写在 `style.css` 的 CSS 变量中。

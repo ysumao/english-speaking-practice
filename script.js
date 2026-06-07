@@ -1093,7 +1093,7 @@ function renderPatterns(patterns = []) {
             <strong class="sentence-pattern">${formatText(item.pattern, state.activeDay)}</strong>
             <p class="usage">${formatText(item.usage || "", state.activeDay)}</p>
             <ul class="example-list">
-              ${(item.examples || []).map((example) => `<li>${formatText(example, state.activeDay)}</li>`).join("")}
+              ${(item.examples || []).map((example, index) => `<li><span class="example-number" aria-hidden="true">${index + 1}</span>${formatText(example, state.activeDay)}</li>`).join("")}
             </ul>
             ${item.practiceTip ? `<p class="practice-tip">${formatText(item.practiceTip, state.activeDay)}</p>` : ""}
           </article>
@@ -1111,7 +1111,7 @@ function renderQuestions(lesson) {
 
   return `
     <section aria-labelledby="questions-title-${lesson.day}">
-      <h4 class="section-title" id="questions-title-${lesson.day}">Speaking Questions</h4>
+      <h4 class="section-title questions-title" id="questions-title-${lesson.day}">Speaking Questions</h4>
       <div class="question-grid">
         ${questions.map((item, index) => renderQuestionCard(lesson.day, item, index)).join("")}
       </div>
@@ -1127,7 +1127,7 @@ function renderQuestionCard(day, item, index) {
   return `
     <article class="question-card ${shouldOpen ? "search-hit" : ""}">
       <div class="question-topline">
-        <p class="question-text">${formatText(item.question || "", day)}</p>
+        <p class="question-text"><span class="question-emoji" aria-hidden="true">💬</span>${formatText(item.question || "", day)}</p>
         <button
           class="answer-toggle"
           type="button"
@@ -1141,7 +1141,7 @@ function renderQuestionCard(day, item, index) {
       <div class="answer-panel ${shouldOpen ? "open" : ""}" id="${answerId}">
         <div class="answer-content">
           <strong>Reference Answer</strong>
-          <p>${formatText(item.answer || "", day)}</p>
+          <p class="answer-text"><span class="answer-emoji" aria-hidden="true">✨</span>${formatText(item.answer || "", day)}</p>
         </div>
       </div>
     </article>

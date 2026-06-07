@@ -411,7 +411,15 @@ button {
   align-items: center;
   gap: 10px;
   margin: 0 0 14px;
-  font-size: 1.02rem;
+  color: var(--lesson-accent-strong);
+  font-size: clamp(1.28rem, 2vw, 1.62rem);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 20px color-mix(in srgb, var(--lesson-accent) 34%, transparent);
+}
+
+.questions-title {
+  margin-bottom: 18px;
 }
 
 .section-title::before {
@@ -442,6 +450,12 @@ button {
 .pattern-card,
 .question-card {
   padding: 18px;
+}
+
+.question-card {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--lesson-accent) 10%, transparent), transparent 42%),
+    var(--card-elevated);
 }
 
 .pattern-card {
@@ -494,10 +508,62 @@ button {
 }
 
 .example-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
   padding: 10px 12px;
   border-radius: var(--radius-sm);
   color: var(--text);
   background: color-mix(in srgb, var(--lesson-accent-soft) 72%, var(--sentence-bg));
+  font-family: Helvetica, Arial, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
+
+.example-number {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  margin-top: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 999px;
+  color: #07111c;
+  background:
+    radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.95), transparent 26%),
+    linear-gradient(135deg, #7df9d4, #66d9e8);
+  box-shadow:
+    0 8px 18px color-mix(in srgb, var(--lesson-accent) 20%, transparent),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.12);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.example-list li:nth-child(2) .example-number {
+  background:
+    radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.95), transparent 26%),
+    linear-gradient(135deg, #ffd166, #ff9f6e);
+}
+
+.example-list li:nth-child(3) .example-number {
+  background:
+    radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.95), transparent 26%),
+    linear-gradient(135deg, #c4b5fd, #8b9dff);
+}
+
+.example-list li:nth-child(4) .example-number {
+  background:
+    radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.95), transparent 26%),
+    linear-gradient(135deg, #f9a8d4, #fb7185);
+}
+
+.example-list li:nth-child(5) .example-number {
+  background:
+    radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.95), transparent 26%),
+    linear-gradient(135deg, #bef264, #78d99b);
 }
 
 .practice-tip {
@@ -516,7 +582,17 @@ button {
 
 .question-text {
   color: var(--text);
-  font-weight: 700;
+  font-family: "Segoe UI Semibold", Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.03rem;
+  font-weight: 800;
+  line-height: 1.55;
+}
+
+.question-emoji,
+.answer-emoji {
+  display: inline-block;
+  margin-right: 8px;
+  transform: translateY(1px);
 }
 
 .answer-panel {
@@ -538,6 +614,22 @@ button {
   border-radius: var(--radius-sm);
   color: var(--text);
   background: var(--answer-bg);
+}
+
+.answer-content strong {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--lesson-accent-strong);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.answer-text {
+  margin: 0;
+  font-family: Helvetica, Arial, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.75;
 }
 
 .question-card.search-hit {
@@ -576,8 +668,11 @@ button {
 
 .quote-card blockquote {
   margin: 0;
-  font-size: 1.08rem;
+  color: var(--text);
+  font-family: "Segoe Print", "Bradley Hand ITC", "Comic Sans MS", cursive;
+  font-size: clamp(1.16rem, 2vw, 1.48rem);
   font-weight: 700;
+  line-height: 1.65;
 }
 
 .quote-card cite {
