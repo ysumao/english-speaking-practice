@@ -13,8 +13,16 @@ This file records the current formatting rules for the English speaking review d
 - Search only runs after pressing `Enter`.
 - Search results are highlighted in the content.
 - `Previous` and `Next` buttons move between search matches.
+- `Clear` resets the current search.
 - If search matches appear in different Days, the page automatically switches to the matching Day.
+- Search result status uses the format `current / total · Day N`.
 - Reference Answers remain hidden by default, but if a search term matches a hidden answer, that answer can be highlighted/opened by the search flow.
+- Each Day has a completion state saved in `localStorage`.
+- The left Day navigation shows completion status.
+- Each Day page has a bottom action bar:
+  - `Previous Day`
+  - `Mark as Done` / `Completed`
+  - `Next Day`
 
 ### Visual Rules
 
@@ -151,3 +159,6 @@ images: [
 - Speaking question and answer emojis are inserted in `renderQuestionCard()`.
 - The one-Day-at-a-time page behavior is handled by `state.activeDay`, `selectDay()`, and `renderLessons()`.
 - The top toolbar bookmark button is `#topbarBookmark`.
+- Completion state is stored under `englishSpeaking.completed`.
+- Day completion is handled by `toggleCompleted()`.
+- Bottom day navigation is handled by `stepDay()`.

@@ -191,6 +191,31 @@ button {
   box-shadow: inset 3px 0 0 var(--primary);
 }
 
+.nav-day-label,
+.nav-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.completion-dot {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: #07111c;
+  background: color-mix(in srgb, var(--card-elevated) 72%, transparent);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.completion-dot.done {
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--success), var(--primary));
+}
+
 .bookmark-star {
   color: var(--warning);
   font-size: 0.95rem;
@@ -281,7 +306,7 @@ button {
 }
 
 .search-count {
-  min-width: 52px;
+  min-width: 92px;
   color: var(--muted);
   font-size: 0.86rem;
   text-align: center;
@@ -404,6 +429,64 @@ button {
   display: grid;
   gap: 24px;
   padding: 24px;
+}
+
+.lesson-footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 18px 24px 24px;
+  border-top: 1px solid var(--border);
+  background: color-mix(in srgb, var(--card) 82%, transparent);
+}
+
+.day-step-button,
+.complete-toggle {
+  min-height: 42px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  background: var(--card-elevated);
+  box-shadow: var(--shadow-soft);
+}
+
+.day-step-button {
+  padding: 0 14px;
+}
+
+.day-step-button:first-child {
+  justify-self: start;
+}
+
+.day-step-button:last-child {
+  justify-self: end;
+}
+
+.day-step-button:disabled {
+  cursor: not-allowed;
+  color: var(--subtle);
+  opacity: 0.55;
+}
+
+.day-step-button:not(:disabled):hover,
+.complete-toggle:hover {
+  border-color: color-mix(in srgb, var(--lesson-accent) 65%, var(--border));
+}
+
+.complete-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+  white-space: nowrap;
+}
+
+.complete-toggle.done {
+  color: #07111c;
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--success), var(--lesson-accent-strong));
 }
 
 .section-title {
@@ -831,6 +914,19 @@ button {
   .lesson-header,
   .lesson-body {
     padding: 18px;
+  }
+
+  .lesson-footer {
+    grid-template-columns: 1fr;
+    padding: 16px 18px 20px;
+  }
+
+  .day-step-button,
+  .complete-toggle,
+  .day-step-button:first-child,
+  .day-step-button:last-child {
+    width: 100%;
+    justify-self: stretch;
   }
 
   .theme-toggle,

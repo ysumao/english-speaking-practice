@@ -750,12 +750,14 @@ const lessons = [
 
 const STORAGE_KEYS = {
   theme: "englishSpeaking.theme",
-  bookmarks: "englishSpeaking.bookmarks"
+  bookmarks: "englishSpeaking.bookmarks",
+  completed: "englishSpeaking.completed"
 };
 
 const state = {
   theme: "dark",
   bookmarks: new Set(),
+  completed: new Set(),
   searchTerm: "",
   activeDay: null,
   answerSearchHits: new Set(),
@@ -770,6 +772,7 @@ const elements = {
   bookmarkList: document.getElementById("bookmarkList"),
   lessonContainer: document.getElementById("lessonContainer"),
   searchInput: document.getElementById("searchInput"),
+  searchClear: document.getElementById("searchClear"),
   searchPrev: document.getElementById("searchPrev"),
   searchNext: document.getElementById("searchNext"),
   searchCount: document.getElementById("searchCount"),
@@ -801,6 +804,10 @@ function bindEvents() {
       commitSearch("");
     }
   });
+  elements.searchClear.addEventListener("click", () => {
+    elements.searchInput.value = "";
+    commitSearch("");
+  });
   elements.searchPrev.addEventListener("click", () => stepSearchResult(-1));
   elements.searchNext.addEventListener("click", () => stepSearchResult(1));
 
@@ -814,6 +821,18 @@ function bindEvents() {
     const answerButton = event.target.closest("[data-answer-toggle]");
     if (answerButton) {
       toggleAnswer(answerButton);
+      return;
+    }
+
+    const completionButton = event.target.closest("[data-complete-day]");
+    if (completionButton) {
+      toggleCompleted(Number(completionButton.dataset.completeDay));
+      return;
+    }
+
+    const dayStepButton = event.target.closest("[data-step-day]");
+    if (dayStepButton) {
+      stepDay(Number(dayStepButton.dataset.stepDay));
     }
   });
 
@@ -828,6 +847,13 @@ function loadPreferences() {
     state.bookmarks = new Set(savedBookmarks.map(Number));
   } catch {
     state.bookmarks = new Set();
+  }
+
+  try {
+    const savedCompleted = JSON.parse(localStorage.getItem(STORAGE_KEYS.completed) || "[]");
+    state.completed = new Set(savedCompleted.map(Number));
+  } catch {
+    state.completed = new Set();
   }
 }
 
@@ -855,6 +881,17 @@ function toggleBookmark(day) {
   localStorage.setItem(STORAGE_KEYS.bookmarks, JSON.stringify([...state.bookmarks]));
   renderNavigation(getVisibleLessons());
   updateBookmarkButtons();
+}
+
+function toggleCompleted(day) {
+  if (state.completed.has(day)) {
+    state.completed.delete(day);
+  } else {
+    state.completed.add(day);
+  }
+
+  localStorage.setItem(STORAGE_KEYS.completed, JSON.stringify([...state.completed]));
+  renderApp();
 }
 
 function renderApp() {
@@ -1008,12 +1045,18 @@ function renderNavigation(visibleLessons) {
 
   elements.dayNav.innerHTML = visibleLessons.map((lesson) => {
     const isBookmarked = state.bookmarks.has(lesson.day);
+    const isCompleted = state.completed.has(lesson.day);
     const isActive = state.activeDay === lesson.day;
 
     return `
       <button class="nav-button ${isActive ? "active" : ""}" type="button" data-select-day="${lesson.day}">
-        <span>Day ${lesson.day}</span>
-        ${isBookmarked ? `<span class="bookmark-star" aria-label="Bookmarked">★</span>` : ""}
+        <span class="nav-day-label">
+          <span class="completion-dot ${isCompleted ? "done" : ""}" aria-label="${isCompleted ? "Completed" : "Not completed"}">${isCompleted ? "✓" : ""}</span>
+          Day ${lesson.day}
+        </span>
+        <span class="nav-badges">
+          ${isBookmarked ? `<span class="bookmark-star" aria-label="Bookmarked">★</span>` : ""}
+        </span>
       </button>
     `;
   }).join("") || `<p class="empty-small">No matching days.</p>`;
@@ -1052,11 +1095,15 @@ function renderLessons(visibleLessons) {
 
   const activeLesson = visibleLessons.find((lesson) => lesson.day === state.activeDay) || visibleLessons[0];
   state.renderMatchCounter = getFirstSearchMatchIndexForDay(activeLesson.day);
-  elements.lessonContainer.innerHTML = renderLessonCard(activeLesson);
+  elements.lessonContainer.innerHTML = renderLessonCard(activeLesson, visibleLessons);
 }
 
-function renderLessonCard(lesson) {
+function renderLessonCard(lesson, visibleLessons = lessons) {
   const accent = getLessonAccent(lesson.day);
+  const isCompleted = state.completed.has(lesson.day);
+  const activeIndex = visibleLessons.findIndex((item) => item.day === lesson.day);
+  const previousLesson = visibleLessons[activeIndex - 1];
+  const nextLesson = visibleLessons[activeIndex + 1];
 
   return `
     <article class="lesson-card" id="day-${lesson.day}" data-day="${lesson.day}" style="--lesson-accent: ${accent.primary}; --lesson-accent-soft: ${accent.soft}; --lesson-accent-strong: ${accent.strong};">
@@ -1075,6 +1122,19 @@ function renderLessonCard(lesson) {
         ${renderQuote(lesson.quote)}
         ${renderImages(lesson.images)}
       </div>
+
+      <footer class="lesson-footer">
+        <button class="day-step-button" type="button" data-step-day="-1" ${previousLesson ? "" : "disabled"}>
+          Previous Day
+        </button>
+        <button class="complete-toggle ${isCompleted ? "done" : ""}" type="button" data-complete-day="${lesson.day}" aria-pressed="${isCompleted}">
+          <span aria-hidden="true">${isCompleted ? "✓" : "○"}</span>
+          <span>${isCompleted ? "Completed" : "Mark as Done"}</span>
+        </button>
+        <button class="day-step-button" type="button" data-step-day="1" ${nextLesson ? "" : "disabled"}>
+          Next Day
+        </button>
+      </footer>
     </article>
   `;
 }
@@ -1232,6 +1292,18 @@ function selectDay(day) {
   renderApp();
 }
 
+function stepDay(direction) {
+  const visibleLessons = getVisibleLessons();
+  const currentIndex = visibleLessons.findIndex((lesson) => lesson.day === state.activeDay);
+  const nextLesson = visibleLessons[currentIndex + direction];
+
+  if (!nextLesson) {
+    return;
+  }
+
+  selectDay(nextLesson.day);
+}
+
 function updateBookmarkButtons() {
   document.querySelectorAll("[data-bookmark-day]").forEach(updateBookmarkButton);
 
@@ -1255,7 +1327,9 @@ function updateBookmarkButton(button) {
 function updateSearchControls() {
   const total = state.searchMatches.length;
   const current = total ? state.activeSearchIndex + 1 : 0;
-  elements.searchCount.textContent = `${current} / ${total}`;
+  const dayLabel = total && state.activeDay ? ` · Day ${state.activeDay}` : "";
+  elements.searchCount.textContent = `${current} / ${total}${dayLabel}`;
+  elements.searchClear.disabled = !state.searchTerm;
   elements.searchPrev.disabled = total <= 1;
   elements.searchNext.disabled = total <= 1;
 }
