@@ -745,21 +745,321 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student looking at a one-week English speaking progress timeline, with panels labeled "I used to...", "So far, I've...", and "I'm planning to...", hopeful study abroad mood, clean flat style.
     // 2. A cozy desk scene cartoon showing a student rewriting a reference answer into a personal story, sentence cards with "My goal is to..." and "I hope I can...", soft evening light, encouraging first-week milestone atmosphere.
+  },
+  {
+    day: 8,
+    title: "Day 8 - 口语启动训练（留学生活方向）",
+    theme: "表达建议、需求和寻求帮助",
+    patterns: [
+      {
+        pattern: "Could you help me with...?",
+        usage: "用于请求别人帮助你处理某件事。常见于学校办公室、图书馆、银行、宿舍、课堂和小组作业。",
+        examples: [
+          "Could you help me with this form?",
+          "Could you help me with my registration?",
+          "Could you help me with this assignment?",
+          "Could you help me with my English presentation?",
+          "Could you help me with setting up my student account?"
+        ],
+        practiceTip: "不要只说 Help me。要说 Could you help me with...? 它更礼貌，也更自然。"
+      },
+      {
+        pattern: "I'm having trouble with...",
+        usage: "用于表达“我在……方面遇到了困难”。比 I have a problem. 更自然、更口语。适合学习问题、生活问题、技术问题、语言问题、账号、系统和设备问题。",
+        examples: [
+          "I'm having trouble with my student account.",
+          "I'm having trouble with the online system.",
+          "I'm having trouble with understanding the assignment.",
+          "I'm having trouble with speaking English fluently.",
+          "I'm having trouble with finding the right classroom."
+        ],
+        practiceTip: "结构是 I'm having trouble with + noun / -ing。例如：I'm having trouble with opening this file."
+      },
+      {
+        pattern: "Do you have any advice on...?",
+        usage: "用于请求建议，非常适合和同学、老师、导师交流。常见于选课、学习方法、研究方向、适应生活、英语学习和时间管理。",
+        examples: [
+          "Do you have any advice on improving my speaking?",
+          "Do you have any advice on choosing courses?",
+          "Do you have any advice on preparing for seminars?",
+          "Do you have any advice on adapting to university life?",
+          "Do you have any advice on finding accommodation?"
+        ],
+        practiceTip: "这个句型比 What should I do? 更自然、更成熟。例如：Do you have any advice on joining class discussions?"
+      },
+      {
+        pattern: "I was wondering if...",
+        usage: "用于礼貌、自然地提出请求或询问信息，意思是“我想知道是否……”。常用于发邮件、问老师、问工作人员、请求帮助和询问信息。",
+        examples: [
+          "I was wondering if you could help me.",
+          "I was wondering if I could ask you a question.",
+          "I was wondering if the office is open today.",
+          "I was wondering if I could change my appointment.",
+          "I was wondering if you have time to discuss my project."
+        ],
+        practiceTip: "这个句型适合半正式场景。例如：I was wondering if I could ask you a question about the assignment."
+      },
+      {
+        pattern: "What would you recommend?",
+        usage: "用于询问别人推荐什么。常见于选课、买东西、餐厅点餐、旅游、学习资源和生活服务。",
+        examples: [
+          "What would you recommend for a beginner?",
+          "What would you recommend for improving speaking?",
+          "What would you recommend if I want to live near campus?",
+          "What would you recommend from this menu?",
+          "What would you recommend for preparing for academic writing?"
+        ],
+        practiceTip: "这个句型很适合打开对话。例如：I'm new here. What would you recommend?"
+      }
+    ],
+    questions: [
+      {
+        question: "You cannot log into your university account. What would you say to the IT staff?",
+        answer: "Hi, could you help me with my student account? I'm having trouble with logging into the online system. I've tried a few times, but it still doesn't work. I was wondering if you could check whether my account has been activated. Just to make sure, do I need to reset my password first?"
+      },
+      {
+        question: "You don't understand an assignment. What would you say to your classmate?",
+        answer: "I'm having trouble with understanding the assignment. I understand the general topic, but I'm not sure what we need to submit. Could you help me with the instructions? I was wondering if we need to work individually or in groups. Do you have any advice on how to start?"
+      },
+      {
+        question: "You want advice from a senior student about studying abroad. What would you ask?",
+        answer: "I was wondering if I could ask you a few questions about university life. I'm going to study abroad soon, and I'm still getting used to preparing everything. Do you have any advice on adapting to a new environment? Also, what would you recommend for improving English speaking before classes start?"
+      },
+      {
+        question: "You are in a restaurant and you don't know what to order. What would you say?",
+        answer: "Hi, I'm not very familiar with this menu. What would you recommend? I prefer something not too spicy. I was wondering if this dish is popular here. Also, could you help me understand what this ingredient is?"
+      },
+      {
+        question: "You want to ask your professor for a short meeting. What would you say?",
+        answer: "Professor, I was wondering if you have time to discuss my project this week. I'm having trouble with narrowing down my research topic. I've prepared some initial ideas, but I'm not sure which direction is more suitable. Do you have any advice on how I should develop it further?"
+      }
+    ],
+    trainingFocus: "今天重点练习留学生活中的“求助系统”：说明困难用 I'm having trouble with...；请求帮助用 Could you help me with...?；请求建议用 Do you have any advice on...? 和 What would you recommend?；礼貌询问用 I was wondering if...。不要沉默，也不要硬扛，不会就问，不确定就确认。",
+    quote: {
+      text: "He who asks a question remains a fool for five minutes. He who does not ask remains a fool forever.",
+      author: "Chinese proverb"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm campus service desk comic illustration of an international student politely asking IT staff for help with a student account, speech bubbles saying "Could you help me with...?" and "I'm having trouble with...", bright supportive atmosphere.
+    // 2. A friendly university classroom cartoon scene where a student asks a senior student for study abroad advice, sentence cards showing "Do you have any advice on...?" and "What would you recommend?", positive second-week learning mood.
+  },
+  {
+    day: 9,
+    title: "Day 9 - 口语启动训练（留学生活方向）",
+    theme: "表达日常安排、时间管理和忙碌状态",
+    patterns: [
+      {
+        pattern: "I have to...",
+        usage: "用于表达“我必须…… / 我得……”，常用于日常安排、任务和责任。",
+        examples: [
+          "I have to finish my assignment tonight.",
+          "I have to attend a meeting this afternoon.",
+          "I have to prepare for tomorrow's class.",
+          "I have to check my email first.",
+          "I have to get up early tomorrow."
+        ],
+        practiceTip: "这是最基础的任务表达句型。每天可以问自己：What do I have to do today? 然后用 I have to... 回答。"
+      },
+      {
+        pattern: "I'm supposed to...",
+        usage: "意思是“我应该…… / 按安排我需要……”。它比 I have to... 稍微柔和，常用于计划、要求和规定。",
+        examples: [
+          "I'm supposed to submit the report by Friday.",
+          "I'm supposed to meet my supervisor tomorrow.",
+          "I'm supposed to read this paper before class.",
+          "I'm supposed to bring my passport to the office.",
+          "I'm supposed to work with my group members this week."
+        ],
+        practiceTip: "I have to... 语气更强；I'm supposed to... 表示按要求或计划应该做。例如：I'm supposed to submit it today, so I have to finish it this morning."
+      },
+      {
+        pattern: "I'm running out of...",
+        usage: "用于表达“……快不够了 / 快用完了”。特别常见于时间、钱、电量、耐心、精力和食物。",
+        examples: [
+          "I'm running out of time.",
+          "I'm running out of money this month.",
+          "My phone is running out of battery.",
+          "I'm running out of energy today.",
+          "We're running out of food in the fridge."
+        ],
+        practiceTip: "这个句型非常生活化。每天找一个真实情况说：I'm running out of... 例如：I'm running out of time, so I need to focus."
+      },
+      {
+        pattern: "I need to make time for...",
+        usage: "意思是“我需要抽时间做……”。适合表达你想重视某件事，但时间有限。",
+        examples: [
+          "I need to make time for English speaking practice.",
+          "I need to make time for exercise.",
+          "I need to make time for reading papers.",
+          "I need to make time for cooking at home.",
+          "I need to make time for calling my family."
+        ],
+        practiceTip: "这个句型特别适合你现在。可以说：I need to make time for speaking practice every day, even if I'm busy."
+      },
+      {
+        pattern: "I'll try to...",
+        usage: "用于表达“我会尽量……”，常用于承诺、计划和回复别人。注意它有时表示会尽力，但不一定保证。",
+        examples: [
+          "I'll try to finish it by tonight.",
+          "I'll try to join the meeting on time.",
+          "I'll try to speak more in class.",
+          "I'll try to reply to your email later.",
+          "I'll try to practice English for at least ten minutes every day."
+        ],
+        practiceTip: "I'll try to... 表示“我尽量……”。例如：I'll try to come. 意思是尽量来，不是百分百保证。"
+      }
+    ],
+    questions: [
+      {
+        question: "What do you have to do today?",
+        answer: "I have to practice English speaking today. I also have to check some information about studying abroad. To be honest, I'm running out of time before leaving, so I need to be more organized. I'll try to finish the most important tasks first. I think daily practice is still the most important thing for me right now."
+      },
+      {
+        question: "What are you supposed to prepare before studying abroad?",
+        answer: "I'm supposed to prepare many things before studying abroad. For example, I need to check my documents, accommodation, flight information, and university registration. I'm also supposed to improve my English speaking before classes start. I'm running out of time, so I need to make time for speaking practice every day. I'll try to prepare step by step instead of worrying too much."
+      },
+      {
+        question: "Do you think you manage your time well?",
+        answer: "To be honest, I don't always manage my time very well. Sometimes I spend too much time thinking and not enough time taking action. I need to make time for important things, especially English speaking practice. I'm running out of time before going abroad, so I have to become more disciplined. I'll try to build a better daily routine."
+      },
+      {
+        question: "What do you usually do when you are running out of time?",
+        answer: "When I'm running out of time, I try to focus on the most important task first. I don't want to waste time on small details. For example, if I have to prepare for class, I'll try to understand the main ideas first. I think this is better than trying to do everything perfectly. For me, finishing the key task is more important than doing everything at once."
+      },
+      {
+        question: "How can you make time for English speaking every day?",
+        answer: "I think I can make time for English speaking by keeping the practice short and simple. I don't have to practice for one hour every day. I can practice for ten or fifteen minutes, but I need to do it consistently. I'll try to use sentence patterns to answer a few questions every day. The main reason is that daily repetition can help me speak more naturally."
+      }
+    ],
+    trainingFocus: "今天重点练习时间管理表达链：I have to..., I'm supposed to..., I'm running out of..., I need to make time for..., I'll try to...。这五个句型可以组成自然表达：I'm supposed to prepare for studying abroad, and I'm running out of time. I have to improve my speaking, so I need to make time for daily practice.",
+    quote: {
+      text: "Lost time is never found again.",
+      author: "Benjamin Franklin"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student planning a busy day with a calendar, laptop, clock, and English speaking notes, speech bubbles saying "I have to..." and "I need to make time for...", positive study abroad mood.
+    // 2. A cozy study-room cartoon scene where a student manages time before studying abroad, with a countdown calendar, checklist, and speaking practice timer, bright encouraging colors, clean composition.
+  },
+  {
+    day: 10,
+    title: "Day 10 - 口语启动训练（留学生活方向）",
+    theme: "表达经历、经验和感受",
+    patterns: [
+      {
+        pattern: "I've never... before.",
+        usage: "用于表达“我以前从来没有……”。非常适合留学初期，因为你会遇到很多第一次，例如第一次出国、第一次用英语上课、第一次和外国同学合作、第一次独立生活、第一次处理学校手续。",
+        examples: [
+          "I've never studied abroad before.",
+          "I've never lived in another country before.",
+          "I've never taken a class fully in English before.",
+          "I've never worked with international students before.",
+          "I've never had this kind of experience before."
+        ],
+        practiceTip: "这个句型可以和感受连接：I've never... before, so I feel a little nervous. 例如：I've never lived abroad before, so I feel excited but also a bit worried."
+      },
+      {
+        pattern: "This is my first time...",
+        usage: "用于表达“这是我第一次……”。注意结构是 This is my first time + doing something.",
+        examples: [
+          "This is my first time studying abroad.",
+          "This is my first time living alone.",
+          "This is my first time joining an English discussion.",
+          "This is my first time giving a presentation in English.",
+          "This is my first time visiting this campus."
+        ],
+        practiceTip: "这个句型非常适合留学生活。例如：This is my first time visiting this university, so I'm still getting used to the campus."
+      },
+      {
+        pattern: "I've had experience with...",
+        usage: "用于表达“我有……方面的经验”。适合自我介绍、和导师交流、小组项目、课堂讨论和介绍专业背景。",
+        examples: [
+          "I've had experience with programming.",
+          "I've had experience with mechanical design.",
+          "I've had experience with SolidWorks.",
+          "I've had experience with Arduino and ESP32 projects.",
+          "I've had experience with teaching Python basics."
+        ],
+        practiceTip: "这个句型适合介绍技术背景。例如：I've had experience with mechanical design and programming, so I'm interested in intelligent manufacturing."
+      },
+      {
+        pattern: "What I learned from this experience is that...",
+        usage: "用于表达“我从这段经历中学到的是……”。这是比较成熟的表达方式，适合面试、学术交流、自我反思、课堂讨论、留学申请或导师交流。",
+        examples: [
+          "What I learned from this experience is that communication is very important.",
+          "What I learned from this experience is that preparation can reduce stress.",
+          "What I learned from this experience is that confidence comes from practice.",
+          "What I learned from this experience is that teamwork requires patience.",
+          "What I learned from this experience is that simple English can still be powerful."
+        ],
+        practiceTip: "不要只说 It was useful. 可以升级为 What I learned from this experience is that... 让表达更有深度。"
+      },
+      {
+        pattern: "It was a bit challenging, but...",
+        usage: "用于表达“有点挑战，但……”。非常适合描述困难经历，例如第一次做 presentation、第一次参加小组讨论、第一次独立处理问题、第一次用英语沟通或第一次适应新环境。",
+        examples: [
+          "It was a bit challenging, but I learned a lot.",
+          "It was a bit challenging, but I managed to finish it.",
+          "It was a bit challenging, but it helped me become more confident.",
+          "It was a bit challenging, but my classmates were very supportive.",
+          "It was a bit challenging, but I think it was a good experience."
+        ],
+        practiceTip: "这个句型可以让回答有转折和积极结尾。例如：It was a bit challenging, but I learned how to communicate more clearly."
+      }
+    ],
+    questions: [
+      {
+        question: "Have you ever studied abroad before?",
+        answer: "I've never studied abroad before, so I feel excited but also a little nervous. This is my first time preparing for a long-term study experience in another country. I think one of the biggest challenges will be communicating in English every day. However, I'm trying to prepare step by step. I hope I can adapt to the new environment quickly."
+      },
+      {
+        question: "Have you ever given a presentation in English?",
+        answer: "I've had some experience with presentations, but I haven't done many presentations fully in English. To be honest, speaking in front of people can be stressful for me. It was a bit challenging when I tried to explain technical ideas in English. What I learned from this experience is that preparation and simple sentence patterns are very important. I need to work on speaking more confidently."
+      },
+      {
+        question: "What experience do you have with your academic or technical background?",
+        answer: "I've had experience with mechanical design, programming, and some embedded system projects. For example, I've used SolidWorks for 3D modelling, and I've also worked with Arduino and ESP32. What I like about these experiences is that they connect theory with real practice. What I learned from this experience is that engineering problems often require both technical knowledge and practical testing."
+      },
+      {
+        question: "Can you describe a challenging learning experience?",
+        answer: "One challenging learning experience was improving my English speaking. I used to focus more on reading and listening, but speaking was much harder for me. It was a bit challenging, but I realized that daily sentence pattern practice can help a lot. What I learned from this experience is that consistency is more important than motivation. I'm still working on it, but I feel like I'm improving slowly."
+      },
+      {
+        question: "What is something new you want to try after going abroad?",
+        answer: "I want to try joining more discussions after going abroad. I've never studied in a fully English-speaking classroom before, so I know it may be difficult at first. This might be my first time communicating with classmates from many different countries. It will probably be a bit challenging, but I think it can help me become more confident and independent. I hope I can learn not only from teachers, but also from other students."
+      }
+    ],
+    trainingFocus: "今天重点练习“经历型回答”：经历 → 感受 → 困难 → 收获。重点掌握 I've never... before., This is my first time..., It was a bit challenging, but..., What I learned from this experience is that...。真实交流中别人不只是问观点，还会问 Have you ever...? What was it like? What did you learn from it?",
+    quote: {
+      text: "Experience is the teacher of all things.",
+      author: "Julius Caesar"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student reflecting on first-time experiences abroad, with small panels for presentation, campus, group discussion, and independent living, speech bubbles saying "I've never..." and "This is my first time...", positive mood.
+    // 2. A cozy study journal cartoon scene where a student writes lessons learned from English speaking practice, with cards labeled "experience", "challenge", and "growth", soft light, encouraging study abroad atmosphere.
   }
 ];
 
 const STORAGE_KEYS = {
   theme: "englishSpeaking.theme",
   bookmarks: "englishSpeaking.bookmarks",
-  completed: "englishSpeaking.completed"
+  completed: "englishSpeaking.completed",
+  itemFavorites: "englishSpeaking.itemFavorites"
 };
 
 const state = {
   theme: "dark",
   bookmarks: new Set(),
   completed: new Set(),
+  itemFavorites: new Set(),
   searchTerm: "",
   activeDay: null,
+  favoriteTargetId: null,
   answerSearchHits: new Set(),
   searchMatches: [],
   activeSearchIndex: -1,
@@ -818,6 +1118,18 @@ function bindEvents() {
       return;
     }
 
+    const favoriteButton = event.target.closest("[data-favorite-id]");
+    if (favoriteButton) {
+      toggleItemFavorite(favoriteButton.dataset.favoriteId);
+      return;
+    }
+
+    const favoriteLink = event.target.closest("[data-select-favorite]");
+    if (favoriteLink) {
+      selectFavorite(favoriteLink.dataset.selectFavorite);
+      return;
+    }
+
     const answerButton = event.target.closest("[data-answer-toggle]");
     if (answerButton) {
       toggleAnswer(answerButton);
@@ -854,6 +1166,13 @@ function loadPreferences() {
     state.completed = new Set(savedCompleted.map(Number));
   } catch {
     state.completed = new Set();
+  }
+
+  try {
+    const savedItemFavorites = JSON.parse(localStorage.getItem(STORAGE_KEYS.itemFavorites) || "[]");
+    state.itemFavorites = new Set(savedItemFavorites);
+  } catch {
+    state.itemFavorites = new Set();
   }
 }
 
@@ -894,6 +1213,17 @@ function toggleCompleted(day) {
   renderApp();
 }
 
+function toggleItemFavorite(id) {
+  if (state.itemFavorites.has(id)) {
+    state.itemFavorites.delete(id);
+  } else {
+    state.itemFavorites.add(id);
+  }
+
+  localStorage.setItem(STORAGE_KEYS.itemFavorites, JSON.stringify([...state.itemFavorites]));
+  renderApp();
+}
+
 function renderApp() {
   const visibleLessons = getVisibleLessons();
   ensureActiveLesson(visibleLessons);
@@ -903,8 +1233,10 @@ function renderApp() {
   renderNavigation(visibleLessons);
   renderLessons(visibleLessons);
   updateBookmarkButtons();
+  updateFavoriteButtons();
   updateSearchControls();
   scrollCurrentSearchMatchIntoView();
+  scrollFavoriteTargetIntoView();
 }
 
 function commitSearch(value) {
@@ -1062,12 +1394,26 @@ function renderNavigation(visibleLessons) {
   }).join("") || `<p class="empty-small">No matching days.</p>`;
 
   const bookmarkedLessons = lessons.filter((lesson) => state.bookmarks.has(lesson.day));
-  elements.bookmarkList.innerHTML = bookmarkedLessons.map((lesson) => `
+  const favoriteItems = getFavoriteItems();
+  const dayBookmarkHtml = bookmarkedLessons.map((lesson) => `
     <button class="bookmark-link" type="button" data-select-day="${lesson.day}">
       <span>Day ${lesson.day}</span>
       <span class="bookmark-star" aria-hidden="true">★</span>
     </button>
-  `).join("") || `<p class="empty-small">Bookmarked days will appear here.</p>`;
+  `).join("");
+  const itemFavoriteHtml = favoriteItems.map((item) => `
+    <button class="bookmark-link item-favorite-link" type="button" data-select-favorite="${escapeAttribute(item.id)}">
+      <span>
+        <small>${escapeHtml(item.type)} · Day ${item.day}</small>
+        ${escapeHtml(item.label)}
+      </span>
+      <span class="bookmark-star" aria-hidden="true">★</span>
+    </button>
+  `).join("");
+
+  elements.bookmarkList.innerHTML = dayBookmarkHtml || itemFavoriteHtml
+    ? `${dayBookmarkHtml}${itemFavoriteHtml}`
+    : `<p class="empty-small">Bookmarked days and favorite sentences will appear here.</p>`;
 
   document.querySelectorAll("[data-select-day]").forEach((button) => {
     button.addEventListener("click", () => selectDay(Number(button.dataset.selectDay)));
@@ -1148,16 +1494,25 @@ function renderPatterns(patterns = []) {
     <section aria-labelledby="patterns-title">
       <h4 class="section-title" id="patterns-title">Core Sentence Patterns</h4>
       <div class="pattern-grid">
-        ${patterns.map((item) => `
+        ${patterns.map((item, patternIndex) => {
+          const patternId = getPatternId(state.activeDay, patternIndex);
+          return `
           <article class="pattern-card">
-            <strong class="sentence-pattern">${formatText(item.pattern, state.activeDay)}</strong>
+            <div class="pattern-topline" id="${patternId}">
+              <strong class="sentence-pattern">${formatText(item.pattern, state.activeDay)}</strong>
+              ${renderFavoriteButton(patternId, `Pattern: ${item.pattern}`)}
+            </div>
             <p class="usage">${formatText(item.usage || "", state.activeDay)}</p>
             <ul class="example-list">
-              ${(item.examples || []).map((example, index) => `<li><span class="example-number" aria-hidden="true">${index + 1}</span>${formatText(example, state.activeDay)}</li>`).join("")}
+              ${(item.examples || []).map((example, index) => {
+                const exampleId = getExampleId(state.activeDay, patternIndex, index);
+                return `<li id="${exampleId}"><span class="example-number" aria-hidden="true">${index + 1}</span><span class="example-text">${formatText(example, state.activeDay)}</span>${renderFavoriteButton(exampleId, `Example: ${example}`)}</li>`;
+              }).join("")}
             </ul>
             ${item.practiceTip ? `<p class="practice-tip">${formatText(item.practiceTip, state.activeDay)}</p>` : ""}
           </article>
-        `).join("")}
+        `;
+        }).join("")}
       </div>
     </section>
   `;
@@ -1182,25 +1537,31 @@ function renderQuestions(lesson) {
 function renderQuestionCard(day, item, index) {
   const questionId = getQuestionId(day, index);
   const answerId = `answer-${questionId}`;
-  const shouldOpen = state.answerSearchHits.has(questionId);
+  const shouldOpen = state.answerSearchHits.has(questionId) || state.favoriteTargetId === answerId;
 
   return `
     <article class="question-card ${shouldOpen ? "search-hit" : ""}">
-      <div class="question-topline">
+      <div class="question-topline" id="${questionId}">
         <p class="question-text"><span class="question-emoji" aria-hidden="true">💬</span>${formatText(item.question || "", day)}</p>
-        <button
-          class="answer-toggle"
-          type="button"
-          data-answer-toggle="${answerId}"
-          aria-controls="${answerId}"
-          aria-expanded="${shouldOpen}"
-        >
-          ${shouldOpen ? "Hide Answer" : "Show Answer"}
-        </button>
+        <div class="question-actions">
+          ${renderFavoriteButton(questionId, `Question: ${item.question || ""}`)}
+          <button
+            class="answer-toggle"
+            type="button"
+            data-answer-toggle="${answerId}"
+            aria-controls="${answerId}"
+            aria-expanded="${shouldOpen}"
+          >
+            ${shouldOpen ? "Hide Answer" : "Show Answer"}
+          </button>
+        </div>
       </div>
       <div class="answer-panel ${shouldOpen ? "open" : ""}" id="${answerId}">
         <div class="answer-content">
-          <strong>Reference Answer</strong>
+          <div class="answer-heading">
+            <strong>Reference Answer</strong>
+            ${renderFavoriteButton(answerId, `Answer: ${item.question || ""}`)}
+          </div>
           <p class="answer-text"><span class="answer-emoji" aria-hidden="true">✨</span>${formatText(item.answer || "", day)}</p>
         </div>
       </div>
@@ -1285,6 +1646,7 @@ function toggleAnswer(button) {
 
 function selectDay(day) {
   state.activeDay = day;
+  state.favoriteTargetId = null;
   if (state.searchMatches.length) {
     const nextIndex = state.searchMatches.findIndex((match) => match.day === day);
     state.activeSearchIndex = nextIndex >= 0 ? nextIndex : state.activeSearchIndex;
@@ -1302,6 +1664,17 @@ function stepDay(direction) {
   }
 
   selectDay(nextLesson.day);
+}
+
+function selectFavorite(id) {
+  const item = getFavoriteItems().find((favorite) => favorite.id === id);
+  if (!item) {
+    return;
+  }
+
+  state.activeDay = item.day;
+  state.favoriteTargetId = id;
+  renderApp();
 }
 
 function updateBookmarkButtons() {
@@ -1322,6 +1695,15 @@ function updateBookmarkButton(button) {
     <span aria-hidden="true">${isBookmarked ? "★" : "☆"}</span>
     <span>${isBookmarked ? "Cancel Bookmark" : "Add Bookmark"}</span>
   `;
+}
+
+function updateFavoriteButtons() {
+  document.querySelectorAll("[data-favorite-id]").forEach((button) => {
+    const id = button.dataset.favoriteId;
+    const isFavorite = state.itemFavorites.has(id);
+    button.setAttribute("aria-pressed", String(isFavorite));
+    button.innerHTML = `<span aria-hidden="true">${isFavorite ? "★" : "☆"}</span>`;
+  });
 }
 
 function updateSearchControls() {
@@ -1345,8 +1727,100 @@ function scrollCurrentSearchMatchIntoView() {
   });
 }
 
+function scrollFavoriteTargetIntoView() {
+  if (!state.favoriteTargetId) {
+    return;
+  }
+
+  requestAnimationFrame(() => {
+    const target = document.getElementById(state.favoriteTargetId);
+    target?.scrollIntoView({ behavior: "smooth", block: "center" });
+    target?.classList.add("favorite-target");
+    window.setTimeout?.(() => target?.classList.remove("favorite-target"), 1200);
+    state.favoriteTargetId = null;
+  });
+}
+
 function getQuestionId(day, index) {
   return `day-${day}-q-${index}`;
+}
+
+function getPatternId(day, index) {
+  return `day-${day}-pattern-${index}`;
+}
+
+function getExampleId(day, patternIndex, exampleIndex) {
+  return `day-${day}-pattern-${patternIndex}-example-${exampleIndex}`;
+}
+
+function renderFavoriteButton(id, label) {
+  const isFavorite = state.itemFavorites.has(id);
+  return `
+    <button
+      class="item-favorite-toggle"
+      type="button"
+      data-favorite-id="${escapeAttribute(id)}"
+      aria-label="${escapeAttribute(isFavorite ? `Remove favorite ${label}` : `Add favorite ${label}`)}"
+      aria-pressed="${isFavorite}"
+      title="${escapeAttribute(isFavorite ? "Remove favorite" : "Add favorite")}"
+    >
+      <span aria-hidden="true">${isFavorite ? "★" : "☆"}</span>
+    </button>
+  `;
+}
+
+function getFavoriteItems() {
+  const items = [];
+
+  lessons.forEach((lesson) => {
+    lesson.patterns?.forEach((pattern, patternIndex) => {
+      const patternId = getPatternId(lesson.day, patternIndex);
+      if (state.itemFavorites.has(patternId)) {
+        items.push({
+          id: patternId,
+          day: lesson.day,
+          type: "Pattern",
+          label: pattern.pattern
+        });
+      }
+
+      pattern.examples?.forEach((example, exampleIndex) => {
+        const exampleId = getExampleId(lesson.day, patternIndex, exampleIndex);
+        if (state.itemFavorites.has(exampleId)) {
+          items.push({
+            id: exampleId,
+            day: lesson.day,
+            type: "Example",
+            label: example
+          });
+        }
+      });
+    });
+
+    lesson.questions?.forEach((question, questionIndex) => {
+      const questionId = getQuestionId(lesson.day, questionIndex);
+      if (state.itemFavorites.has(questionId)) {
+        items.push({
+          id: questionId,
+          day: lesson.day,
+          type: "Question",
+          label: question.question
+        });
+      }
+
+      const answerId = `answer-${questionId}`;
+      if (state.itemFavorites.has(answerId)) {
+        items.push({
+          id: answerId,
+          day: lesson.day,
+          type: "Answer",
+          label: question.question
+        });
+      }
+    });
+  });
+
+  return items;
 }
 
 function escapeHtml(value = "") {

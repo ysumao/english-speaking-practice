@@ -221,6 +221,21 @@ button {
   font-size: 0.95rem;
 }
 
+.item-favorite-link {
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.item-favorite-link small {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--subtle);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .empty-small {
   padding: 12px;
   border: 1px dashed var(--border);
@@ -557,6 +572,13 @@ button {
   background: linear-gradient(180deg, var(--lesson-accent-strong), var(--lesson-accent));
 }
 
+.pattern-topline {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .sentence-pattern {
   display: inline-flex;
   align-items: center;
@@ -601,6 +623,11 @@ button {
   font-family: Helvetica, Arial, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
   font-size: 1.12rem;
   line-height: 1.75;
+}
+
+.example-text {
+  flex: 1;
+  min-width: 0;
 }
 
 .example-number {
@@ -663,6 +690,13 @@ button {
   gap: 12px;
 }
 
+.question-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
 .question-text {
   color: var(--text);
   font-family: "Segoe UI Semibold", Inter, ui-sans-serif, system-ui, sans-serif;
@@ -708,11 +742,42 @@ button {
   text-transform: uppercase;
 }
 
+.answer-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .answer-text {
   margin: 0;
   font-family: Helvetica, Arial, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
   font-size: 1.12rem;
   line-height: 1.75;
+}
+
+.item-favorite-toggle {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--warning);
+  background: color-mix(in srgb, var(--card) 88%, transparent);
+  box-shadow: var(--shadow-soft);
+}
+
+.item-favorite-toggle:hover,
+.item-favorite-toggle[aria-pressed="true"] {
+  border-color: color-mix(in srgb, var(--warning) 70%, var(--border));
+  background: color-mix(in srgb, var(--warning) 15%, var(--card));
+}
+
+.favorite-target {
+  outline: 2px solid var(--warning);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--warning) 18%, transparent);
 }
 
 .question-card.search-hit {
