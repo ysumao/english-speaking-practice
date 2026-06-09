@@ -914,59 +914,133 @@ button {
   }
 
   .sidebar {
-    position: sticky;
-    z-index: 20;
+    position: static;
     height: auto;
-    max-height: 48vh;
-    padding: 16px;
+    max-height: none;
+    padding: 10px 12px;
+    overflow: visible;
     border-right: 0;
     border-bottom: 1px solid var(--border);
   }
 
   .brand {
-    margin-bottom: 14px;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .brand-mark {
+    flex-basis: 38px;
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+    font-size: 0.9rem;
+  }
+
+  .brand h1 {
+    font-size: 0.98rem;
+  }
+
+  .brand p {
+    display: none;
+  }
+
+  .nav-panel {
+    margin-top: 8px;
+  }
+
+  .bookmark-panel {
+    display: none;
+  }
+
+  .panel-heading {
+    margin-bottom: 6px;
+    font-size: 0.78rem;
   }
 
   .day-list,
   .bookmark-list {
     grid-auto-flow: column;
-    grid-auto-columns: minmax(132px, max-content);
+    grid-auto-columns: minmax(96px, max-content);
     overflow-x: auto;
     padding-bottom: 4px;
   }
 
   .nav-button,
   .bookmark-link {
+    min-height: 34px;
+    padding: 7px 10px;
     white-space: nowrap;
   }
 
   .main-content {
-    padding: 18px;
+    padding: 12px;
   }
 
   .topbar {
     position: static;
     align-items: stretch;
     flex-direction: column;
+    gap: 8px;
+    padding: 6px 0 10px;
+  }
+
+  .topbar .eyebrow {
+    display: none;
+  }
+
+  .topbar h2 {
+    font-size: clamp(1.15rem, 5vw, 1.35rem);
   }
 
   .topbar-actions,
   .image-grid.two-images {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .topbar-actions {
     display: grid;
+    gap: 8px;
     min-width: 0;
+  }
+
+  .search-box,
+  .search-controls {
+    grid-column: 1 / -1;
   }
 
   .search-controls {
     width: 100%;
     justify-content: space-between;
+    gap: 5px;
+  }
+
+  .search-step {
+    min-height: 28px;
+    padding: 0 8px;
+    font-size: 0.85rem;
+  }
+
+  .search-count {
+    min-width: 74px;
+    font-size: 0.8rem;
   }
 
   .search-box {
     min-width: 0;
+    padding: 0 10px;
+  }
+
+  .search-box input {
+    height: 34px;
+    font-size: 0.92rem;
+  }
+
+  .theme-toggle,
+  .topbar-bookmark {
+    width: 100%;
+    min-height: 34px;
+    padding: 0 10px;
+    font-size: 0.9rem;
   }
 }
 

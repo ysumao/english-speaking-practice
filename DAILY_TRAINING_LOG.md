@@ -8,6 +8,8 @@ This file records the current formatting rules for the English speaking review d
 
 - The page shows one Day at a time, instead of stacking all days in one long scroll page.
 - The left navigation selects a Day and switches the main content area to that Day.
+- On mobile, the Day navigation becomes a compact non-sticky top strip and scrolls away naturally while reading.
+- On mobile, the Bookmarks list is hidden to avoid blocking the reading area; bookmarking is still available from the top toolbar.
 - Bookmarks are controlled from the top toolbar, immediately to the left of the theme toggle button.
 - The old dashboard status strip was removed.
 - Search only runs after pressing `Enter`.
