@@ -1042,6 +1042,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student reflecting on first-time experiences abroad, with small panels for presentation, campus, group discussion, and independent living, speech bubbles saying "I've never..." and "This is my first time...", positive mood.
     // 2. A cozy study journal cartoon scene where a student writes lessons learned from English speaking practice, with cards labeled "experience", "challenge", and "growth", soft light, encouraging study abroad atmosphere.
+  },
+  {
+    day: 11,
+    title: "Day 11 - 口语启动训练（留学生活方向）",
+    theme: "表达担心、压力和应对方式",
+    patterns: [
+      {
+        pattern: "I'm a bit worried about...",
+        usage: "用于表达“我有点担心……”。比 I'm afraid of... 更自然、更日常，适合出国前焦虑、担心英语、课程、住宿、社交、钱和时间等场合。",
+        examples: [
+          "I'm a bit worried about speaking English every day.",
+          "I'm a bit worried about understanding lectures.",
+          "I'm a bit worried about making friends abroad.",
+          "I'm a bit worried about managing my time well.",
+          "I'm a bit worried about adapting to a new environment."
+        ],
+        practiceTip: "这个句型可以连接原因：I'm a bit worried about..., because... 例如：I'm a bit worried about speaking English every day because I still need time to organize my ideas."
+      },
+      {
+        pattern: "I feel stressed when...",
+        usage: "用于表达“当……时，我会有压力”。适用于学习压力、语言压力、时间压力、社交压力和任务压力。",
+        examples: [
+          "I feel stressed when I have too many things to do.",
+          "I feel stressed when I cannot express myself clearly.",
+          "I feel stressed when people speak too fast.",
+          "I feel stressed when I have to speak in front of others.",
+          "I feel stressed when I'm running out of time."
+        ],
+        practiceTip: "这个句型非常适合描述具体触发点。不要只说 I'm stressed. 要说 I feel stressed when...，这样别人更容易理解你。"
+      },
+      {
+        pattern: "I'm trying not to...",
+        usage: "用于表达“我正在努力不去……”。这是非常真实的心理状态表达，适合表达不过度焦虑、不拖延、不想太多、不害怕犯错、不依赖翻译等。",
+        examples: [
+          "I'm trying not to worry too much.",
+          "I'm trying not to translate everything from Chinese.",
+          "I'm trying not to be afraid of making mistakes.",
+          "I'm trying not to compare myself with others.",
+          "I'm trying not to leave everything until the last minute."
+        ],
+        practiceTip: "这个句型非常适合你现在。例如：I'm trying not to be afraid of making mistakes when I speak English. 这句话要反复练。"
+      },
+      {
+        pattern: "The best way to deal with it is to...",
+        usage: "用于表达“处理这个问题最好的方式是……”。适合给自己制定策略、给别人建议、课堂讨论、心理压力管理和学习方法表达。",
+        examples: [
+          "The best way to deal with it is to practice a little every day.",
+          "The best way to deal with it is to prepare in advance.",
+          "The best way to deal with it is to ask for help early.",
+          "The best way to deal with it is to break the task into smaller steps.",
+          "The best way to deal with it is to focus on communication, not perfection."
+        ],
+        practiceTip: "这个句型能让你的回答从“抱怨问题”变成“提出解决办法”。例如：I feel stressed when I have to speak English quickly. The best way to deal with it is to practice short answers every day."
+      },
+      {
+        pattern: "I'll take it step by step.",
+        usage: "用于表达“我会一步一步来”。非常适合出国前准备、适应新环境、面对压力时使用，也可以用来鼓励自己或别人。",
+        examples: [
+          "I'll take it step by step.",
+          "I know it won't be easy, but I'll take it step by step.",
+          "There are many things to prepare, so I'll take it step by step.",
+          "My speaking won't improve overnight, so I'll take it step by step.",
+          "Studying abroad is a big change, but I'll take it step by step."
+        ],
+        practiceTip: "这句话非常短，但很有力量。以后当你不知道怎么结尾时，可以用：I'll take it step by step. 它可以自然结束一段表达。"
+      }
+    ],
+    questions: [
+      {
+        question: "What are you most worried about before studying abroad?",
+        answer: "I'm a bit worried about speaking English every day. The main reason is that I still need time to organize my ideas when I speak. I feel stressed when people speak very fast or ask me questions suddenly. However, I'm trying not to be afraid of making mistakes. I think the best way to deal with it is to practice a little every day, and I'll take it step by step."
+      },
+      {
+        question: "When do you usually feel stressed while learning English?",
+        answer: "I feel stressed when I understand the question, but I cannot answer quickly in English. Sometimes I know what I want to say in Chinese, but I cannot find the right sentence pattern immediately. I'm trying not to translate everything from Chinese. The best way to deal with it is to build automatic sentence patterns. I know it takes time, so I'll take it step by step."
+      },
+      {
+        question: "How do you deal with speaking anxiety?",
+        answer: "To be honest, I still feel nervous when I speak English. I feel stressed when I focus too much on grammar and pronunciation. I'm trying not to worry too much about perfect sentences. The best way to deal with it is to speak simply and clearly first. For me, communication is more important than perfection, so I'll take it step by step."
+      },
+      {
+        question: "What is stressful about preparing for study abroad?",
+        answer: "There are many things to prepare before studying abroad, so it can feel stressful. I'm a bit worried about documents, accommodation, university registration, and English communication. I feel stressed when everything seems to happen at the same time. The best way to deal with it is to break everything into smaller steps. I'll take it step by step and try not to leave everything until the last minute."
+      },
+      {
+        question: "What advice would you give to someone who is nervous about speaking English?",
+        answer: "I would tell them not to worry too much about making mistakes. I know speaking English can feel stressful, especially when people speak fast. But the best way to deal with it is to practice simple sentence patterns every day. I'd also say that communication is more important than perfect grammar. If they keep practicing, they can improve step by step."
+      }
+    ],
+    trainingFocus: "今天重点练习“问题 → 情绪 → 原因 → 应对方式 → 积极结尾”的表达链：I'm a bit worried about..., I feel stressed when..., I'm trying not to..., The best way to deal with it is to..., I'll take it step by step. 可以组成万能表达：I'm a bit worried about speaking English in real conversations. I feel stressed when people ask me questions suddenly. I'm trying not to translate everything from Chinese. The best way to deal with it is to practice useful sentence patterns every day. I'll take it step by step. 今天至少选 1 个问题，脱稿说 60 秒。",
+    quote: {
+      text: "You don't have to see the whole staircase, just take the first step.",
+      author: "Martin Luther King Jr."
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student preparing to study abroad, sitting at a desk with a checklist, passport, English notes, and a speech bubble saying "I'll take it step by step", calm but hopeful mood.
+    // 2. A positive study-abroad cartoon scene showing a student managing speaking anxiety, with small visual icons for stress, practice, support, and progress, soft colors, clean composition, encouraging atmosphere.
   }
 ];
 

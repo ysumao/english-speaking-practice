@@ -155,6 +155,7 @@ images: [
 - Day 8: 表达建议、需求和寻求帮助
 - Day 9: 表达日常安排、时间管理和忙碌状态
 - Day 10: 表达经历、经验和感受
+- Day 11: 表达担心、压力和应对方式
 
 ## Implementation Notes
 
