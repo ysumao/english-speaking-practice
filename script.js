@@ -1141,6 +1141,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student preparing to study abroad, sitting at a desk with a checklist, passport, English notes, and a speech bubble saying "I'll take it step by step", calm but hopeful mood.
     // 2. A positive study-abroad cartoon scene showing a student managing speaking anxiety, with small visual icons for stress, practice, support, and progress, soft colors, clean composition, encouraging atmosphere.
+  },
+  {
+    day: 12,
+    title: "Day 12 - 口语启动训练（留学生活方向）",
+    theme: "表达社交、认识新朋友和维持对话",
+    patterns: [
+      {
+        pattern: "I'm not very good at starting conversations.",
+        usage: "用于表达“我不太擅长主动开启对话”。这个句型很真实，也很自然，适合认识新同学、小组讨论、社交活动、解释自己为什么比较安静，或和朋友聊性格。",
+        examples: [
+          "I'm not very good at starting conversations.",
+          "I'm not very good at small talk.",
+          "I'm not very good at talking to new people.",
+          "I'm not very good at keeping a conversation going.",
+          "I'm not very good at speaking in groups."
+        ],
+        practiceTip: "这个句型可以接积极补充：I'm not very good at starting conversations, but I'm trying to be more open. 你不是在暴露弱点，而是在表达真实状态。"
+      },
+      {
+        pattern: "I usually start by...",
+        usage: "用于表达“我通常先从……开始”。适合描述步骤、方法和社交策略，比如解释如何认识新朋友、介绍学习方法、说明做事流程或分享经验。",
+        examples: [
+          "I usually start by saying hello.",
+          "I usually start by asking where they are from.",
+          "I usually start by asking about their major.",
+          "I usually start by talking about the class.",
+          "I usually start by asking a simple question."
+        ],
+        practiceTip: "这个句型特别适合克服“开口空白”。你可以准备几个固定开场：I usually start by asking about the course. / I usually start by asking if they are also new here."
+      },
+      {
+        pattern: "That sounds interesting.",
+        usage: "用于回应别人说的话，意思是“听起来很有意思”。这是非常重要的接话句，适合别人介绍专业、兴趣爱好、经历、旅行、课程或工作时使用。",
+        examples: [
+          "That sounds interesting.",
+          "That sounds really interesting.",
+          "That sounds like a great experience.",
+          "That sounds like a lot of work.",
+          "That sounds a bit challenging, but interesting."
+        ],
+        practiceTip: "不要听完别人说话只说 Oh. 你可以说：That sounds interesting. How did you get into that? 这样对话就能继续下去。"
+      },
+      {
+        pattern: "How did you get into...?",
+        usage: "用于问别人“你是怎么开始接触 / 喜欢上……的？”。这是非常自然的社交问题，适合聊专业、兴趣、运动、音乐、研究方向和工作经历。",
+        examples: [
+          "How did you get into engineering?",
+          "How did you get into programming?",
+          "How did you get into this research area?",
+          "How did you get into playing guitar?",
+          "How did you get into learning Chinese?"
+        ],
+        practiceTip: "这是一个非常好的 follow-up question。别人说：I'm studying robotics. 你可以接：That sounds interesting. How did you get into robotics? 这就是自然聊天。"
+      },
+      {
+        pattern: "We should keep in touch.",
+        usage: "用于表达“我们以后保持联系”。常用于初次认识后、活动结束后、聊天结束时，例如认识新同学、小组项目、学术活动、迎新活动或交换联系方式。",
+        examples: [
+          "We should keep in touch.",
+          "We should keep in touch after the class.",
+          "We should keep in touch during the semester.",
+          "We should keep in touch if we take the same course.",
+          "We should keep in touch and maybe study together sometime."
+        ],
+        practiceTip: "这个句型适合自然结束对话。例如：It was nice talking to you. We should keep in touch. 非常自然，也很实用。"
+      }
+    ],
+    questions: [
+      {
+        question: "Are you good at starting conversations with new people?",
+        answer: "To be honest, I'm not very good at starting conversations with new people. I sometimes feel nervous because I don't know what to say first. I usually start by asking simple questions, such as where they are from or what they are studying. I'm trying to be more open, especially before studying abroad. I think small conversations can help me make friends slowly."
+      },
+      {
+        question: "How would you start a conversation with a new classmate?",
+        answer: "I usually start by saying hello and asking if they are also new to the class. Then I might ask about their major or where they are from. If they tell me something about their background, I can say, \"That sounds interesting.\" After that, I can ask a follow-up question like, \"How did you get into this area?\" I think this is a simple and natural way to start a conversation."
+      },
+      {
+        question: "Your classmate says, \"I'm studying robotics.\" How would you respond?",
+        answer: "That sounds really interesting. I'm also interested in technology and intelligent manufacturing. How did you get into robotics? I've had some experience with programming and embedded systems, but I'm still learning more about this area. Maybe we can talk more about it sometime."
+      },
+      {
+        question: "What makes socializing in English difficult for you?",
+        answer: "I think socializing in English is difficult because I need to respond quickly. I'm not very good at small talk, especially when I meet someone for the first time. Sometimes I understand what they say, but I don't know how to continue the conversation. The best way to deal with it is to prepare some simple follow-up questions. I'll take it step by step."
+      },
+      {
+        question: "How would you end a good conversation with a new friend?",
+        answer: "If the conversation goes well, I would say something like, \"It was really nice talking to you.\" Then I might say, \"We should keep in touch.\" If we are in the same class, I could also say, \"Maybe we can study together sometime.\" I think this is a friendly and natural way to end a conversation. It also gives us a chance to talk again later."
+      }
+    ],
+    trainingFocus: "今天重点练习“开始对话 → 接住对方 → 继续追问 → 自然结束”的社交流程：I'm not very good at starting conversations., I usually start by..., That sounds interesting., How did you get into...?, We should keep in touch. 可以组成真实场景：I'm not very good at starting conversations, but I usually start by asking simple questions. If someone tells me about their major, I can say, \"That sounds interesting.\" Then I can ask, \"How did you get into this area?\" If the conversation goes well, I can say, \"We should keep in touch.\" 今天重点练回应 + 追问。",
+    quote: {
+      text: "A friend may well be reckoned the masterpiece of nature.",
+      author: "Ralph Waldo Emerson"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student starting a friendly conversation with a new classmate on campus, speech bubbles saying "That sounds interesting" and "How did you get into that?", soft colors, positive study abroad atmosphere.
+    // 2. A lighthearted campus cartoon scene showing two students exchanging contact information after class, with notebooks, backpacks, and a small speech bubble saying "We should keep in touch", friendly and encouraging mood.
   }
 ];
 

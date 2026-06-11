@@ -143,6 +143,11 @@ images: [
   - suitable for English learning or study abroad life
 - Avoid changing CSS or HTML when adding ordinary daily content.
 
+## Publishing Cadence
+
+- From Day 12 onward, ordinary daily additions should be committed locally but not pushed to GitHub immediately.
+- Push to GitHub only on Day 20, Day 30, and other future 10-day milestones, unless the user explicitly asks for an earlier push.
+
 ## Current Days Added
 
 - Day 1: 表达观点 + 表达原因 + 表达适应过程
@@ -156,6 +161,7 @@ images: [
 - Day 9: 表达日常安排、时间管理和忙碌状态
 - Day 10: 表达经历、经验和感受
 - Day 11: 表达担心、压力和应对方式
+- Day 12: 表达社交、认识新朋友和维持对话
 
 ## Implementation Notes
 
