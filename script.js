@@ -1240,6 +1240,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student starting a friendly conversation with a new classmate on campus, speech bubbles saying "That sounds interesting" and "How did you get into that?", soft colors, positive study abroad atmosphere.
     // 2. A lighthearted campus cartoon scene showing two students exchanging contact information after class, with notebooks, backpacks, and a small speech bubble saying "We should keep in touch", friendly and encouraging mood.
+  },
+  {
+    day: 13,
+    title: "Day 13 - 口语启动训练（留学生活方向）",
+    theme: "学校办事、问路、预约、查询信息",
+    patterns: [
+      {
+        pattern: "I'm here to...",
+        usage: "用于说明“我来这里是为了……”。这是去学校办公室、银行、前台、医院时非常高频的开场句。",
+        examples: [
+          "I'm here to register for my course.",
+          "I'm here to collect my student ID.",
+          "I'm here to ask about my accommodation.",
+          "I'm here to submit these documents.",
+          "I'm here to check my appointment."
+        ],
+        practiceTip: "这个句型适合一进办公室就使用。不要一上来慌张地说很多句，先简单说明目的：Hi, I'm here to... 这就是清楚、自然、礼貌的开场。"
+      },
+      {
+        pattern: "I'm looking for...",
+        usage: "用于表达“我在找……”。常见于问路、找教室、找办公室、找文件、找课程信息或找某个负责人。",
+        examples: [
+          "I'm looking for the student services office.",
+          "I'm looking for Room 305.",
+          "I'm looking for the library entrance.",
+          "I'm looking for information about course registration.",
+          "I'm looking for someone who can help me with my visa documents."
+        ],
+        practiceTip: "这个句型非常适合问路和办事。比如：Excuse me, I'm looking for the student services office. 比直接说 Where is student office? 更自然。"
+      },
+      {
+        pattern: "Is there a way to...?",
+        usage: "用于询问“有没有办法……？”。这个句型非常实用，语气也很礼貌，适合解决问题、询问替代方案、系统无法登录、想改时间、想延期或想换课程。",
+        examples: [
+          "Is there a way to reset my password?",
+          "Is there a way to change my appointment?",
+          "Is there a way to access the system from home?",
+          "Is there a way to submit the form online?",
+          "Is there a way to contact the course coordinator?"
+        ],
+        practiceTip: "这个句型比直接说 Can I...? 更像是在寻找解决方案。例如：Is there a way to submit this document online? 非常适合学校行政场景。"
+      },
+      {
+        pattern: "Would it be possible to...?",
+        usage: "用于非常礼貌地请求“是否有可能……？”。适合半正式场合，尤其是给老师发邮件、和办公室沟通、请求改时间、请求延期或请求预约。",
+        examples: [
+          "Would it be possible to change the meeting time?",
+          "Would it be possible to book an appointment for tomorrow?",
+          "Would it be possible to get a copy of this document?",
+          "Would it be possible to speak with someone from student services?",
+          "Would it be possible to submit this a little later?"
+        ],
+        practiceTip: "这个句型比 Can I...? 更礼貌、更成熟。尤其对老师、工作人员说话时很好用：Would it be possible to meet sometime this week?"
+      },
+      {
+        pattern: "Let me double-check...",
+        usage: "用于表达“让我再确认一下……”。常见于确认时间、地点、文件、安排，以及避免误会。",
+        examples: [
+          "Let me double-check the time.",
+          "Let me double-check the room number.",
+          "Let me double-check my schedule.",
+          "Let me double-check the deadline.",
+          "Let me double-check whether I have the right document."
+        ],
+        practiceTip: "这个句型可以帮你争取思考时间。别人问 Are you free on Friday? 你可以说：Let me double-check my schedule. 这比沉默自然得多。"
+      }
+    ],
+    questions: [
+      {
+        question: "You arrive at the student services office. What would you say?",
+        answer: "Hi, I'm here to ask about my course registration. I'm looking for someone who can help me check my student account. Is there a way to confirm whether my registration is complete? Also, let me double-check whether I have all the required documents."
+      },
+      {
+        question: "You cannot find your classroom. What would you ask?",
+        answer: "Excuse me, I'm looking for Room 305. I have a class there, but I'm not familiar with this building. Is there a way to get there from here? Let me double-check the room number first. Yes, it says Room 305 on my timetable."
+      },
+      {
+        question: "You want to change a meeting time with your professor. What would you say?",
+        answer: "I'm sorry, but I may not be available at the original meeting time. Would it be possible to change the meeting time? I can check my schedule and suggest another time. Let me double-check my availability for this week."
+      },
+      {
+        question: "You cannot access the university online system. What would you say to IT support?",
+        answer: "Hi, I'm here to ask about the online system. I'm looking for help with my student account. Is there a way to reset my password or activate my account again? Let me double-check my student number if you need it."
+      },
+      {
+        question: "You want to book an appointment with student services. What would you say?",
+        answer: "Hi, I'm looking for an appointment with student services. Would it be possible to book a time for tomorrow or later this week? I'm here to ask about accommodation and registration. Let me double-check my schedule before confirming the time."
+      }
+    ],
+    trainingFocus: "今天重点练习真实办事流程：说明目的 → 查询信息 → 请求解决方案 → 礼貌提出请求 → 再确认。重点掌握 I'm here to..., I'm looking for..., Is there a way to...?, Would it be possible to...?, Let me double-check...。可以组合成：Hi, I'm here to ask about my registration. I'm looking for someone who can help me check my account. Is there a way to confirm it online? Would it be possible to speak with a staff member? Let me double-check my student number. 英语口语不只是表达观点，更重要的是完成任务。",
+    quote: {
+      text: "Knowledge is power.",
+      author: "Francis Bacon"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student at a university student services desk, politely asking for help with registration documents, with speech bubbles saying "I'm here to..." and "Would it be possible to...?", clean campus office setting.
+    // 2. A friendly campus cartoon scene where a student is looking for Room 305 and asking directions, holding a timetable and phone map, soft colors, positive study abroad mood, clear visual storytelling.
   }
 ];
 
