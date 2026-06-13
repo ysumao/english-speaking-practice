@@ -1339,6 +1339,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student at a university student services desk, politely asking for help with registration documents, with speech bubbles saying "I'm here to..." and "Would it be possible to...?", clean campus office setting.
     // 2. A friendly campus cartoon scene where a student is looking for Room 305 and asking directions, holding a timetable and phone map, soft colors, positive study abroad mood, clear visual storytelling.
+  },
+  {
+    day: 14,
+    title: "Day 14 - 留学生活口语训练",
+    theme: "宿舍、租房与设备报修",
+    patterns: [
+      {
+        pattern: "There seems to be a problem with...",
+        usage: "用于表达“……好像出了点问题”。它比直接说 It's broken 更谨慎、自然，因为你可能还不知道具体原因。适合向宿舍前台报修、联系房东或物业、报告网络/设备/系统故障。",
+        examples: [
+          "There seems to be a problem with the heating.",
+          "There seems to be a problem with the Wi-Fi.",
+          "There seems to be a problem with the kitchen sink.",
+          "There seems to be a problem with my room key.",
+          "There seems to be a problem with the washing machine."
+        ],
+        practiceTip: "看到身边的设备，快速替换最后的名词：There seems to be a problem with the door. / There seems to be a problem with the light."
+      },
+      {
+        pattern: "...isn't working properly.",
+        usage: "用于表达“……不能正常工作”。这个句型比 It doesn't work 信息更准确：设备可能还能运行，但功能不正常。适合电器、门锁、房卡、网络、学校系统等异常场景。",
+        examples: [
+          "The shower isn't working properly.",
+          "The air conditioner isn't working properly.",
+          "My student card isn't working properly.",
+          "The washing machine isn't working properly.",
+          "The university website isn't working properly."
+        ],
+        practiceTip: "练习“设备名称 + isn't working properly”。例如：The printer isn't working properly. / The microwave isn't working properly. 注意复数主语要说：The lights aren't working properly."
+      },
+      {
+        pattern: "Could someone take a look at it?",
+        usage: "用于表达“能请人来看一下吗？”这是请求工作人员、维修人员或技术人员检查问题的自然表达。",
+        examples: [
+          "Could someone take a look at it today?",
+          "Could someone take a look at the shower?",
+          "Could someone take a look at my room key?",
+          "Could someone take a look at the heating system?",
+          "Could someone take a look at it as soon as possible?"
+        ],
+        practiceTip: "完整表达可以是：The heater isn't working properly. Could someone take a look at it? 练习时不要只报告问题，还要主动提出请求。"
+      },
+      {
+        pattern: "How long do you think it will take to...?",
+        usage: "用于询问“你觉得做……大约需要多长时间？”既可以询问维修时间，也可以询问办手续、步行或完成任务所需的时间。",
+        examples: [
+          "How long do you think it will take to fix it?",
+          "How long do you think it will take to replace the lock?",
+          "How long do you think it will take to process my application?",
+          "How long do you think it will take to walk there?",
+          "How long do you think it will take to restore the internet connection?"
+        ],
+        practiceTip: "重点掌握：How long will it take to + 动词？例如：How long will it take to repair the washing machine? 加入 do you think 后，语气通常更自然、柔和。"
+      },
+      {
+        pattern: "Do I need to be there when...?",
+        usage: "用于表达“当……的时候，我需要在场吗？”报修、送货、房屋检查或安装设备时非常实用。",
+        examples: [
+          "Do I need to be there when the technician arrives?",
+          "Do I need to be there when they repair the shower?",
+          "Do I need to be there when the package is delivered?",
+          "Do I need to be there when the landlord inspects the room?",
+          "Do I need to be there when the new router is installed?"
+        ],
+        practiceTip: "将 when 后面的情景进行替换：Do I need to be there when they fix it? / Do I need to be there when the delivery arrives?"
+      }
+    ],
+    questions: [
+      {
+        question: "The shower in your room has stopped working properly. What would you say to the accommodation staff?",
+        answer: "Hi, there seems to be a problem with the shower in my room. It isn't working properly, and the water stays cold. Could someone take a look at it today? How long do you think it will take to fix it? Also, do I need to be there when the technician arrives?"
+      },
+      {
+        question: "The Wi-Fi in your accommodation is very unstable. How would you report it?",
+        answer: "There seems to be a problem with the Wi-Fi in my room. It connects for a few minutes, but then it stops working. Could someone take a look at it? I have an online meeting tomorrow, so I need a stable connection. How long do you think it will take to solve the problem?"
+      },
+      {
+        question: "Your room key does not always open the door. What would you say at reception?",
+        answer: "Hi, my room key isn't working properly. Sometimes it opens the door, but sometimes it doesn't. There seems to be a problem with the card or the lock. Could someone take a look at it? Do I need to bring any identification if the key has to be replaced?"
+      },
+      {
+        question: "A technician is coming to repair your washing machine. What information would you confirm?",
+        answer: "Do I need to be there when the technician arrives? I have a class in the morning, so I may not be in my room. How long do you think it will take to repair the washing machine? Also, will the technician contact me before arriving? I'd like to make sure someone can access the laundry room."
+      },
+      {
+        question: "The heating in your room is not working on a cold evening. How would you ask for urgent help?",
+        answer: "There seems to be a problem with the heating in my room. It isn't working properly, and the room is getting very cold. Could someone take a look at it as soon as possible? How long do you think it will take to fix it? Is there a temporary heater I can use tonight?"
+      }
+    ],
+    trainingFocus: "今天重点练习完整报修流程：清楚说明故障 → 请求检查 → 询问维修时间 → 确认后续安排。重点掌握 There seems to be a problem with..., ...isn't working properly., Could someone take a look at it?, How long do you think it will take to...?, Do I need to be there when...? 今天至少选两种设备进行替换练习，例如 shower, Wi-Fi, washing machine, heater, room key。不要背整段答案，要练习快速替换故障对象和具体情况。",
+    quote: {
+      text: "Well done is better than well said.",
+      author: "Benjamin Franklin"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student reporting a dorm maintenance issue at the accommodation reception, holding a phone with a photo of a broken shower, speech bubble saying "Could someone take a look at it?", clean cozy dorm setting.
+    // 2. A friendly study-abroad cartoon scene showing a technician fixing Wi-Fi or heating in a student room while the student politely confirms the repair time, soft colors, practical daily life mood.
   }
 ];
 
