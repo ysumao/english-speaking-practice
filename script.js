@@ -1438,6 +1438,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student reporting a dorm maintenance issue at the accommodation reception, holding a phone with a photo of a broken shower, speech bubble saying "Could someone take a look at it?", clean cozy dorm setting.
     // 2. A friendly study-abroad cartoon scene showing a technician fixing Wi-Fi or heating in a student room while the student politely confirms the repair time, soft colors, practical daily life mood.
+  },
+  {
+    day: 15,
+    title: "Day 15 - 餐厅与咖啡店高频口语",
+    theme: "点餐、调整餐品、结账和打包",
+    patterns: [
+      {
+        pattern: "Could I get...?",
+        usage: "用于表达“我可以要……吗？”这是餐厅、咖啡店和商店里非常自然的请求方式。这里的 get 不是“去拿”，而是“要、点”。",
+        examples: [
+          "Could I get a cup of coffee, please?",
+          "Could I get the chicken sandwich?",
+          "Could I get some extra napkins?",
+          "Could I get a glass of water?",
+          "Could I get the bill, please?"
+        ],
+        practiceTip: "练习：Could I get + 食物、饮料或物品？注意加上 please，语气会更礼貌。"
+      },
+      {
+        pattern: "What does this come with?",
+        usage: "用于询问“这个里面配有什么？”适合询问套餐、主食或餐点附带哪些东西，也可以用于租房、酒店和购物场景。",
+        examples: [
+          "What does this come with?",
+          "What does the breakfast set come with?",
+          "Does this come with chips?",
+          "Does the meal come with a drink?",
+          "Does the room come with free Wi-Fi?"
+        ],
+        practiceTip: "掌握两个结构：What does this come with? / Does this come with + 名词？第二个结构也可以用于租房、酒店和购物。"
+      },
+      {
+        pattern: "Could I have... instead of...?",
+        usage: "用于表达“我可以用……替换……吗？”这是修改餐品或更换选项时非常实用的句型，也可以用于更换课程、时间或房间。",
+        examples: [
+          "Could I have salad instead of chips?",
+          "Could I have tea instead of coffee?",
+          "Could I have rice instead of bread?",
+          "Could I have the sauce on the side instead?",
+          "Could I have a window seat instead of an aisle seat?"
+        ],
+        practiceTip: "基础结构是：Could I have A instead of B? 也可以只把 instead 放在句末：Could I have water instead?"
+      },
+      {
+        pattern: "Could we split the bill?",
+        usage: "用于表达“我们可以分开付账吗？”和同学、朋友外出吃饭时非常高频，适合各自支付、平均分账或确认付款方式。",
+        examples: [
+          "Could we split the bill?",
+          "Could we pay separately?",
+          "Could we split the bill between three people?",
+          "Can we each pay for our own meal?",
+          "Shall we split the bill evenly?"
+        ],
+        practiceTip: "注意两种情况：pay separately 表示各付各的；split the bill evenly 表示平均分账。在实际结账前最好先问清楚。"
+      },
+      {
+        pattern: "Can I get this to go?",
+        usage: "用于表达“这个可以帮我打包带走吗？”在餐厅吃不完，或者直接购买外带餐品时使用。在澳大利亚等地，takeaway 也很常见。",
+        examples: [
+          "Can I get this to go?",
+          "Could I get my coffee to go?",
+          "Can you pack this up for me?",
+          "Could I have a takeaway container?",
+          "I'd like to take the rest home."
+        ],
+        practiceTip: "如果被问 Is this for here or takeaway? 可以回答：Takeaway, please. 也可以说 Can I get this to go? / Could I have a takeaway container?"
+      }
+    ],
+    questions: [
+      {
+        question: "You want to order a coffee and a sandwich. What would you say?",
+        answer: "Hi, could I get a flat white and a chicken sandwich, please? What does the sandwich come with? If it normally comes with chips, could I have salad instead? That's everything, thank you."
+      },
+      {
+        question: "You are not sure what is included in a lunch set. What would you ask?",
+        answer: "Excuse me, what does the lunch set come with? Does it include a drink? Could I have tea instead of a soft drink? Also, is the soup included in the price?"
+      },
+      {
+        question: "You are eating with two classmates and want to pay separately. What would you say?",
+        answer: "Excuse me, could we split the bill between three people? We would each like to pay for our own meal. Can we pay separately by card? I'll pay for the coffee and the pasta."
+      },
+      {
+        question: "You cannot finish your meal. How would you ask to take it home?",
+        answer: "Excuse me, I can't finish this. Can I get it to go? Could I have a takeaway container, please? I'd like to take the rest home. Thank you."
+      },
+      {
+        question: "Your meal comes with chips, but you want rice. What would you say?",
+        answer: "Could I have rice instead of chips, please? I don't mind paying a little extra if necessary. Also, could I get the sauce on the side? And could I have a glass of water, please?"
+      }
+    ],
+    trainingFocus: "今天重点练习完整的餐厅交流顺序：Could I get...?, What does this come with?, Could I have A instead of B?, Could we split the bill?, Can I get this to go? 模拟点餐时，至少替换三组内容：coffee / tea / juice, chips / rice / salad, sandwich / pasta / chicken。今天不要只朗读，请关掉参考答案，模拟一次从点餐到结账的完整对话。",
+    quote: {
+      text: "The secret of success is constancy of purpose.",
+      author: "Benjamin Disraeli"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student ordering coffee and a sandwich at a cozy campus cafe, politely asking "Could I get...?" and "What does this come with?", soft lighting, friendly barista, study abroad daily life.
+    // 2. A lighthearted restaurant cartoon scene where three international students split the bill and pack leftovers to go, with speech bubbles saying "Could we split the bill?" and "Can I get this to go?", cheerful social mood.
   }
 ];
 
