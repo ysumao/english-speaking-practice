@@ -1537,6 +1537,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student ordering coffee and a sandwich at a cozy campus cafe, politely asking "Could I get...?" and "What does this come with?", soft lighting, friendly barista, study abroad daily life.
     // 2. A lighthearted restaurant cartoon scene where three international students split the bill and pack leftovers to go, with speech bubbles saying "Could we split the bill?" and "Can I get this to go?", cheerful social mood.
+  },
+  {
+    day: 16,
+    title: "Day 16 - 超市、商店与退换货高频口语",
+    theme: "寻找商品、询问尺寸、确认折扣、付款和退换货",
+    patterns: [
+      {
+        pattern: "Where can I find...?",
+        usage: "用于表达“我在哪里可以找到……？”常用于在超市寻找商品、在商场寻找柜台、在图书馆寻找书籍，或在校园里寻找设施。",
+        examples: [
+          "Where can I find the milk?",
+          "Where can I find cleaning products?",
+          "Where can I find phone chargers?",
+          "Where can I find the customer service desk?",
+          "Where can I find books on engineering?"
+        ],
+        practiceTip: "看到购物清单上的物品，直接套用：Excuse me, where can I find...? 相比只说商品名称，这样更完整、更礼貌。"
+      },
+      {
+        pattern: "Do you have this in...?",
+        usage: "用于表达“这个有……的吗？”常用于询问不同的尺寸、颜色、款式或数量，尤其适合购买衣服、鞋子或寻找替代规格。",
+        examples: [
+          "Do you have this in a larger size?",
+          "Do you have this in black?",
+          "Do you have this in a different colour?",
+          "Do you have these shoes in size nine?",
+          "Do you have this in a smaller pack?"
+        ],
+        practiceTip: "重点练习三个高频替换：in a larger size, in black, in size nine。注意询问鞋子时通常使用复数：Do you have these in size nine?"
+      },
+      {
+        pattern: "Is this on sale?",
+        usage: "用于表达“这个正在打折吗？”适合商品标签不清楚、确认促销价格、询问优惠是否仍然有效，或确认折扣适用范围。",
+        examples: [
+          "Is this on sale?",
+          "Is this included in the promotion?",
+          "Is there a discount on this item?",
+          "Is the discount already included in the price?",
+          "Does the student discount apply to this?"
+        ],
+        practiceTip: "注意 on sale 是正在打折，for sale 是正在出售。所以“这个打折吗”要说：Is this on sale?"
+      },
+      {
+        pattern: "Can I pay by...?",
+        usage: "用于表达“我可以用……付款吗？”常用于超市、商店、餐厅结账，询问是否接受现金、银行卡或手机支付。",
+        examples: [
+          "Can I pay by card?",
+          "Can I pay in cash?",
+          "Can I pay by contactless?",
+          "Can I pay with my phone?",
+          "Can I pay for these separately?"
+        ],
+        practiceTip: "常见搭配：pay by card, pay in cash, pay with my phone。在澳大利亚，如果工作人员问 Card or cash? 可以回答：Card, please."
+      },
+      {
+        pattern: "I'd like to return/exchange this.",
+        usage: "用于表达“我想退掉 / 更换这个商品”。适合商品尺寸不合适、产品损坏或无法使用、买错商品、请求退款或更换。",
+        examples: [
+          "I'd like to return this.",
+          "I'd like to exchange this for a larger size.",
+          "I'd like to return this and get a refund.",
+          "I'd like to exchange these shoes for another pair.",
+          "I'd like to return this because it doesn't work properly."
+        ],
+        practiceTip: "return 表示退货，exchange 表示换货。完整表达可以是：I'd like to return this because it doesn't fit. fit 表示尺寸合适，例如 It doesn't fit. / It's too small. / It's too large."
+      }
+    ],
+    questions: [
+      {
+        question: "You cannot find rice in a supermarket. What would you ask?",
+        answer: "Excuse me, where can I find the rice? I checked the food section, but I couldn't see it. Is it in a different aisle? Also, is there a particular brand you would recommend?"
+      },
+      {
+        question: "You like a jacket, but it is too small. What would you say?",
+        answer: "Excuse me, do you have this jacket in a larger size? This one is a little too small for me. Do you have it in black as well? I'd like to try both sizes before deciding."
+      },
+      {
+        question: "A price label is unclear. How would you confirm the discount?",
+        answer: "Excuse me, is this on sale? The sign says there is a discount, but I'm not sure whether it applies to this item. Is the discount already included in the price? Does the student discount apply as well?"
+      },
+      {
+        question: "You want to pay for your groceries using your phone. What would you say?",
+        answer: "Can I pay with my phone? I don't have much cash with me. If mobile payment isn't available, I can pay by card. Could I also have a receipt, please?"
+      },
+      {
+        question: "You bought a charger, but it does not work. What would you say at customer service?",
+        answer: "Hi, I'd like to return this charger because it doesn't work properly. I bought it two days ago, and I still have the receipt. I'd like to get a refund, if possible. Alternatively, I could exchange it for another one."
+      }
+    ],
+    trainingFocus: "今天重点练习完整购物流程：Where can I find...?, Do you have this in...?, Is this on sale?, Can I pay by...?, I'd like to return or exchange this. 请模拟三个场景，每个说 30 秒：在超市寻找商品、在服装店购买衣服、到客服柜台退换商品。尤其要练熟：Excuse me, where can I find...? 和 I'd like to return this because...，这两句在国外生活中非常实用。",
+    quote: {
+      text: "Practice makes perfect.",
+      author: ""
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student asking a supermarket staff member where to find rice and cleaning products, with a shopping basket and clear aisle signs, speech bubble saying "Where can I find...?", friendly daily life mood.
+    // 2. A lighthearted store customer service cartoon scene where a student returns a broken phone charger with a receipt, politely saying "I'd like to return this because it doesn't work properly", clean shop setting, positive tone.
   }
 ];
 
