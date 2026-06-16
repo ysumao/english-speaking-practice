@@ -1636,6 +1636,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student asking a supermarket staff member where to find rice and cleaning products, with a shopping basket and clear aisle signs, speech bubble saying "Where can I find...?", friendly daily life mood.
     // 2. A lighthearted store customer service cartoon scene where a student returns a broken phone charger with a receipt, politely saying "I'd like to return this because it doesn't work properly", clean shop setting, positive tone.
+  },
+  {
+    day: 17,
+    title: "Day 17 - 公共交通与问路高频口语",
+    theme: "乘坐公交、火车或地铁，确认路线、换乘和下车地点",
+    patterns: [
+      {
+        pattern: "Which line should I take to...?",
+        usage: "用于表达“去……我应该坐哪条线路？”适合询问地铁或火车线路、不确定应该乘坐哪趟公交、向工作人员或当地人问路线、在车站规划行程。",
+        examples: [
+          "Which line should I take to the city centre?",
+          "Which train should I take to the airport?",
+          "Which bus should I take to the university?",
+          "Which line should I take to get to Central Station?",
+          "Which platform should I go to for the express train?"
+        ],
+        practiceTip: "重点替换目的地：Which line should I take to + 地点？问公交或火车时，也可以直接替换 line：Which bus should I take? / Which train should I take?"
+      },
+      {
+        pattern: "Does this bus/train stop at...?",
+        usage: "用于表达“这辆公交 / 这趟火车会在……停吗？”适合上车前确认路线、不确定车辆是否经过目的地、向司机/工作人员/乘客确认、避免坐错方向。",
+        examples: [
+          "Does this bus stop at the university?",
+          "Does this train stop at Central Station?",
+          "Does this service stop near the airport?",
+          "Does this bus stop outside the library?",
+          "Does this train stop at every station?"
+        ],
+        practiceTip: "上车前不要只问 University? 要说完整：Excuse me, does this bus stop at the university?"
+      },
+      {
+        pattern: "How often does... run?",
+        usage: "用于表达“……多久一班？”这里的 run 指交通工具按照线路运行。适合询问公交、火车或机场班车班次，错过一班车后询问下一班，或确认周末/夜间服务频率。",
+        examples: [
+          "How often does this bus run?",
+          "How often do the trains run on weekends?",
+          "How often does the airport shuttle run?",
+          "How often does this service run after 8 p.m.?",
+          "How often do buses run from here to the campus?"
+        ],
+        practiceTip: "注意主语单复数：How often does this bus run? / How often do the buses run?"
+      },
+      {
+        pattern: "Where do I need to change?",
+        usage: "用于表达“我需要在哪里换乘？”适合路线需要换乘、不确定在哪一站换车、询问应该换乘哪条线路或查看路线后再次确认。",
+        examples: [
+          "Where do I need to change?",
+          "Where do I need to change trains?",
+          "Do I need to change at Central Station?",
+          "Which line do I change to?",
+          "How many times do I need to change?"
+        ],
+        practiceTip: "把路线信息问完整：Where do I need to change, and which line should I take next? change trains/buses 表示换乘，不是“更换一辆坏掉的车”。"
+      },
+      {
+        pattern: "Could you let me know when we get to...?",
+        usage: "用于表达“到……的时候，可以提醒我一下吗？”这是担心坐过站时非常实用的请求，适合第一次乘坐某条线路、听不清报站、不熟悉周围环境时使用。",
+        examples: [
+          "Could you let me know when we get to the university?",
+          "Could you let me know when we reach Central Station?",
+          "Could you tell me when I need to get off?",
+          "Could you let me know when we're close to the airport?",
+          "Could you tell me which stop I should get off at?"
+        ],
+        practiceTip: "完整表达可以是：I'm new here. Could you let me know when we get to the university? 这是一句非常实用的“防止坐过站”表达。"
+      }
+    ],
+    questions: [
+      {
+        question: "You want to travel from your accommodation to the university. What would you ask?",
+        answer: "Excuse me, which bus should I take to the university? Does this bus stop near the main entrance? How often does it run in the morning? Also, could you tell me which stop I should get off at?"
+      },
+      {
+        question: "You are at a train station and need to travel to the airport. What would you ask the staff?",
+        answer: "Excuse me, which train should I take to the airport? Does the next train go there directly, or do I need to change? If I need to change, where should I do that? Which platform does the train leave from?"
+      },
+      {
+        question: "You have just missed a bus. How would you ask about the next one?",
+        answer: "Excuse me, I've just missed the bus to the city centre. How often does this bus run? Do you know when the next one will arrive? Also, does it stop near Central Station?"
+      },
+      {
+        question: "You are on an unfamiliar bus and are worried about missing your stop. What would you say?",
+        answer: "Excuse me, I'm new to this area. Could you let me know when we get to the university? I'm not sure which stop I should get off at. Is it far from here?"
+      },
+      {
+        question: "Your journey requires two trains. How would you confirm the route?",
+        answer: "Which train should I take first? Where do I need to change trains? Do I change at Central Station? After that, which line should I take? Does the second train stop at the university station?"
+      }
+    ],
+    trainingFocus: "今天重点练习完整乘车流程：Which line should I take to...?, Does this train stop at...?, How often does it run?, Where do I need to change?, Could you let me know when we get to...? 请分别模拟三个场景：从住处前往学校、从学校前往市中心、从市中心前往机场。每个场景连续说 30 秒，不要只读单句。",
+    quote: {
+      text: "The journey of a lifetime starts with the turning of a page.",
+      author: "Rachel Anders"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student asking for directions at a train station, looking at a route map and saying "Which line should I take to the university?", bright station signs, calm helpful atmosphere.
+    // 2. A friendly bus cartoon scene where a student politely asks a passenger or driver "Could you let me know when we get to the university?", city bus interior, soft colors, study abroad daily life.
   }
 ];
 
