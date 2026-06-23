@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0d1320">
+  <title>Daily English Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile-app.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Daily lesson navigation">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">ES</div>
+        <div class="brand-copy">
+          <h1>Daily English Practice</h1>
+          <p>Speaking notebook</p>
+        </div>
+        <div class="app-bar-actions">
+          <button class="bookmark-toggle topbar-bookmark app-icon-button" id="topbarBookmark" type="button" aria-pressed="false" title="Bookmark this day">
+            <span aria-hidden="true">☆</span>
+            <span class="app-action-label">Add Bookmark</span>
+          </button>
+          <button class="theme-toggle app-icon-button" id="themeToggle" type="button" aria-label="Switch to light theme" title="Change theme">
+            <span class="theme-icon" aria-hidden="true">☾</span>
+            <span class="theme-text app-action-label">Dark Theme</span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="nav-panel" aria-label="Lesson days">
+        <div class="panel-heading visually-hidden">
+          <span>Days</span>
+          <span class="count-badge" id="lessonCount">0</span>
+        </div>
+        <div class="day-list" id="dayNav"></div>
+      </nav>
+
+      <section class="bookmark-panel" aria-labelledby="bookmarkTitle">
+        <div class="panel-heading">
+          <span id="bookmarkTitle">Bookmarks</span>
+        </div>
+        <div class="bookmark-list" id="bookmarkList"></div>
+      </section>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="page-heading">
+          <p class="eyebrow">Speaking Review</p>
+          <h2>Practice Notebook</h2>
+        </div>
+
+        <div class="topbar-actions">
+          <label class="search-box" for="searchInput">
+            <span aria-hidden="true">⌕</span>
+            <input
+              type="search"
+              id="searchInput"
+              placeholder="Search and press Enter..."
+              autocomplete="off"
+            >
+          </label>
+
+          <div class="search-controls" aria-label="Search result navigation">
+            <button class="search-step search-clear" id="searchClear" type="button" disabled>Clear</button>
+            <button class="search-step" id="searchPrev" type="button" disabled>Previous</button>
+            <span class="search-count" id="searchCount">0 / 0</span>
+            <button class="search-step" id="searchNext" type="button" disabled>Next</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="lesson-container" id="lessonContainer" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
