@@ -35,9 +35,11 @@ public class MainActivity extends Activity {
         settings.setDisplayZoomControls(false);
         settings.setSupportZoom(false);
         settings.setTextZoom(100);
+        settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("file:///android_asset/www/index.html");
+        webView.clearCache(true);
+        webView.loadUrl("file:///android_asset/www/index.html?version=" + BuildConfig.VERSION_CODE);
     }
 
     @Override

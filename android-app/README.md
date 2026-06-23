@@ -9,7 +9,7 @@ Offline Android wrapper for the English speaking review dashboard.
 3. Create `local.properties` with the SDK path.
 4. Run `gradlew.bat assembleDebug`.
 
-On the configured development machine, run `build-release.bat` to sync the latest lessons and create the signed self-use APK.
+On the configured development machine, run `build-release.bat` to sync the latest lessons and create the signed self-use APK. The build generates a timestamp-based Android version code, so the phone always recognizes later builds as updates.
 
 The debug APK is generated at:
 
@@ -21,7 +21,7 @@ For stable self-use updates, keep the ignored `keystore/` directory and `keystor
 
 ## Install
 
-Transfer the latest APK from `dist/` to the Android phone, allow installation from the selected file manager when prompted, and open **Daily English Practice** from the launcher.
+Transfer `dist/Daily-English-Practice-latest.apk` to the Android phone, allow installation from the selected file manager when prompted, and open **Daily English Practice** from the launcher.
 
 The app is fully offline and requests no network permission.
 
