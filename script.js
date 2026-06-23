@@ -1933,6 +1933,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student speaking calmly with an immigration officer, holding an admission letter and accommodation confirmation, speech bubbles saying "I'm travelling for study" and "I'll be staying at...", clear modern airport setting.
     // 2. A helpful airport-service cartoon scene where a student reports delayed checked baggage using a baggage claim tag, with a connecting-flight board in the background, soft colors, practical and reassuring mood.
+  },
+  {
+    day: 20,
+    title: "Day 20 - 银行、SIM卡与付款问题高频口语",
+    theme: "开银行账户、办理手机卡、确认费用、设置自动扣款、处理付款失败",
+    patterns: [
+      {
+        pattern: "What documents do I need to...?",
+        usage: "用于表达“我需要什么文件来……？”这是办理手续时非常高频的句型，适合开银行账户、办手机卡、学校注册、申请学生卡、办理住宿或提交身份证明材料。",
+        examples: [
+          "What documents do I need to open a bank account?",
+          "What documents do I need to get a SIM card?",
+          "What documents do I need to register with the university?",
+          "What documents do I need to prove my address?",
+          "What documents do I need to apply for a student discount?"
+        ],
+        practiceTip: "把句型和具体任务绑定：What documents do I need to + 动词？例如：What documents do I need to activate my account?"
+      },
+      {
+        pattern: "Are there any fees for...?",
+        usage: "用于表达“……有没有费用？”适合确认银行账户月费、手机套餐费用、取现/转账手续费，以及取消服务或提前解约费用。",
+        examples: [
+          "Are there any fees for opening the account?",
+          "Are there any monthly fees?",
+          "Are there any fees for international transfers?",
+          "Are there any fees for using this card overseas?",
+          "Are there any cancellation fees?"
+        ],
+        practiceTip: "重点练 monthly fees, transfer fees, cancellation fees。办任何服务前都可以问：Are there any extra fees I should know about?"
+      },
+      {
+        pattern: "Does this plan include...?",
+        usage: "用于表达“这个套餐包含……吗？”这里的 plan 通常指手机套餐、网络套餐、保险计划或银行服务方案。",
+        examples: [
+          "Does this plan include unlimited calls?",
+          "Does this plan include international calls?",
+          "Does this plan include mobile data?",
+          "Does this plan include 5G access?",
+          "Does this plan include roaming?"
+        ],
+        practiceTip: "手机卡场景中重点掌握 data, calls, texts, roaming。例如：Does this plan include enough data for video calls?"
+      },
+      {
+        pattern: "Can I set up...?",
+        usage: "用于表达“我可以设置……吗？”适合办理账户、付款方式、自动扣款、网上银行、手机号绑定、账单提醒等。",
+        examples: [
+          "Can I set up online banking?",
+          "Can I set up automatic payments?",
+          "Can I set up a mobile banking app?",
+          "Can I set up a direct debit for my rent?",
+          "Can I set up payment reminders?"
+        ],
+        practiceTip: "记住 automatic payments = 自动付款；direct debit = 自动扣款。例如：Can I set up a direct debit for my rent?"
+      },
+      {
+        pattern: "My payment didn't go through.",
+        usage: "用于表达“我的付款没有成功”。这里的 go through 表示交易、付款或申请成功完成，适合银行卡、网上支付、学费、房租或 App 扣款失败时使用。",
+        examples: [
+          "My payment didn't go through.",
+          "My card didn't go through.",
+          "The transaction didn't go through.",
+          "My online payment didn't go through.",
+          "I tried to pay, but it didn't go through."
+        ],
+        practiceTip: "付款失败时比 It failed. 更自然的表达是 My payment didn't go through. 如果要继续问原因，可以说：Could you check what happened?"
+      }
+    ],
+    questions: [
+      {
+        question: "You want to open a bank account. What would you ask?",
+        answer: "Hi, what documents do I need to open a bank account? I'm an international student, and I've just arrived. Are there any monthly fees for this account? Also, can I set up online banking and a mobile banking app today?"
+      },
+      {
+        question: "You want to get a SIM card for daily use. What would you ask?",
+        answer: "Hi, what documents do I need to get a SIM card? I'm looking for a plan with enough mobile data. Does this plan include unlimited calls and texts? Does it include 5G access? Also, are there any cancellation fees?"
+      },
+      {
+        question: "You want to pay rent automatically every month. What would you say to the bank staff?",
+        answer: "I need to pay my rent every month, so can I set up a direct debit? I want the payment to go out automatically. Are there any fees for setting this up? Also, can I get a notification when the payment is made?"
+      },
+      {
+        question: "Your card payment fails in a store. What would you say?",
+        answer: "Sorry, my payment didn't go through. Could I try again? Maybe there was a problem with the card machine. If it still doesn't work, I can try another card or pay in cash."
+      },
+      {
+        question: "You are choosing between two phone plans. What would you ask?",
+        answer: "Does this plan include international calls? How much mobile data does it include each month? Are there any extra fees if I use more data? Also, are there any cancellation fees if I change my plan later?"
+      }
+    ],
+    trainingFocus: "今天重点练习完整办事流程：What documents do I need to...?, Are there any fees for...?, Does this plan include...?, Can I set up...?, My payment didn't go through. 重点模拟两个场景：银行开户，包括文件、费用、网上银行和自动扣款；办理手机卡，包括套餐、流量、通话和取消费用。",
+    quote: {
+      text: "The beginning is the most important part of the work.",
+      author: "Plato"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student opening a bank account, showing a passport and university documents to a helpful bank employee, with speech bubbles saying "What documents do I need?" and "Can I set up online banking?", clean modern branch.
+    // 2. A friendly mobile-phone shop cartoon scene where a student compares two SIM plans and asks about data, 5G, roaming, and cancellation fees, bright clear plan cards, practical study-abroad mood.
   }
 ];
 
