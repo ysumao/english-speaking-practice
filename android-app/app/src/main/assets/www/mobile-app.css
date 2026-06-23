@@ -99,6 +99,7 @@ input {
   background: var(--card);
   color: var(--text);
   font-size: 1.18rem;
+  overflow: hidden;
 }
 
 .app-icon-button[aria-pressed="true"] {
@@ -108,6 +109,10 @@ input {
 }
 
 .app-action-label {
+  display: none !important;
+}
+
+.app-icon-button > span:not(:first-child) {
   display: none !important;
 }
 

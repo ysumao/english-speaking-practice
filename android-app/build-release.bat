@@ -12,7 +12,7 @@ call gradlew.bat --no-daemon assembleRelease
 if errorlevel 1 exit /b %errorlevel%
 
 if not exist "dist" mkdir "dist"
-copy /Y "app\build\outputs\apk\release\app-release.apk" "dist\Daily-English-Practice-v1.0.0.apk" >nul
+copy /Y "app\build\outputs\apk\release\app-release.apk" "dist\Daily-English-Practice-v1.0.1.apk" >nul
 
-echo APK ready: dist\Daily-English-Practice-v1.0.0.apk
+echo APK ready: dist\Daily-English-Practice-v1.0.1.apk
 endlocal

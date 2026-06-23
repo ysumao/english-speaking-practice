@@ -21,7 +21,7 @@ For stable self-use updates, keep the ignored `keystore/` directory and `keystor
 
 ## Install
 
-Transfer `dist/Daily-English-Practice-v1.0.0.apk` to the Android phone, allow installation from the selected file manager when prompted, and open **Daily English Practice** from the launcher.
+Transfer the latest APK from `dist/` to the Android phone, allow installation from the selected file manager when prompted, and open **Daily English Practice** from the launcher.
 
 The app is fully offline and requests no network permission.
 
