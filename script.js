@@ -1735,6 +1735,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student asking for directions at a train station, looking at a route map and saying "Which line should I take to the university?", bright station signs, calm helpful atmosphere.
     // 2. A friendly bus cartoon scene where a student politely asks a passenger or driver "Could you let me know when we get to the university?", city bus interior, soft colors, study abroad daily life.
+  },
+  {
+    day: 18,
+    title: "Day 18 - 看病、药店与身体不适高频口语",
+    theme: "身体不舒服、预约看医生、去药店买药、询问用药方式",
+    patterns: [
+      {
+        pattern: "I've been feeling...",
+        usage: "用于表达“我最近一直感觉……”，适合看医生时说明持续性的症状、和朋友说自己不舒服，或解释自己为什么想休息。",
+        examples: [
+          "I've been feeling tired recently.",
+          "I've been feeling dizzy since this morning.",
+          "I've been feeling sick for two days.",
+          "I've been feeling a bit weak lately.",
+          "I've been feeling unwell since last night."
+        ],
+        practiceTip: "重点练习：I've been feeling + adjective + time expression. 例如：I've been feeling tired for a few days."
+      },
+      {
+        pattern: "I have a pain in...",
+        usage: "用于表达“我……部位疼”，这是向医生描述身体疼痛时非常直接、清楚的句型，适合看医生、去药店咨询或说明具体疼痛位置。",
+        examples: [
+          "I have a pain in my stomach.",
+          "I have a pain in my back.",
+          "I have a pain in my chest.",
+          "I have a pain in my left knee.",
+          "I have a pain in my lower back."
+        ],
+        practiceTip: "注意身体部位前通常加 my，例如 my stomach, my back, my throat, my knee。也可以说 My stomach hurts. / My back hurts.，但今天重点练 I have a pain in..."
+      },
+      {
+        pattern: "It hurts when I...",
+        usage: "用于表达“当我……的时候会疼”。这个句型比单纯说疼更具体，适合描述动作引发的疼痛、咳嗽/吞咽/走路时不适或运动损伤。",
+        examples: [
+          "It hurts when I swallow.",
+          "It hurts when I walk.",
+          "It hurts when I cough.",
+          "It hurts when I move my arm.",
+          "It hurts when I press here."
+        ],
+        practiceTip: "根据症状替换动作。例如喉咙痛：It hurts when I swallow. 膝盖痛：It hurts when I walk."
+      },
+      {
+        pattern: "Is this available over the counter?",
+        usage: "用于询问“这个可以直接买到吗？需要处方吗？”over the counter 指不需要医生处方、可以在药店直接购买。",
+        examples: [
+          "Is this available over the counter?",
+          "Is this medicine available over the counter?",
+          "Is allergy medicine available over the counter?",
+          "Is pain relief available over the counter?",
+          "Do I need a prescription for this?"
+        ],
+        practiceTip: "记住两个关键词：over the counter = 非处方；prescription = 处方。药店里也可以直接问：Do I need a prescription for this?"
+      },
+      {
+        pattern: "How often should I take this?",
+        usage: "用于表达“这个药我应该多久吃一次？”适合药店咨询用药、医生开药后确认剂量、询问一天几次或确认饭前饭后。",
+        examples: [
+          "How often should I take this?",
+          "How often should I take these tablets?",
+          "Should I take this before or after meals?",
+          "How many times a day should I take it?",
+          "Should I take it with water?"
+        ],
+        practiceTip: "重点掌握：How often should I take this? / How many times a day should I take it? / Should I take this before or after meals?"
+      }
+    ],
+    questions: [
+      {
+        question: "You feel unwell and want to describe your symptoms to a doctor. What would you say?",
+        answer: "I've been feeling unwell since last night. I also have a pain in my stomach. It hurts when I move around too much. I'm not sure if it is something serious, but I wanted to get it checked. I haven't taken any medicine yet."
+      },
+      {
+        question: "You have a sore throat and go to a pharmacy. What would you say?",
+        answer: "Hi, I've been feeling sick since yesterday, and my throat is quite sore. It hurts when I swallow. Is there anything available over the counter for a sore throat? Also, how often should I take it?"
+      },
+      {
+        question: "You hurt your knee while walking. How would you explain it?",
+        answer: "I have a pain in my left knee. It started this morning after I walked for a long time. It hurts when I go up and down stairs. I can still walk, but it feels uncomfortable. I'm not sure if I need to see a doctor."
+      },
+      {
+        question: "You want to buy medicine for a headache. What would you ask the pharmacist?",
+        answer: "Hi, I've been having a headache since this afternoon. Is there any pain relief available over the counter? Do I need a prescription for this medicine? How often should I take it, and should I take it after meals?"
+      },
+      {
+        question: "You are not sure how to take the medicine. What would you ask?",
+        answer: "Could you tell me how often I should take this? Should I take it before or after meals? Also, how many tablets should I take each time? I want to make sure I use it correctly."
+      }
+    ],
+    trainingFocus: "今天重点练习完整的看病 / 买药流程：I've been feeling..., I have a pain in..., It hurts when I..., Is this available over the counter?, How often should I take this? 至少替换三个症状，例如 headache, sore throat, stomach pain, back pain, knee pain。重点不是说得高级，而是说得清楚、具体、可理解。",
+    quote: {
+      text: "An ounce of prevention is worth a pound of cure.",
+      author: "Benjamin Franklin"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student explaining a sore throat to a friendly pharmacist, with speech bubbles saying "It hurts when I swallow" and "Is this available over the counter?", clean modern pharmacy, reassuring mood.
+    // 2. A gentle clinic cartoon scene where a student describes knee pain to a doctor using "I've been feeling..." and "It hurts when I walk", clear body-language storytelling, soft colors, calm supportive atmosphere.
   }
 ];
 
