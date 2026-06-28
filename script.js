@@ -2428,6 +2428,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student politely messaging a study group to reschedule a meeting, with a calendar app showing available time slots and speech bubbles saying "Could we move it to tomorrow?", calm responsible mood.
     // 2. A friendly campus cartoon scene where a student is on a delayed bus and sends a message saying "I'll be about fifteen minutes late", with a phone, bus stop, and appointment reminder, soft colors and practical study-abroad atmosphere.
+  },
+  {
+    day: 25,
+    title: "Day 25 - 室友、宿舍规则与共同生活高频口语",
+    theme: "和室友相处、请求对方小声一点、协商家务、表达歉意和建立规则",
+    patterns: [
+      {
+        pattern: "Is it okay if I...?",
+        usage: "用于礼貌询问“我可以……吗？”适合问室友能否使用厨房、冰箱、洗衣机，能否开窗、开灯、邀请朋友来，借用公共空间，或临时调整共同生活安排。",
+        examples: [
+          "Is it okay if I use the kitchen now?",
+          "Is it okay if I open the window?",
+          "Is it okay if I invite a friend over?",
+          "Is it okay if I do my laundry tonight?",
+          "Is it okay if I leave my bag here for a while?"
+        ],
+        practiceTip: "这个句型非常适合替代直接的 Can I...? 它语气更柔和，更适合室友关系。"
+      },
+      {
+        pattern: "Would you mind keeping...?",
+        usage: "用于礼貌地请求别人改变行为，表示“你介意保持……吗？”适合请室友小声一点、保持厨房干净、关门轻一点，或不要占用公共空间太久。",
+        examples: [
+          "Would you mind keeping the noise down?",
+          "Would you mind keeping the kitchen clean?",
+          "Would you mind keeping the door closed?",
+          "Would you mind keeping your things on your side?",
+          "Would you mind keeping the bathroom dry after using it?"
+        ],
+        practiceTip: "这个句型比较礼貌，但也比较直接。如果怕太强硬，可以加一句：Sorry to ask, but would you mind keeping the noise down?"
+      },
+      {
+        pattern: "I'll make sure to...",
+        usage: "用于表达“我会确保……”。适合向室友承诺会保持干净、表示自己会遵守规则、道歉后说明改进，或在小组合作中承担责任。",
+        examples: [
+          "I'll make sure to clean up after cooking.",
+          "I'll make sure to keep my things tidy.",
+          "I'll make sure to lock the door.",
+          "I'll make sure to turn off the lights.",
+          "I'll make sure to be quiet after 10 p.m."
+        ],
+        practiceTip: "这个句型比简单说 I will do it. 更有责任感。特别适合道歉后补一句：Sorry about that. I'll make sure to clean up next time."
+      },
+      {
+        pattern: "Let's take turns...",
+        usage: "用于表达“我们轮流……”。这是共同生活和小组合作中的高频句型，适合轮流打扫卫生、倒垃圾、做饭、分配小组任务，或轮流发言和展示。",
+        examples: [
+          "Let's take turns cleaning the kitchen.",
+          "Let's take turns taking out the rubbish.",
+          "Let's take turns using the washing machine.",
+          "Let's take turns presenting each section.",
+          "Let's take turns leading the group discussion."
+        ],
+        practiceTip: "这个句型非常适合提出公平安排。例如：Let's take turns cleaning the shared areas, so it feels fair for everyone."
+      },
+      {
+        pattern: "I didn't mean to...",
+        usage: "用于解释“我不是故意……”。适合不小心打扰室友、忘记清理东西、说错话、迟到或误会，以及社交场合中缓和气氛。",
+        examples: [
+          "I didn't mean to wake you up.",
+          "I didn't mean to make so much noise.",
+          "I didn't mean to leave the kitchen messy.",
+          "I didn't mean to interrupt you.",
+          "I didn't mean to cause any trouble."
+        ],
+        practiceTip: "这个句型后面通常接一句补救：I didn't mean to make so much noise. I'll be more careful next time."
+      }
+    ],
+    questions: [
+      {
+        question: "You want to invite a friend to your accommodation. What would you ask your roommate?",
+        answer: "Is it okay if I invite a friend over this evening? We'll just study in my room for a while. I'll make sure to keep the noise down. If it's not a good time, I can meet them somewhere else."
+      },
+      {
+        question: "Your roommate often makes noise late at night. What would you say politely?",
+        answer: "Sorry to ask, but would you mind keeping the noise down after 10 p.m.? I usually need to sleep early because I have class in the morning. I don't want to cause any conflict, but it would really help me. Thank you for understanding."
+      },
+      {
+        question: "You forgot to clean the kitchen after cooking. What would you say?",
+        answer: "Sorry, I didn't mean to leave the kitchen messy. I was in a hurry earlier. I'll make sure to clean up after cooking next time. I'll clean it now."
+      },
+      {
+        question: "You and your roommates need to divide housework. What would you suggest?",
+        answer: "Maybe we can make a simple cleaning schedule. Let's take turns cleaning the kitchen and taking out the rubbish. I think that would be fair for everyone. I'll make sure to do my part on time."
+      },
+      {
+        question: "Your roommate asks if they can use the washing machine first. How would you respond?",
+        answer: "Sure, that's fine. I was planning to do my laundry later anyway. Is it okay if I use it after you finish? Maybe we can take turns using it when we both need it."
+      }
+    ],
+    trainingFocus: "今天练习一套共同生活沟通系统：Is it okay if I...?, Would you mind keeping...?, I'll make sure to..., Let's take turns..., I didn't mean to... 可以组合成：Is it okay if I use the kitchen now? I'll make sure to clean up after cooking. Also, maybe we can take turns taking out the rubbish. Sorry about yesterday — I didn't mean to leave it there. 今天重点模拟两个场景：请求室友配合，比如小声一点、保持干净、轮流做家务；自己犯错后补救，比如道歉、解释、承诺下次注意。",
+    quote: {
+      text: "No act of kindness, no matter how small, is ever wasted.",
+      author: "Aesop"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of two international student roommates calmly making a shared cleaning schedule in a dorm kitchen, with speech bubbles saying "Let's take turns" and "I'll make sure to clean up", friendly cooperative mood.
+    // 2. A cozy study-abroad dorm cartoon scene where one student politely asks a roommate to keep the noise down after 10 p.m., with soft lighting, textbooks, laundry basket, and a peaceful respectful atmosphere.
   }
 ];
 
