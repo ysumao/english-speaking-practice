@@ -2923,6 +2923,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student at a university IT help desk showing a laptop error message that says "The file won't open", with a helpful staff member calmly troubleshooting, clean study-abroad campus setting.
     // 2. A friendly research-lab cartoon scene where two students debug simulation software together, one saying "Let's try restarting it first", with laptops, code windows, a simple error dialog, and a patient problem-solving mood.
+  },
+  {
+    day: 30,
+    title: "Day 30 - 论文阅读、课堂讨论与文献汇报高频口语",
+    theme: "如何用英语简单清楚地介绍一篇论文",
+    patterns: [
+      {
+        pattern: "The paper focuses on...",
+        usage: "用于表达“这篇论文主要关注……”。这是介绍论文主题时非常高频的开头，适合课堂文献汇报、和导师讨论论文、小组讨论 reading material、总结论文主题或介绍研究领域。",
+        examples: [
+          "The paper focuses on AGV scheduling in warehouse systems.",
+          "The paper focuses on path planning for mobile robots.",
+          "The paper focuses on simulation-based optimization.",
+          "The paper focuses on reducing waiting time in logistics systems.",
+          "The paper focuses on improving efficiency in manufacturing operations."
+        ],
+        practiceTip: "不要一开始就说复杂背景。先用一句话抓住主题：The paper focuses on..."
+      },
+      {
+        pattern: "The authors point out that...",
+        usage: "用于表达“作者指出……”。适合介绍论文中的观点、发现或问题，也适合汇报论文内容、解释作者观点、总结文献中的关键论点和课堂讨论。",
+        examples: [
+          "The authors point out that AGV congestion can reduce system efficiency.",
+          "The authors point out that path planning becomes harder when there are many vehicles.",
+          "The authors point out that simulation is useful for testing different scenarios.",
+          "The authors point out that traditional methods may not work well in dynamic environments.",
+          "The authors point out that task allocation and routing should be considered together."
+        ],
+        practiceTip: "这个句型非常适合替代 The paper says... 更自然一点是：The authors point out that..."
+      },
+      {
+        pattern: "A key finding is that...",
+        usage: "用于表达“一个关键发现是……”。适合总结论文结果或实验结论、汇报实验结果、总结论文贡献、课堂 discussion、presentation 中解释 findings，或和导师讨论论文价值。",
+        examples: [
+          "A key finding is that the proposed method reduces total travel time.",
+          "A key finding is that simulation helps compare different scheduling strategies.",
+          "A key finding is that congestion has a strong impact on system performance.",
+          "A key finding is that the algorithm works better in large-scale scenarios.",
+          "A key finding is that coordination between AGVs is very important."
+        ],
+        practiceTip: "当你想说“这篇论文最重要的结果”时，用：A key finding is that... 这比简单说 The result is... 更学术、更自然。"
+      },
+      {
+        pattern: "This is relevant to...",
+        usage: "用于表达“这和……有关 / 这对……有参考价值”。适合解释为什么读这篇论文、和导师说明文献价值、文献综述中建立联系，以及小组讨论中连接主题。",
+        examples: [
+          "This is relevant to my research topic.",
+          "This is relevant to AGV path planning.",
+          "This is relevant to warehouse simulation.",
+          "This is relevant to our group project.",
+          "This is relevant to the problem we discussed in class."
+        ],
+        practiceTip: "读论文时，不要只问 What does this paper say? 还要问：How is this relevant to my research? 这是学术阅读的关键。"
+      },
+      {
+        pattern: "I still need to figure out...",
+        usage: "用于表达“我还需要弄清楚……”。这是表达“我还没完全理解，但我知道问题在哪里”的高频句型，适合和导师讨论困惑、小组讨论中说明不确定点、阅读论文后提出后续问题，或做研究计划时明确下一步。",
+        examples: [
+          "I still need to figure out how the model works.",
+          "I still need to figure out how the authors define the constraints.",
+          "I still need to figure out whether this method applies to my topic.",
+          "I still need to figure out how to compare this paper with others.",
+          "I still need to figure out what the main contribution is."
+        ],
+        practiceTip: "不要只说 I don't understand. 更成熟的表达是：I still need to figure out... 它说明你正在主动解决问题。"
+      }
+    ],
+    questions: [
+      {
+        question: "You are introducing a paper about AGV scheduling. What would you say?",
+        answer: "The paper focuses on AGV scheduling in warehouse systems. The authors point out that poor task allocation can increase waiting time and reduce efficiency. A key finding is that coordinated scheduling can improve overall system performance. This is relevant to my research topic because I'm also interested in AGV systems and simulation."
+      },
+      {
+        question: "You read a paper but do not fully understand the model. How would you explain your problem?",
+        answer: "The paper focuses on optimization for multi-AGV systems. I understand the general topic, but I still need to figure out how the model works. In particular, I need to understand how the authors define the constraints. This is relevant to my research, so I want to spend more time reading the modelling section carefully."
+      },
+      {
+        question: "You want to explain why a paper is useful for your research. What would you say?",
+        answer: "This paper is relevant to my research because it discusses AGV path planning and task scheduling. The authors point out that these two problems are closely connected in real warehouse systems. A key finding is that considering them together can improve system efficiency. I think this could help me develop my own research direction."
+      },
+      {
+        question: "You are discussing a paper with a classmate. How would you summarize the main idea?",
+        answer: "The paper focuses on simulation-based optimization. The authors point out that simulation can be used to test different scenarios before real implementation. A key finding is that simulation helps compare different strategies under realistic conditions. I still need to figure out how they designed the experiments, but the main idea is clear."
+      },
+      {
+        question: "You want to tell your supervisor what you still need to understand. What would you say?",
+        answer: "I've read the paper once, and I understand the general direction. The paper focuses on AGV scheduling, which is relevant to my topic. However, I still need to figure out how the algorithm is evaluated. I'd like to compare this paper with other methods before deciding whether it is useful for my research."
+      }
+    ],
+    trainingFocus: "今天练习一套论文汇报系统：The paper focuses on..., The authors point out that..., A key finding is that..., This is relevant to..., I still need to figure out... 可以组合成：The paper focuses on AGV path planning. The authors point out that multi-AGV coordination is difficult in dynamic environments. A key finding is that the proposed method can reduce travel time. This is relevant to my research topic. I still need to figure out how the model handles conflicts between AGVs. 今天重点模拟两个场景：用30秒介绍一篇论文；用30秒说明自己哪里还没读懂。Day 30 小提醒：从明天开始，每天至少用当天5个句型脱稿说一段60秒英文。",
+    quote: {
+      text: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      author: "Mahatma Gandhi"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student presenting a research paper in a seminar, with a slide titled "The paper focuses on..." and diagrams of AGV scheduling, calm academic discussion mood.
+    // 2. A friendly study-abroad library cartoon scene where a student explains a paper to a classmate, pointing to highlighted findings and saying "I still need to figure out...", with laptops, printed papers, and thoughtful research atmosphere.
   }
 ];
 
