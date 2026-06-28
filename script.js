@@ -2725,6 +2725,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student giving a classroom presentation about AGV path planning, pointing to a slide with a simple system diagram, with speech bubbles saying "Today, I'll be talking about..." and "Let's move on to...", confident academic mood.
     // 2. A friendly university seminar cartoon scene where a student handles a question politely during a presentation, saying "I'll come back to that later", with classmates listening, slides on screen, soft colors and supportive atmosphere.
+  },
+  {
+    day: 28,
+    title: "Day 28 - 导师沟通、研究讨论与请教建议",
+    theme: "和导师 / 老师 / senior student 讨论研究方向、进展、问题和下一步",
+    patterns: [
+      {
+        pattern: "I'm currently looking into...",
+        usage: "用于表达“我目前正在研究 / 了解……”。比简单说 I'm studying... 更像研究语境。适合和导师介绍研究进展、和同学聊研究方向、说明自己正在查资料，或描述当前关注的问题。",
+        examples: [
+          "I'm currently looking into AGV path planning.",
+          "I'm currently looking into warehouse simulation.",
+          "I'm currently looking into scheduling problems.",
+          "I'm currently looking into different optimization methods.",
+          "I'm currently looking into how simulation can support decision-making."
+        ],
+        practiceTip: "这个句型很适合介绍当前课题：I'm currently looking into multi-AGV scheduling in warehouse systems."
+      },
+      {
+        pattern: "My understanding is that...",
+        usage: "用于表达“我的理解是……”。这是表达自己理解、同时保留修正空间的学术沟通句型。适合向老师确认理解、解释论文内容、小组讨论、课堂提问，或避免说得太绝对。",
+        examples: [
+          "My understanding is that the model has three main parts.",
+          "My understanding is that the algorithm is used to reduce travel time.",
+          "My understanding is that simulation is mainly used for validation.",
+          "My understanding is that the objective function focuses on efficiency.",
+          "My understanding is that the constraints define what the AGVs can and cannot do."
+        ],
+        practiceTip: "当不确定自己理解是否正确时，用：My understanding is that..., but please correct me if I'm wrong. 这句话非常适合和导师沟通。"
+      },
+      {
+        pattern: "I'm considering two options: ... and ...",
+        usage: "用于清楚表达“我正在考虑两个选择：……和……”。适合选研究方向、选方法、选软件工具、选课程或选论文结构。",
+        examples: [
+          "I'm considering two options: simulation and mathematical modelling.",
+          "I'm considering two options: FlexSim and a Python-based simulation platform.",
+          "I'm considering two options: exact optimization and heuristic algorithms.",
+          "I'm considering two options: focusing on scheduling or path planning.",
+          "I'm considering two options: a practical project or a more theoretical model."
+        ],
+        practiceTip: "这个句型能帮你把模糊问题说清楚。不要说 I don't know what to do. 要说：I'm considering two options: A and B. 这样别人更容易给你建议。"
+      },
+      {
+        pattern: "I'd appreciate your feedback on...",
+        usage: "用于表达“如果您能对……给我反馈，我会很感谢”。非常适合对导师、老师和 senior student 使用。适合请导师看研究计划、请老师看草稿、请同学看 presentation、请别人评价想法，或邮件/面对面沟通。",
+        examples: [
+          "I'd appreciate your feedback on my research proposal.",
+          "I'd appreciate your feedback on this model.",
+          "I'd appreciate your feedback on my presentation slides.",
+          "I'd appreciate your feedback on the structure of my report.",
+          "I'd appreciate your feedback on whether this topic is feasible."
+        ],
+        practiceTip: "这句话比 Please give me advice. 更礼貌、更成熟。可以直接说：I'd appreciate your feedback on whether this research direction is realistic."
+      },
+      {
+        pattern: "What would be a reasonable next step?",
+        usage: "用于表达“下一步比较合理的做法是什么？”这是非常适合研究讨论的句型。适合和导师讨论课题、项目遇到瓶颈、小组任务推进、选题不确定，或需要明确下一阶段工作。",
+        examples: [
+          "What would be a reasonable next step?",
+          "What would be a reasonable next step for this project?",
+          "What would be a reasonable next step after the literature review?",
+          "What would be a reasonable next step if the model becomes too complex?",
+          "What would be a reasonable next step before building the simulation?"
+        ],
+        practiceTip: "这个句型非常适合结尾。当你解释完现状后，可以问：Based on this, what would be a reasonable next step? 这会显得你很主动，也很清楚。"
+      }
+    ],
+    questions: [
+      {
+        question: "You want to introduce your current research interest to your supervisor. What would you say?",
+        answer: "I'm currently looking into AGV path planning and scheduling in warehouse systems. My understanding is that this topic connects optimization, simulation, and practical logistics problems. I'm especially interested in how multiple AGVs can work together efficiently. At this stage, I'm still trying to narrow down the research focus."
+      },
+      {
+        question: "You are unsure whether to use FlexSim or build a Python simulation. How would you explain this?",
+        answer: "I'm considering two options: using FlexSim for system simulation and developing a Python-based simulation platform for algorithm testing. My understanding is that FlexSim is useful for visual validation, while Python may offer more flexibility for algorithm experiments. I'd appreciate your feedback on which option would be more suitable for my research. What would be a reasonable next step?"
+      },
+      {
+        question: "You want your supervisor to comment on your research proposal. What would you say?",
+        answer: "I've prepared a draft of my research proposal. I'd appreciate your feedback on the research question, methodology, and overall structure. My understanding is that the proposal should clearly explain the problem, the method, and the expected contribution. Could you let me know whether the current direction is feasible?"
+      },
+      {
+        question: "You are discussing two possible research directions with a senior student. What would you say?",
+        answer: "I'm considering two options: focusing more on AGV scheduling or focusing more on path planning. My understanding is that scheduling is more related to task allocation and system efficiency, while path planning is more related to movement and conflict avoidance. I'm currently looking into both areas, but I need to choose a clearer focus. What would be a reasonable next step?"
+      },
+      {
+        question: "You want to confirm whether your understanding of a paper is correct. What would you say?",
+        answer: "My understanding is that this paper proposes a heuristic algorithm for improving AGV task allocation. It seems that the main objective is to reduce total completion time. I'm currently looking into how the authors define the constraints. I'd appreciate your feedback on whether I'm interpreting the model correctly."
+      }
+    ],
+    trainingFocus: "今天练习一套研究沟通系统：I'm currently looking into..., My understanding is that..., I'm considering two options: ... and ..., I'd appreciate your feedback on..., What would be a reasonable next step? 可以组合成：I'm currently looking into AGV scheduling and simulation. My understanding is that simulation can help validate the algorithm. I'm considering two options: using FlexSim or building a Python-based platform. I'd appreciate your feedback on which direction is more suitable. What would be a reasonable next step? 今天重点模拟两个场景：向导师介绍研究兴趣；向导师请教方法选择。",
+    quote: {
+      text: "Research is to see what everybody else has seen, and to think what nobody else has thought.",
+      author: "Albert Szent-Gyorgyi"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student discussing AGV scheduling with a supervisor in a university office, with notes about simulation, optimization, and next steps on a whiteboard, calm academic mood.
+    // 2. A friendly research meeting cartoon scene where a student compares FlexSim and Python simulation options with a senior student, laptops open, diagrams on paper, speech bubbles saying "I'd appreciate your feedback" and "What would be a reasonable next step?"
   }
 ];
 
