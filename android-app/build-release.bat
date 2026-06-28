@@ -15,8 +15,13 @@ call gradlew.bat --no-daemon assembleRelease
 if errorlevel 1 exit /b %errorlevel%
 
 if not exist "dist" mkdir "dist"
+for /f "usebackq delims=" %%V in (`powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Date -Format 'yyyy.MM.dd-HHmmss'"`) do set "APK_VERSION=%%V"
+
 copy /Y "app\build\outputs\apk\release\app-release.apk" "dist\Daily-English-Practice-latest.apk" >nul
+if errorlevel 1 exit /b %errorlevel%
+copy /Y "app\build\outputs\apk\release\app-release.apk" "dist\Daily-English-Practice-%APK_VERSION%.apk" >nul
 if errorlevel 1 exit /b %errorlevel%
 
 echo APK ready: dist\Daily-English-Practice-latest.apk
+echo Versioned APK ready: dist\Daily-English-Practice-%APK_VERSION%.apk
 endlocal
