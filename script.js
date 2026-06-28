@@ -2329,6 +2329,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student at a university library desk borrowing engineering textbooks and asking "When is this due?", with bookshelves, a student card, and a helpful librarian, calm study-focused mood.
     // 2. A friendly campus library cartoon scene where a student accesses academic journals on a laptop and prints an assignment nearby, with subtle icons for databases, printing credits, and study rooms, bright and positive atmosphere.
+  },
+  {
+    day: 24,
+    title: "Day 24 - 预约、改时间与迟到沟通高频口语",
+    theme: "临时有事、迟到、改时间、说明自己什么时候有空",
+    patterns: [
+      {
+        pattern: "I'm afraid I can't make it to...",
+        usage: "用于表达“恐怕我去不了 / 参加不了……”。这里的 make it to 表示“成功到场、参加”，适合不能参加小组会议、不能去预约、不能上某节课、不能参加活动或不能按时赴约。",
+        examples: [
+          "I'm afraid I can't make it to the meeting.",
+          "I'm afraid I can't make it to class today.",
+          "I'm afraid I can't make it to the appointment.",
+          "I'm afraid I can't make it to the group discussion.",
+          "I'm afraid I can't make it to the seminar this afternoon."
+        ],
+        practiceTip: "这句话比直接说 I can't come. 更礼貌、更自然。注意 make it to + 地点 / 活动。"
+      },
+      {
+        pattern: "Something came up.",
+        usage: "用于表达“临时有事”。这是非常地道的口语表达，常用于解释为什么突然不能参加、需要迟到、取消或改时间，也适合不想过度解释私人原因的场景。",
+        examples: [
+          "Sorry, something came up.",
+          "Something came up, so I may be late.",
+          "Something came up, and I can't make it to the meeting.",
+          "Something urgent came up this morning.",
+          "I'm really sorry, but something came up at the last minute."
+        ],
+        practiceTip: "这句话适合不想解释太多细节时使用。完整表达可以是：Sorry, something came up, and I'm afraid I can't make it to the meeting."
+      },
+      {
+        pattern: "Could we move it to...?",
+        usage: "用于表达“我们可以把它改到……吗？”这里的 it 可以指 meeting, appointment, discussion, call 等。适合改会议时间、改预约时间、改讨论时间、和同学协调小组任务，或和老师重新约时间。",
+        examples: [
+          "Could we move it to tomorrow?",
+          "Could we move it to Friday afternoon?",
+          "Could we move it to next week?",
+          "Could we move it to 3 p.m.?",
+          "Could we move it to after class?"
+        ],
+        practiceTip: "比起重新解释一整句 Could we change the meeting time to...? 口语里更常说：Could we move it to...? 但前提是双方都知道 it 指什么。"
+      },
+      {
+        pattern: "I'm available between... and...",
+        usage: "用于清楚表达“我在……到……之间有空”。适合预约老师 office hours、安排小组会议、和朋友约时间、和学校办公室确认 appointment，以及安排线上会议。",
+        examples: [
+          "I'm available between 2 and 4 p.m.",
+          "I'm available between Monday and Wednesday.",
+          "I'm available between classes.",
+          "I'm available between 10 a.m. and noon.",
+          "I'm available between 3 and 5 tomorrow afternoon."
+        ],
+        practiceTip: "这个句型很适合替代模糊的 I have time. 更清楚的表达是：I'm available between 2 and 4 p.m."
+      },
+      {
+        pattern: "I'll be about... minutes late.",
+        usage: "用于表达“我大概要迟到……分钟”。这是迟到时必须掌握的句型，适合上课、小组会议、预约、交通延误、打车或公交延误等场景。",
+        examples: [
+          "I'll be about five minutes late.",
+          "I'll be about ten minutes late.",
+          "I'll be about fifteen minutes late.",
+          "I'll be about twenty minutes late because of traffic.",
+          "I'll be about ten minutes late, but I'm on my way."
+        ],
+        practiceTip: "迟到时不要只说 I'm late. 要说明预计时间：I'll be about ten minutes late. 这会让对方更容易安排。"
+      }
+    ],
+    questions: [
+      {
+        question: "You cannot attend a group meeting because something urgent came up. What would you say?",
+        answer: "Sorry, something urgent came up, and I'm afraid I can't make it to the group meeting today. Could we move it to tomorrow afternoon? I'm available between 2 and 4 p.m. I'm really sorry for the inconvenience."
+      },
+      {
+        question: "You are on your way to class, but you will be late. What would you say to your classmate?",
+        answer: "I'm on my way, but I'll be about ten minutes late. Something came up this morning, so I left later than planned. Could you save me a seat if possible? I'll join the class as soon as I arrive."
+      },
+      {
+        question: "You need to reschedule a meeting with your professor. What would you say?",
+        answer: "I'm sorry, but I'm afraid I can't make it to our meeting at the original time. Something came up, and I need to reschedule. Could we move it to Friday afternoon? I'm available between 3 and 5 p.m."
+      },
+      {
+        question: "Your group wants to arrange a discussion. How would you tell them your available time?",
+        answer: "I'm available between 10 a.m. and noon tomorrow. I'm also available after 4 p.m. on Friday. Could we move the discussion to one of those times? I think it would be better to choose a time when everyone can join."
+      },
+      {
+        question: "You have an appointment with student services, but your bus is delayed. What would you say?",
+        answer: "Hi, I have an appointment at 2 p.m., but my bus is delayed. I'll be about fifteen minutes late. I'm really sorry about that. Should I still come, or should we move it to another time?"
+      }
+    ],
+    trainingFocus: "今天练习一套时间协调系统：I'm afraid I can't make it to..., Something came up., Could we move it to...?, I'm available between... and..., I'll be about... minutes late. 可以组合成：Sorry, something came up, and I'm afraid I can't make it to the meeting. Could we move it to tomorrow? I'm available between 2 and 4 p.m. If that doesn't work, I can also do Friday afternoon. 今天重点模拟两个场景：不能参加小组会议，主动改时间；快迟到了，提前告知预计迟到时间。",
+    quote: {
+      text: "Punctuality is the politeness of kings.",
+      author: "Louis XVIII"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student politely messaging a study group to reschedule a meeting, with a calendar app showing available time slots and speech bubbles saying "Could we move it to tomorrow?", calm responsible mood.
+    // 2. A friendly campus cartoon scene where a student is on a delayed bus and sends a message saying "I'll be about fifteen minutes late", with a phone, bus stop, and appointment reminder, soft colors and practical study-abroad atmosphere.
   }
 ];
 
