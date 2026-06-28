@@ -2626,6 +2626,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student at a campus orientation booth asking "Are there any spots left?", with club posters, friendly student volunteers, and a bright welcoming university atmosphere.
     // 2. A lively but calm study-abroad cartoon scene where students invite a new classmate to a language exchange event, with speech bubbles saying "Count me in" and "I might sit this one out", positive social campus mood.
+  },
+  {
+    day: 27,
+    title: "Day 27 - Presentation 与课堂展示高频口语",
+    theme: "课堂 presentation、展示 slides、引出主题、转到下一部分、处理提问",
+    patterns: [
+      {
+        pattern: "Today, I'll be talking about...",
+        usage: "用于表达“今天我会讲……”。这是 presentation 开头最常用的句型之一，适合课堂展示开场、小组汇报开场、研讨课发言、介绍研究主题，或在线上会议中简短说明主题。",
+        examples: [
+          "Today, I'll be talking about AGV path planning.",
+          "Today, I'll be talking about our group project.",
+          "Today, I'll be talking about the main findings from this paper.",
+          "Today, I'll be talking about the challenges of studying abroad.",
+          "Today, I'll be talking about how simulation can support decision-making."
+        ],
+        practiceTip: "这个句型要练到自动化。以后 presentation 一开始，不要想复杂开场，直接说：Today, I'll be talking about..."
+      },
+      {
+        pattern: "The purpose of this presentation is to...",
+        usage: "用于表达“这次展示的目的是……”。这个句型比简单说 I will talk about... 更正式一点，很适合大学课堂。适合说明展示目标、介绍研究目的、解释报告结构、开始学术汇报或小组 presentation 开场。",
+        examples: [
+          "The purpose of this presentation is to introduce our research topic.",
+          "The purpose of this presentation is to explain the main problem.",
+          "The purpose of this presentation is to compare two different methods.",
+          "The purpose of this presentation is to discuss the results of our simulation.",
+          "The purpose of this presentation is to show how the model works."
+        ],
+        practiceTip: "这个句型很适合连接研究方向：The purpose of this presentation is to explain how AGV scheduling can improve warehouse efficiency."
+      },
+      {
+        pattern: "As you can see from this slide,...",
+        usage: "用于表达“正如你们从这页幻灯片可以看到的……”。这是讲 slides 时非常实用的引导句，适合解释图表、讲数据、指向图片或流程图、展示模型结构和实验结果。",
+        examples: [
+          "As you can see from this slide, the system has three main parts.",
+          "As you can see from this slide, the results improved after optimization.",
+          "As you can see from this slide, the process is divided into five steps.",
+          "As you can see from this slide, the problem becomes more complex when there are more AGVs.",
+          "As you can see from this slide, the simulation results are quite clear."
+        ],
+        practiceTip: "不要只是读 slide 上的文字。要练：As you can see from this slide, + 你对图表的解释。这样你才是在“讲”，不是在“念”。"
+      },
+      {
+        pattern: "Let's move on to...",
+        usage: "用于表达“接下来我们进入……”。这是 presentation 中最常用的转场句，适合从背景转到方法、从方法转到结果、从结果转到讨论、小组展示中切换部分，或课堂讲解中推进结构。",
+        examples: [
+          "Let's move on to the next slide.",
+          "Let's move on to the methodology.",
+          "Let's move on to the simulation results.",
+          "Let's move on to the main challenges.",
+          "Let's move on to the conclusion."
+        ],
+        practiceTip: "Presentation 不流畅，很多时候不是内容问题，而是缺少转场句。把 Let's move on to... 练熟，可以让展示显得更有结构。"
+      },
+      {
+        pattern: "I'll come back to that later.",
+        usage: "用于表达“这个问题我稍后会再讲”。当别人提前问到后面内容，或者你暂时不想打断展示节奏时，这句话非常有用。适合 presentation 中处理提前问题、课堂解释时保持结构、小组讨论中暂时搁置某个点，或会议中控制发言顺序。",
+        examples: [
+          "I'll come back to that later.",
+          "I'll come back to this point later in the presentation.",
+          "I'll come back to the results in a few minutes.",
+          "I'll come back to the limitations at the end.",
+          "That's a good question, and I'll come back to it later."
+        ],
+        practiceTip: "这句话可以帮你避免被问题打乱节奏。例如：That's a good question. I'll come back to that later when I discuss the results."
+      }
+    ],
+    questions: [
+      {
+        question: "You are starting a presentation about your research topic. What would you say?",
+        answer: "Good morning, everyone. Today, I'll be talking about AGV path planning and scheduling. The purpose of this presentation is to introduce the main problem and explain why it is important in warehouse systems. I'll first give some background, then discuss the method, and finally show some simulation results."
+      },
+      {
+        question: "You are explaining a slide with a system diagram. What would you say?",
+        answer: "As you can see from this slide, the system has three main parts: the warehouse environment, the AGV fleet, and the task scheduling module. The arrows show how information moves between different parts of the system. This diagram helps us understand the overall structure before we move on to the algorithm."
+      },
+      {
+        question: "You need to move from background to methodology. What would you say?",
+        answer: "Now that we have introduced the background, let's move on to the methodology. In this part, I'll explain how we model the problem and what assumptions we make. The purpose of this section is to show how the research question is translated into a workable model."
+      },
+      {
+        question: "Someone asks a question that you will answer later in your presentation. What would you say?",
+        answer: "That's a good question. I'll come back to that later when I discuss the simulation results. For now, I'd like to finish explaining the model structure first. Then the results will make more sense."
+      },
+      {
+        question: "You are presenting your group project and need to introduce the next speaker. What would you say?",
+        answer: "That's all for my part. I've introduced the background and the main problem. Now let's move on to the methodology. My group member will explain how we designed the model and how we tested it in the simulation."
+      }
+    ],
+    trainingFocus: "今天练习一套完整的 presentation 流程：Today, I'll be talking about..., The purpose of this presentation is to..., As you can see from this slide,..., Let's move on to..., I'll come back to that later. 可以组合成：Today, I'll be talking about AGV scheduling. The purpose of this presentation is to explain the problem and compare different methods. As you can see from this slide, the system includes tasks, vehicles, and routes. Now, let's move on to the methodology. If you have questions about the results, I'll come back to that later. 今天重点模拟两个场景：开场 30 秒，包括主题、目的、结构；讲 slide 30 秒，包括图表、流程、转场。",
+    quote: {
+      text: "If you can't explain it simply, you don't understand it well enough.",
+      author: "Albert Einstein"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student giving a classroom presentation about AGV path planning, pointing to a slide with a simple system diagram, with speech bubbles saying "Today, I'll be talking about..." and "Let's move on to...", confident academic mood.
+    // 2. A friendly university seminar cartoon scene where a student handles a question politely during a presentation, saying "I'll come back to that later", with classmates listening, slides on screen, soft colors and supportive atmosphere.
   }
 ];
 

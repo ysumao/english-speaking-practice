@@ -176,6 +176,7 @@ images: [
 - Day 24: 临时有事、迟到、改时间、说明自己什么时候有空
 - Day 25: 和室友相处、请求对方小声一点、协商家务、表达歉意和建立规则
 - Day 26: 参加 orientation、加入社团、报名活动、接受或婉拒邀请
+- Day 27: 课堂 presentation、展示 slides、引出主题、转到下一部分、处理提问
 
 ## Implementation Notes
 
