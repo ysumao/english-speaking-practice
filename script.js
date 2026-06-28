@@ -2032,6 +2032,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student opening a bank account, showing a passport and university documents to a helpful bank employee, with speech bubbles saying "What documents do I need?" and "Can I set up online banking?", clean modern branch.
     // 2. A friendly mobile-phone shop cartoon scene where a student compares two SIM plans and asks about data, 5G, roaming, and cancellation fees, bright clear plan cards, practical study-abroad mood.
+  },
+  {
+    day: 21,
+    title: "Day 21 - 课堂、Seminar 与小组讨论高频口语",
+    theme: "听课没跟上、请同学解释、确认讨论重点、参与小组任务",
+    patterns: [
+      {
+        pattern: "I'm not following this part.",
+        usage: "用于表达“我这部分没跟上”。比直接说 I don't understand 更自然，也更适合课堂和讨论。适合听课时某部分没理解、小组讨论中跟不上逻辑、同学解释太快，或老师讲到某个步骤时自己卡住了。",
+        examples: [
+          "I'm not following this part.",
+          "I'm not following the calculation here.",
+          "I'm not following the logic of this argument.",
+          "I'm not following the second step.",
+          "I'm not following how you got this result."
+        ],
+        practiceTip: "不要怕说这句话。这不是“我很差”，而是“我需要把这部分弄清楚”。可以说：Sorry, I'm not following this part. Could you go over it again?"
+      },
+      {
+        pattern: "Could you walk me through...?",
+        usage: "用于表达“你可以带我一步一步过一遍……吗？”walk someone through something 是非常高频的口语表达，意思是“逐步解释”。适合请同学解释作业步骤、请老师解释解题过程、请工作人员说明系统操作，或请组员说明项目流程。",
+        examples: [
+          "Could you walk me through the steps?",
+          "Could you walk me through the assignment requirements?",
+          "Could you walk me through the process?",
+          "Could you walk me through how you solved this problem?",
+          "Could you walk me through the presentation structure?"
+        ],
+        practiceTip: "这个句型尤其适合理工科方向。例如：Could you walk me through how this algorithm works? 这比简单说 Please explain. 更自然、更具体。"
+      },
+      {
+        pattern: "How does this relate to...?",
+        usage: "用于表达“这个和……有什么关系？”这是课堂和学术讨论中的高频句型，适合连接概念和主题、理解理论和案例之间的关系、课堂提问，以及讨论论文、模型或实验结果。",
+        examples: [
+          "How does this relate to the main topic?",
+          "How does this relate to our assignment?",
+          "How does this relate to the previous lecture?",
+          "How does this relate to real-world applications?",
+          "How does this relate to AGV path planning?"
+        ],
+        practiceTip: "这个句型可以让你在课堂上提出更成熟的问题。例如：How does this relate to the model we discussed last week? 这比简单问“什么意思”更学术。"
+      },
+      {
+        pattern: "I'd like to clarify one thing.",
+        usage: "用于表达“我想澄清一件事”。这个句型适合在讨论中礼貌插入，确认某个细节。适合课堂提问、小组分工、会议讨论、确认任务要求和避免误解。",
+        examples: [
+          "I'd like to clarify one thing.",
+          "I'd like to clarify the deadline.",
+          "I'd like to clarify our group roles.",
+          "I'd like to clarify what we need to submit.",
+          "I'd like to clarify the difference between these two methods."
+        ],
+        practiceTip: "这个句型很适合替代过于直接的 I have a question. I have a question 没错，但 I'd like to clarify one thing. 听起来更成熟、更有目的性。"
+      },
+      {
+        pattern: "Should we focus on... or...?",
+        usage: "用于表达“我们应该重点关注……还是……？”这是小组讨论中非常实用的决策句型，适合小组项目确定方向、讨论报告重点、分配任务、选择研究角度和准备 presentation。",
+        examples: [
+          "Should we focus on theory or application?",
+          "Should we focus on the case study or the literature review?",
+          "Should we focus on cost or performance?",
+          "Should we focus on the problem definition or the solution?",
+          "Should we focus on the simulation results or the algorithm design?"
+        ],
+        practiceTip: "这个句型可以帮你主动参与小组讨论。不要一直等别人安排任务，可以说：Should we focus on the model first or the simulation part?"
+      }
+    ],
+    questions: [
+      {
+        question: "You don't understand one part of the lecture. What would you say?",
+        answer: "Sorry, I'm not following this part. I understand the general idea, but I'm not sure how this step works. Could you walk me through the calculation again? I'd like to clarify how you got this result."
+      },
+      {
+        question: "Your group is discussing an assignment, but the task is still unclear. What would you say?",
+        answer: "I'd like to clarify one thing before we start. What exactly do we need to submit for this assignment? Should we focus on the case study or the literature review? Also, could someone walk me through the requirements again?"
+      },
+      {
+        question: "You are discussing a research topic with a classmate. How would you ask about its relevance?",
+        answer: "That sounds interesting. How does this relate to real-world applications? I'm especially interested in how the theory connects with practical engineering problems. For example, how does this relate to AGV scheduling or path planning?"
+      },
+      {
+        question: "Your group is preparing a presentation. How would you help decide the focus?",
+        answer: "Should we focus on the problem definition first or the solution? I think the audience needs to understand the background before we explain the method. I'd also like to clarify who will present each part. Could we walk through the presentation structure together?"
+      },
+      {
+        question: "A classmate explains a solution too quickly. What would you say?",
+        answer: "Sorry, I'm not following how you got this result. Could you walk me through the steps? I understand the final answer, but I'm confused about the middle part. I'd like to clarify the logic before moving on."
+      }
+    ],
+    trainingFocus: "今天练习一套课堂参与系统：I'm not following this part., Could you walk me through...?, How does this relate to...?, I'd like to clarify one thing., Should we focus on... or...? 可以组合成：I'm not following this part. Could you walk me through the steps again? I'd like to clarify how this relates to our assignment. Should we focus on the theory or the application? 今天至少模拟两个场景：课堂没听懂，向老师追问；小组讨论中，确认任务重点。",
+    quote: {
+      text: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+      author: "Benjamin Franklin"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student in a seminar room politely raising a hand and saying "I'd like to clarify one thing," while classmates discuss a group assignment on a whiteboard, bright academic atmosphere.
+    // 2. A friendly study-abroad classroom cartoon where a student asks a classmate to walk through an assignment step by step, with notes, laptops, and a presentation outline, soft colors and encouraging mood.
   }
 ];
 
