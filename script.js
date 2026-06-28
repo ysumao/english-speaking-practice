@@ -2131,6 +2131,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student in a seminar room politely raising a hand and saying "I'd like to clarify one thing," while classmates discuss a group assignment on a whiteboard, bright academic atmosphere.
     // 2. A friendly study-abroad classroom cartoon where a student asks a classmate to walk through an assignment step by step, with notes, laptops, and a presentation outline, soft colors and encouraging mood.
+  },
+  {
+    day: 22,
+    title: "Day 22 - 邮件、消息与学校沟通高频句型",
+    theme: "给老师、同学、学校办公室发邮件或消息",
+    patterns: [
+      {
+        pattern: "I'm writing to...",
+        usage: "用于表达“我写信是为了……”。这是邮件开头最常用的句型之一，适合给老师发邮件、联系学校办公室、询问课程信息、说明问题、请求帮助或预约。",
+        examples: [
+          "I'm writing to ask about the assignment.",
+          "I'm writing to confirm my appointment.",
+          "I'm writing to ask for some information about course registration.",
+          "I'm writing to let you know that I may be late.",
+          "I'm writing to follow up on my previous email."
+        ],
+        practiceTip: "以后写邮件不要一上来写一大段背景，先用一句话说明目的：I'm writing to ask about... 这样会让邮件非常清楚。"
+      },
+      {
+        pattern: "I've attached...",
+        usage: "用于表达“我已经附上了……”。适合发送文件、提交材料、发作业、发送证明文件，或给老师发草稿和表格。",
+        examples: [
+          "I've attached my assignment.",
+          "I've attached the required documents.",
+          "I've attached my draft for your review.",
+          "I've attached a copy of my passport.",
+          "I've attached the completed form to this email."
+        ],
+        practiceTip: "注意常见搭配：attach a file, attach a document, attach a copy of... 邮件中可以写：I've attached the file to this email."
+      },
+      {
+        pattern: "Could you confirm whether...?",
+        usage: "用于表达“您能否确认一下是否……？”这个句型比直接问 Is it...? 更正式、更适合邮件。适合确认截止日期、是否收到文件、会议时间、注册状态或要求是否正确。",
+        examples: [
+          "Could you confirm whether you received my email?",
+          "Could you confirm whether the deadline is Friday?",
+          "Could you confirm whether my registration is complete?",
+          "Could you confirm whether I need to submit a hard copy?",
+          "Could you confirm whether the meeting will be online or in person?"
+        ],
+        practiceTip: "这是非常适合学生的句型。结构是：Could you confirm whether + 完整句子？例如：Could you confirm whether I need to bring my student ID?"
+      },
+      {
+        pattern: "I haven't received... yet.",
+        usage: "用于礼貌说明“我还没有收到……”。适合没收到回复、确认邮件、学生卡、登录信息或课程材料的场景。",
+        examples: [
+          "I haven't received the confirmation email yet.",
+          "I haven't received my student ID yet.",
+          "I haven't received any update yet.",
+          "I haven't received the login details yet.",
+          "I haven't received a reply to my previous email yet."
+        ],
+        practiceTip: "注意 yet 放在句末，表示“到现在还没有”。I haven't received the document yet. 比 You didn't send me the document. 礼貌很多。"
+      },
+      {
+        pattern: "I'll get back to you...",
+        usage: "用于表达“我之后回复你 / 我之后再告诉你”。这是非常自然的沟通句型，适合需要查信息再回复、暂时不能确定时间、需要考虑后再答复，或在小组讨论中暂时没有答案。",
+        examples: [
+          "I'll get back to you later today.",
+          "I'll get back to you by tomorrow.",
+          "I'll get back to you after checking my schedule.",
+          "I'll get back to you once I have more information.",
+          "I'll get back to you as soon as possible."
+        ],
+        practiceTip: "这个句型非常适合避免当场卡住。别人问你是否有空时，可以说：Let me check my schedule, and I'll get back to you later today."
+      }
+    ],
+    questions: [
+      {
+        question: "You want to email your professor about an assignment. What would you write or say?",
+        answer: "Dear Professor, I'm writing to ask about the assignment for this week. Could you confirm whether the deadline is this Friday? I'm not completely sure whether we need to submit a hard copy or upload it online. Thank you for your help."
+      },
+      {
+        question: "You need to send documents to student services. What would you write?",
+        answer: "Hello, I'm writing to submit the required documents for my registration. I've attached the completed form and a copy of my passport to this email. Could you confirm whether you received them? Please let me know if anything else is needed."
+      },
+      {
+        question: "You have not received your login details. What would you say to IT support?",
+        answer: "Hi, I haven't received my login details yet. I'm writing to ask whether my student account has been activated. Could you confirm whether the details have already been sent? I need them to access the university system."
+      },
+      {
+        question: "A classmate asks whether you can join a group meeting, but you are not sure yet. What would you say?",
+        answer: "I'm not sure yet. I need to check my schedule first. I'll get back to you later today. If I'm not available at that time, maybe we can choose another time that works for everyone."
+      },
+      {
+        question: "You sent an email last week but received no reply. How would you follow up politely?",
+        answer: "Hello, I'm writing to follow up on my previous email. I haven't received a reply yet, so I just wanted to check whether my message was received. Could you confirm whether there is any update? Thank you very much."
+      }
+    ],
+    trainingFocus: "今天练习一套完整的邮件沟通流程：I'm writing to..., I've attached..., Could you confirm whether...?, I haven't received... yet., I'll get back to you... 可以组合成：I'm writing to ask about my registration. I've attached the required documents to this email. Could you confirm whether you received them? I haven't received a confirmation email yet. I'll get back to you if you need any additional information. 今天请重点模拟两个场景：给老师发邮件问作业要求；给学校办公室发邮件提交文件并确认收到。",
+    quote: {
+      text: "Brevity is the soul of wit.",
+      author: "William Shakespeare"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student writing a polite email to a professor on a laptop, with a clean inbox interface and speech bubbles showing "I'm writing to..." and "Could you confirm whether...?", calm study desk setting.
+    // 2. A friendly campus office cartoon scene where a student sends attached documents to student services and receives a confirmation message, with soft colors, clear email icons, and a practical study-abroad mood.
   }
 ];
 
