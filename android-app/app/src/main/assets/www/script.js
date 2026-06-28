@@ -2032,6 +2032,996 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student opening a bank account, showing a passport and university documents to a helpful bank employee, with speech bubbles saying "What documents do I need?" and "Can I set up online banking?", clean modern branch.
     // 2. A friendly mobile-phone shop cartoon scene where a student compares two SIM plans and asks about data, 5G, roaming, and cancellation fees, bright clear plan cards, practical study-abroad mood.
+  },
+  {
+    day: 21,
+    title: "Day 21 - 课堂、Seminar 与小组讨论高频口语",
+    theme: "听课没跟上、请同学解释、确认讨论重点、参与小组任务",
+    patterns: [
+      {
+        pattern: "I'm not following this part.",
+        usage: "用于表达“我这部分没跟上”。比直接说 I don't understand 更自然，也更适合课堂和讨论。适合听课时某部分没理解、小组讨论中跟不上逻辑、同学解释太快，或老师讲到某个步骤时自己卡住了。",
+        examples: [
+          "I'm not following this part.",
+          "I'm not following the calculation here.",
+          "I'm not following the logic of this argument.",
+          "I'm not following the second step.",
+          "I'm not following how you got this result."
+        ],
+        practiceTip: "不要怕说这句话。这不是“我很差”，而是“我需要把这部分弄清楚”。可以说：Sorry, I'm not following this part. Could you go over it again?"
+      },
+      {
+        pattern: "Could you walk me through...?",
+        usage: "用于表达“你可以带我一步一步过一遍……吗？”walk someone through something 是非常高频的口语表达，意思是“逐步解释”。适合请同学解释作业步骤、请老师解释解题过程、请工作人员说明系统操作，或请组员说明项目流程。",
+        examples: [
+          "Could you walk me through the steps?",
+          "Could you walk me through the assignment requirements?",
+          "Could you walk me through the process?",
+          "Could you walk me through how you solved this problem?",
+          "Could you walk me through the presentation structure?"
+        ],
+        practiceTip: "这个句型尤其适合理工科方向。例如：Could you walk me through how this algorithm works? 这比简单说 Please explain. 更自然、更具体。"
+      },
+      {
+        pattern: "How does this relate to...?",
+        usage: "用于表达“这个和……有什么关系？”这是课堂和学术讨论中的高频句型，适合连接概念和主题、理解理论和案例之间的关系、课堂提问，以及讨论论文、模型或实验结果。",
+        examples: [
+          "How does this relate to the main topic?",
+          "How does this relate to our assignment?",
+          "How does this relate to the previous lecture?",
+          "How does this relate to real-world applications?",
+          "How does this relate to AGV path planning?"
+        ],
+        practiceTip: "这个句型可以让你在课堂上提出更成熟的问题。例如：How does this relate to the model we discussed last week? 这比简单问“什么意思”更学术。"
+      },
+      {
+        pattern: "I'd like to clarify one thing.",
+        usage: "用于表达“我想澄清一件事”。这个句型适合在讨论中礼貌插入，确认某个细节。适合课堂提问、小组分工、会议讨论、确认任务要求和避免误解。",
+        examples: [
+          "I'd like to clarify one thing.",
+          "I'd like to clarify the deadline.",
+          "I'd like to clarify our group roles.",
+          "I'd like to clarify what we need to submit.",
+          "I'd like to clarify the difference between these two methods."
+        ],
+        practiceTip: "这个句型很适合替代过于直接的 I have a question. I have a question 没错，但 I'd like to clarify one thing. 听起来更成熟、更有目的性。"
+      },
+      {
+        pattern: "Should we focus on... or...?",
+        usage: "用于表达“我们应该重点关注……还是……？”这是小组讨论中非常实用的决策句型，适合小组项目确定方向、讨论报告重点、分配任务、选择研究角度和准备 presentation。",
+        examples: [
+          "Should we focus on theory or application?",
+          "Should we focus on the case study or the literature review?",
+          "Should we focus on cost or performance?",
+          "Should we focus on the problem definition or the solution?",
+          "Should we focus on the simulation results or the algorithm design?"
+        ],
+        practiceTip: "这个句型可以帮你主动参与小组讨论。不要一直等别人安排任务，可以说：Should we focus on the model first or the simulation part?"
+      }
+    ],
+    questions: [
+      {
+        question: "You don't understand one part of the lecture. What would you say?",
+        answer: "Sorry, I'm not following this part. I understand the general idea, but I'm not sure how this step works. Could you walk me through the calculation again? I'd like to clarify how you got this result."
+      },
+      {
+        question: "Your group is discussing an assignment, but the task is still unclear. What would you say?",
+        answer: "I'd like to clarify one thing before we start. What exactly do we need to submit for this assignment? Should we focus on the case study or the literature review? Also, could someone walk me through the requirements again?"
+      },
+      {
+        question: "You are discussing a research topic with a classmate. How would you ask about its relevance?",
+        answer: "That sounds interesting. How does this relate to real-world applications? I'm especially interested in how the theory connects with practical engineering problems. For example, how does this relate to AGV scheduling or path planning?"
+      },
+      {
+        question: "Your group is preparing a presentation. How would you help decide the focus?",
+        answer: "Should we focus on the problem definition first or the solution? I think the audience needs to understand the background before we explain the method. I'd also like to clarify who will present each part. Could we walk through the presentation structure together?"
+      },
+      {
+        question: "A classmate explains a solution too quickly. What would you say?",
+        answer: "Sorry, I'm not following how you got this result. Could you walk me through the steps? I understand the final answer, but I'm confused about the middle part. I'd like to clarify the logic before moving on."
+      }
+    ],
+    trainingFocus: "今天练习一套课堂参与系统：I'm not following this part., Could you walk me through...?, How does this relate to...?, I'd like to clarify one thing., Should we focus on... or...? 可以组合成：I'm not following this part. Could you walk me through the steps again? I'd like to clarify how this relates to our assignment. Should we focus on the theory or the application? 今天至少模拟两个场景：课堂没听懂，向老师追问；小组讨论中，确认任务重点。",
+    quote: {
+      text: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+      author: "Benjamin Franklin"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student in a seminar room politely raising a hand and saying "I'd like to clarify one thing," while classmates discuss a group assignment on a whiteboard, bright academic atmosphere.
+    // 2. A friendly study-abroad classroom cartoon where a student asks a classmate to walk through an assignment step by step, with notes, laptops, and a presentation outline, soft colors and encouraging mood.
+  },
+  {
+    day: 22,
+    title: "Day 22 - 邮件、消息与学校沟通高频句型",
+    theme: "给老师、同学、学校办公室发邮件或消息",
+    patterns: [
+      {
+        pattern: "I'm writing to...",
+        usage: "用于表达“我写信是为了……”。这是邮件开头最常用的句型之一，适合给老师发邮件、联系学校办公室、询问课程信息、说明问题、请求帮助或预约。",
+        examples: [
+          "I'm writing to ask about the assignment.",
+          "I'm writing to confirm my appointment.",
+          "I'm writing to ask for some information about course registration.",
+          "I'm writing to let you know that I may be late.",
+          "I'm writing to follow up on my previous email."
+        ],
+        practiceTip: "以后写邮件不要一上来写一大段背景，先用一句话说明目的：I'm writing to ask about... 这样会让邮件非常清楚。"
+      },
+      {
+        pattern: "I've attached...",
+        usage: "用于表达“我已经附上了……”。适合发送文件、提交材料、发作业、发送证明文件，或给老师发草稿和表格。",
+        examples: [
+          "I've attached my assignment.",
+          "I've attached the required documents.",
+          "I've attached my draft for your review.",
+          "I've attached a copy of my passport.",
+          "I've attached the completed form to this email."
+        ],
+        practiceTip: "注意常见搭配：attach a file, attach a document, attach a copy of... 邮件中可以写：I've attached the file to this email."
+      },
+      {
+        pattern: "Could you confirm whether...?",
+        usage: "用于表达“您能否确认一下是否……？”这个句型比直接问 Is it...? 更正式、更适合邮件。适合确认截止日期、是否收到文件、会议时间、注册状态或要求是否正确。",
+        examples: [
+          "Could you confirm whether you received my email?",
+          "Could you confirm whether the deadline is Friday?",
+          "Could you confirm whether my registration is complete?",
+          "Could you confirm whether I need to submit a hard copy?",
+          "Could you confirm whether the meeting will be online or in person?"
+        ],
+        practiceTip: "这是非常适合学生的句型。结构是：Could you confirm whether + 完整句子？例如：Could you confirm whether I need to bring my student ID?"
+      },
+      {
+        pattern: "I haven't received... yet.",
+        usage: "用于礼貌说明“我还没有收到……”。适合没收到回复、确认邮件、学生卡、登录信息或课程材料的场景。",
+        examples: [
+          "I haven't received the confirmation email yet.",
+          "I haven't received my student ID yet.",
+          "I haven't received any update yet.",
+          "I haven't received the login details yet.",
+          "I haven't received a reply to my previous email yet."
+        ],
+        practiceTip: "注意 yet 放在句末，表示“到现在还没有”。I haven't received the document yet. 比 You didn't send me the document. 礼貌很多。"
+      },
+      {
+        pattern: "I'll get back to you...",
+        usage: "用于表达“我之后回复你 / 我之后再告诉你”。这是非常自然的沟通句型，适合需要查信息再回复、暂时不能确定时间、需要考虑后再答复，或在小组讨论中暂时没有答案。",
+        examples: [
+          "I'll get back to you later today.",
+          "I'll get back to you by tomorrow.",
+          "I'll get back to you after checking my schedule.",
+          "I'll get back to you once I have more information.",
+          "I'll get back to you as soon as possible."
+        ],
+        practiceTip: "这个句型非常适合避免当场卡住。别人问你是否有空时，可以说：Let me check my schedule, and I'll get back to you later today."
+      }
+    ],
+    questions: [
+      {
+        question: "You want to email your professor about an assignment. What would you write or say?",
+        answer: "Dear Professor, I'm writing to ask about the assignment for this week. Could you confirm whether the deadline is this Friday? I'm not completely sure whether we need to submit a hard copy or upload it online. Thank you for your help."
+      },
+      {
+        question: "You need to send documents to student services. What would you write?",
+        answer: "Hello, I'm writing to submit the required documents for my registration. I've attached the completed form and a copy of my passport to this email. Could you confirm whether you received them? Please let me know if anything else is needed."
+      },
+      {
+        question: "You have not received your login details. What would you say to IT support?",
+        answer: "Hi, I haven't received my login details yet. I'm writing to ask whether my student account has been activated. Could you confirm whether the details have already been sent? I need them to access the university system."
+      },
+      {
+        question: "A classmate asks whether you can join a group meeting, but you are not sure yet. What would you say?",
+        answer: "I'm not sure yet. I need to check my schedule first. I'll get back to you later today. If I'm not available at that time, maybe we can choose another time that works for everyone."
+      },
+      {
+        question: "You sent an email last week but received no reply. How would you follow up politely?",
+        answer: "Hello, I'm writing to follow up on my previous email. I haven't received a reply yet, so I just wanted to check whether my message was received. Could you confirm whether there is any update? Thank you very much."
+      }
+    ],
+    trainingFocus: "今天练习一套完整的邮件沟通流程：I'm writing to..., I've attached..., Could you confirm whether...?, I haven't received... yet., I'll get back to you... 可以组合成：I'm writing to ask about my registration. I've attached the required documents to this email. Could you confirm whether you received them? I haven't received a confirmation email yet. I'll get back to you if you need any additional information. 今天请重点模拟两个场景：给老师发邮件问作业要求；给学校办公室发邮件提交文件并确认收到。",
+    quote: {
+      text: "Brevity is the soul of wit.",
+      author: "William Shakespeare"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student writing a polite email to a professor on a laptop, with a clean inbox interface and speech bubbles showing "I'm writing to..." and "Could you confirm whether...?", calm study desk setting.
+    // 2. A friendly campus office cartoon scene where a student sends attached documents to student services and receives a confirmation message, with soft colors, clear email icons, and a practical study-abroad mood.
+  },
+  {
+    day: 23,
+    title: "Day 23 - 图书馆、学习资源与打印高频口语",
+    theme: "图书馆借书、续借、查数据库、预约自习室、打印材料",
+    patterns: [
+      {
+        pattern: "I'd like to borrow...",
+        usage: "用于表达“我想借……”。适合在图书馆借书、借电脑、耳机、充电器、课程教材，以及实验或学习设备。",
+        examples: [
+          "I'd like to borrow this book.",
+          "I'd like to borrow a laptop.",
+          "I'd like to borrow a charger.",
+          "I'd like to borrow these textbooks.",
+          "I'd like to borrow some books on engineering."
+        ],
+        practiceTip: "这个句型比直接说 I want this book. 更自然、更礼貌。在图书馆可以说：Hi, I'd like to borrow this book. Do I need my student card?"
+      },
+      {
+        pattern: "When is this due?",
+        usage: "用于表达“这个什么时候到期 / 什么时候该还？”due 是留学生活中非常重要的词，可以用于借书归还日期、作业截止日期、账单付款日期和表格提交日期。",
+        examples: [
+          "When is this due?",
+          "When is the book due?",
+          "When is the assignment due?",
+          "When is the payment due?",
+          "When is the form due?"
+        ],
+        practiceTip: "把 due 练到非常熟。不要总说 What is the deadline? 也可以说：When is it due? 这句话非常口语、非常高频。"
+      },
+      {
+        pattern: "Can I renew...?",
+        usage: "用于表达“我可以续借 / 延长……吗？”renew 在图书馆和服务类场景很常见，适合续借图书、延长借用设备时间、延长会员/账户/服务，或更新许可证和文件。",
+        examples: [
+          "Can I renew this book?",
+          "Can I renew it online?",
+          "Can I renew my library card?",
+          "Can I renew the loan for another week?",
+          "Can I renew this if nobody else has reserved it?"
+        ],
+        practiceTip: "注意：renew a book = 续借一本书；renew a card = 更新 / 延长卡的有效期；renew online = 在线续借。图书馆里很实用的一句是：Can I renew this book online?"
+      },
+      {
+        pattern: "How do I access...?",
+        usage: "用于表达“我怎样访问 / 使用……？”这个句型非常适合大学学习资源，适合访问学校数据库、使用电子书、查看课程资料、进入学习平台和登录打印系统。",
+        examples: [
+          "How do I access the online library?",
+          "How do I access the course materials?",
+          "How do I access academic journals?",
+          "How do I access the printing system?",
+          "How do I access the lecture recordings?"
+        ],
+        practiceTip: "这个句型特别适合学校 IT、图书馆和课程平台。例如：How do I access academic journals from home? 这句话很适合以后查论文。"
+      },
+      {
+        pattern: "Is there a limit on...?",
+        usage: "用于表达“……有没有限制？”适合询问数量、时间、次数或权限限制，例如借书数量限制、打印页数限制、自习室预约时长、数据库访问限制和续借次数限制。",
+        examples: [
+          "Is there a limit on how many books I can borrow?",
+          "Is there a limit on printing pages?",
+          "Is there a limit on study room bookings?",
+          "Is there a limit on how long I can use this computer?",
+          "Is there a limit on how many times I can renew a book?"
+        ],
+        practiceTip: "这个句型适合办事时提前问清楚规则。结构是：Is there a limit on + noun / how many / how long...? 例如：Is there a limit on how long I can book a study room?"
+      }
+    ],
+    questions: [
+      {
+        question: "You want to borrow a textbook from the library. What would you say?",
+        answer: "Hi, I'd like to borrow this textbook. Do I need to use my student card? When is this book due? Also, can I renew it online if I need more time?"
+      },
+      {
+        question: "You want to access academic journals from home. What would you ask?",
+        answer: "Hi, how do I access academic journals from home? Do I need to log in through the university library website? I'm looking for papers related to engineering and operations research. Is there a limit on how many articles I can download?"
+      },
+      {
+        question: "You borrowed a book but need more time. What would you say?",
+        answer: "Hi, can I renew this book for another week? I still need it for my assignment. It is due tomorrow, so I wanted to check before it becomes late. Can I renew it online, or do I need to do it at the library desk?"
+      },
+      {
+        question: "You want to book a study room for group work. What would you ask?",
+        answer: "Hi, how do I book a study room for group work? Is there a limit on how long we can use it? We need a quiet place to prepare our presentation. Also, do we need to check in when we arrive?"
+      },
+      {
+        question: "You need to print your assignment but don't know how the system works. What would you say?",
+        answer: "Hi, how do I access the printing system? I need to print my assignment before class. Is there a limit on printing pages? Also, can I pay with my student card, or do I need to add credit first?"
+      }
+    ],
+    trainingFocus: "今天练习一套完整的图书馆学习流程：I'd like to borrow..., When is this due?, Can I renew...?, How do I access...?, Is there a limit on...? 可以组合成：I'd like to borrow this book. When is it due? Can I renew it online? Also, how do I access the online library? Is there a limit on how many articles I can download? 今天请重点模拟两个场景：借书和续借，包括 borrow / due / renew；查论文和打印，包括 access journals / printing system / limit。",
+    quote: {
+      text: "Reading is to the mind what exercise is to the body.",
+      author: "Joseph Addison"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student at a university library desk borrowing engineering textbooks and asking "When is this due?", with bookshelves, a student card, and a helpful librarian, calm study-focused mood.
+    // 2. A friendly campus library cartoon scene where a student accesses academic journals on a laptop and prints an assignment nearby, with subtle icons for databases, printing credits, and study rooms, bright and positive atmosphere.
+  },
+  {
+    day: 24,
+    title: "Day 24 - 预约、改时间与迟到沟通高频口语",
+    theme: "临时有事、迟到、改时间、说明自己什么时候有空",
+    patterns: [
+      {
+        pattern: "I'm afraid I can't make it to...",
+        usage: "用于表达“恐怕我去不了 / 参加不了……”。这里的 make it to 表示“成功到场、参加”，适合不能参加小组会议、不能去预约、不能上某节课、不能参加活动或不能按时赴约。",
+        examples: [
+          "I'm afraid I can't make it to the meeting.",
+          "I'm afraid I can't make it to class today.",
+          "I'm afraid I can't make it to the appointment.",
+          "I'm afraid I can't make it to the group discussion.",
+          "I'm afraid I can't make it to the seminar this afternoon."
+        ],
+        practiceTip: "这句话比直接说 I can't come. 更礼貌、更自然。注意 make it to + 地点 / 活动。"
+      },
+      {
+        pattern: "Something came up.",
+        usage: "用于表达“临时有事”。这是非常地道的口语表达，常用于解释为什么突然不能参加、需要迟到、取消或改时间，也适合不想过度解释私人原因的场景。",
+        examples: [
+          "Sorry, something came up.",
+          "Something came up, so I may be late.",
+          "Something came up, and I can't make it to the meeting.",
+          "Something urgent came up this morning.",
+          "I'm really sorry, but something came up at the last minute."
+        ],
+        practiceTip: "这句话适合不想解释太多细节时使用。完整表达可以是：Sorry, something came up, and I'm afraid I can't make it to the meeting."
+      },
+      {
+        pattern: "Could we move it to...?",
+        usage: "用于表达“我们可以把它改到……吗？”这里的 it 可以指 meeting, appointment, discussion, call 等。适合改会议时间、改预约时间、改讨论时间、和同学协调小组任务，或和老师重新约时间。",
+        examples: [
+          "Could we move it to tomorrow?",
+          "Could we move it to Friday afternoon?",
+          "Could we move it to next week?",
+          "Could we move it to 3 p.m.?",
+          "Could we move it to after class?"
+        ],
+        practiceTip: "比起重新解释一整句 Could we change the meeting time to...? 口语里更常说：Could we move it to...? 但前提是双方都知道 it 指什么。"
+      },
+      {
+        pattern: "I'm available between... and...",
+        usage: "用于清楚表达“我在……到……之间有空”。适合预约老师 office hours、安排小组会议、和朋友约时间、和学校办公室确认 appointment，以及安排线上会议。",
+        examples: [
+          "I'm available between 2 and 4 p.m.",
+          "I'm available between Monday and Wednesday.",
+          "I'm available between classes.",
+          "I'm available between 10 a.m. and noon.",
+          "I'm available between 3 and 5 tomorrow afternoon."
+        ],
+        practiceTip: "这个句型很适合替代模糊的 I have time. 更清楚的表达是：I'm available between 2 and 4 p.m."
+      },
+      {
+        pattern: "I'll be about... minutes late.",
+        usage: "用于表达“我大概要迟到……分钟”。这是迟到时必须掌握的句型，适合上课、小组会议、预约、交通延误、打车或公交延误等场景。",
+        examples: [
+          "I'll be about five minutes late.",
+          "I'll be about ten minutes late.",
+          "I'll be about fifteen minutes late.",
+          "I'll be about twenty minutes late because of traffic.",
+          "I'll be about ten minutes late, but I'm on my way."
+        ],
+        practiceTip: "迟到时不要只说 I'm late. 要说明预计时间：I'll be about ten minutes late. 这会让对方更容易安排。"
+      }
+    ],
+    questions: [
+      {
+        question: "You cannot attend a group meeting because something urgent came up. What would you say?",
+        answer: "Sorry, something urgent came up, and I'm afraid I can't make it to the group meeting today. Could we move it to tomorrow afternoon? I'm available between 2 and 4 p.m. I'm really sorry for the inconvenience."
+      },
+      {
+        question: "You are on your way to class, but you will be late. What would you say to your classmate?",
+        answer: "I'm on my way, but I'll be about ten minutes late. Something came up this morning, so I left later than planned. Could you save me a seat if possible? I'll join the class as soon as I arrive."
+      },
+      {
+        question: "You need to reschedule a meeting with your professor. What would you say?",
+        answer: "I'm sorry, but I'm afraid I can't make it to our meeting at the original time. Something came up, and I need to reschedule. Could we move it to Friday afternoon? I'm available between 3 and 5 p.m."
+      },
+      {
+        question: "Your group wants to arrange a discussion. How would you tell them your available time?",
+        answer: "I'm available between 10 a.m. and noon tomorrow. I'm also available after 4 p.m. on Friday. Could we move the discussion to one of those times? I think it would be better to choose a time when everyone can join."
+      },
+      {
+        question: "You have an appointment with student services, but your bus is delayed. What would you say?",
+        answer: "Hi, I have an appointment at 2 p.m., but my bus is delayed. I'll be about fifteen minutes late. I'm really sorry about that. Should I still come, or should we move it to another time?"
+      }
+    ],
+    trainingFocus: "今天练习一套时间协调系统：I'm afraid I can't make it to..., Something came up., Could we move it to...?, I'm available between... and..., I'll be about... minutes late. 可以组合成：Sorry, something came up, and I'm afraid I can't make it to the meeting. Could we move it to tomorrow? I'm available between 2 and 4 p.m. If that doesn't work, I can also do Friday afternoon. 今天重点模拟两个场景：不能参加小组会议，主动改时间；快迟到了，提前告知预计迟到时间。",
+    quote: {
+      text: "Punctuality is the politeness of kings.",
+      author: "Louis XVIII"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student politely messaging a study group to reschedule a meeting, with a calendar app showing available time slots and speech bubbles saying "Could we move it to tomorrow?", calm responsible mood.
+    // 2. A friendly campus cartoon scene where a student is on a delayed bus and sends a message saying "I'll be about fifteen minutes late", with a phone, bus stop, and appointment reminder, soft colors and practical study-abroad atmosphere.
+  },
+  {
+    day: 25,
+    title: "Day 25 - 室友、宿舍规则与共同生活高频口语",
+    theme: "和室友相处、请求对方小声一点、协商家务、表达歉意和建立规则",
+    patterns: [
+      {
+        pattern: "Is it okay if I...?",
+        usage: "用于礼貌询问“我可以……吗？”适合问室友能否使用厨房、冰箱、洗衣机，能否开窗、开灯、邀请朋友来，借用公共空间，或临时调整共同生活安排。",
+        examples: [
+          "Is it okay if I use the kitchen now?",
+          "Is it okay if I open the window?",
+          "Is it okay if I invite a friend over?",
+          "Is it okay if I do my laundry tonight?",
+          "Is it okay if I leave my bag here for a while?"
+        ],
+        practiceTip: "这个句型非常适合替代直接的 Can I...? 它语气更柔和，更适合室友关系。"
+      },
+      {
+        pattern: "Would you mind keeping...?",
+        usage: "用于礼貌地请求别人改变行为，表示“你介意保持……吗？”适合请室友小声一点、保持厨房干净、关门轻一点，或不要占用公共空间太久。",
+        examples: [
+          "Would you mind keeping the noise down?",
+          "Would you mind keeping the kitchen clean?",
+          "Would you mind keeping the door closed?",
+          "Would you mind keeping your things on your side?",
+          "Would you mind keeping the bathroom dry after using it?"
+        ],
+        practiceTip: "这个句型比较礼貌，但也比较直接。如果怕太强硬，可以加一句：Sorry to ask, but would you mind keeping the noise down?"
+      },
+      {
+        pattern: "I'll make sure to...",
+        usage: "用于表达“我会确保……”。适合向室友承诺会保持干净、表示自己会遵守规则、道歉后说明改进，或在小组合作中承担责任。",
+        examples: [
+          "I'll make sure to clean up after cooking.",
+          "I'll make sure to keep my things tidy.",
+          "I'll make sure to lock the door.",
+          "I'll make sure to turn off the lights.",
+          "I'll make sure to be quiet after 10 p.m."
+        ],
+        practiceTip: "这个句型比简单说 I will do it. 更有责任感。特别适合道歉后补一句：Sorry about that. I'll make sure to clean up next time."
+      },
+      {
+        pattern: "Let's take turns...",
+        usage: "用于表达“我们轮流……”。这是共同生活和小组合作中的高频句型，适合轮流打扫卫生、倒垃圾、做饭、分配小组任务，或轮流发言和展示。",
+        examples: [
+          "Let's take turns cleaning the kitchen.",
+          "Let's take turns taking out the rubbish.",
+          "Let's take turns using the washing machine.",
+          "Let's take turns presenting each section.",
+          "Let's take turns leading the group discussion."
+        ],
+        practiceTip: "这个句型非常适合提出公平安排。例如：Let's take turns cleaning the shared areas, so it feels fair for everyone."
+      },
+      {
+        pattern: "I didn't mean to...",
+        usage: "用于解释“我不是故意……”。适合不小心打扰室友、忘记清理东西、说错话、迟到或误会，以及社交场合中缓和气氛。",
+        examples: [
+          "I didn't mean to wake you up.",
+          "I didn't mean to make so much noise.",
+          "I didn't mean to leave the kitchen messy.",
+          "I didn't mean to interrupt you.",
+          "I didn't mean to cause any trouble."
+        ],
+        practiceTip: "这个句型后面通常接一句补救：I didn't mean to make so much noise. I'll be more careful next time."
+      }
+    ],
+    questions: [
+      {
+        question: "You want to invite a friend to your accommodation. What would you ask your roommate?",
+        answer: "Is it okay if I invite a friend over this evening? We'll just study in my room for a while. I'll make sure to keep the noise down. If it's not a good time, I can meet them somewhere else."
+      },
+      {
+        question: "Your roommate often makes noise late at night. What would you say politely?",
+        answer: "Sorry to ask, but would you mind keeping the noise down after 10 p.m.? I usually need to sleep early because I have class in the morning. I don't want to cause any conflict, but it would really help me. Thank you for understanding."
+      },
+      {
+        question: "You forgot to clean the kitchen after cooking. What would you say?",
+        answer: "Sorry, I didn't mean to leave the kitchen messy. I was in a hurry earlier. I'll make sure to clean up after cooking next time. I'll clean it now."
+      },
+      {
+        question: "You and your roommates need to divide housework. What would you suggest?",
+        answer: "Maybe we can make a simple cleaning schedule. Let's take turns cleaning the kitchen and taking out the rubbish. I think that would be fair for everyone. I'll make sure to do my part on time."
+      },
+      {
+        question: "Your roommate asks if they can use the washing machine first. How would you respond?",
+        answer: "Sure, that's fine. I was planning to do my laundry later anyway. Is it okay if I use it after you finish? Maybe we can take turns using it when we both need it."
+      }
+    ],
+    trainingFocus: "今天练习一套共同生活沟通系统：Is it okay if I...?, Would you mind keeping...?, I'll make sure to..., Let's take turns..., I didn't mean to... 可以组合成：Is it okay if I use the kitchen now? I'll make sure to clean up after cooking. Also, maybe we can take turns taking out the rubbish. Sorry about yesterday — I didn't mean to leave it there. 今天重点模拟两个场景：请求室友配合，比如小声一点、保持干净、轮流做家务；自己犯错后补救，比如道歉、解释、承诺下次注意。",
+    quote: {
+      text: "No act of kindness, no matter how small, is ever wasted.",
+      author: "Aesop"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of two international student roommates calmly making a shared cleaning schedule in a dorm kitchen, with speech bubbles saying "Let's take turns" and "I'll make sure to clean up", friendly cooperative mood.
+    // 2. A cozy study-abroad dorm cartoon scene where one student politely asks a roommate to keep the noise down after 10 p.m., with soft lighting, textbooks, laundry basket, and a peaceful respectful atmosphere.
+  },
+  {
+    day: 26,
+    title: "Day 26 - 社团、校园活动与认识新圈子高频口语",
+    theme: "参加 orientation、加入社团、报名活动、接受或婉拒邀请",
+    patterns: [
+      {
+        pattern: "I signed up for...",
+        usage: "用于表达“我报名了……”。适合报名 orientation、社团活动、workshop、语言交换、校园旅行或志愿活动。",
+        examples: [
+          "I signed up for the orientation session.",
+          "I signed up for a campus tour.",
+          "I signed up for the engineering club.",
+          "I signed up for a language exchange event.",
+          "I signed up for a workshop on academic writing."
+        ],
+        practiceTip: "这个句型很适合回答 What are you doing this week? 例如：I signed up for a campus tour this Friday."
+      },
+      {
+        pattern: "Are there any spots left for...?",
+        usage: "用于表达“……还有名额吗？”这里的 spot 表示“名额、位置”。适合活动报名、预约 workshop、加入社团活动、参加旅行/讲座/课程，或预约学习小组。",
+        examples: [
+          "Are there any spots left for the campus tour?",
+          "Are there any spots left for the workshop?",
+          "Are there any spots left for the language exchange event?",
+          "Are there any spots left for this Friday's activity?",
+          "Are there any spots left for new members?"
+        ],
+        practiceTip: "这句话比 Can I join? 更具体。如果活动可能满员，用它非常自然。"
+      },
+      {
+        pattern: "What kind of events do you usually run?",
+        usage: "用于表达“你们通常办什么类型的活动？”这里的 run 表示“组织、举办”。适合询问社团活动、学生组织、志愿者项目、学术协会或学校服务部门。",
+        examples: [
+          "What kind of events do you usually run?",
+          "What kind of workshops do you usually run?",
+          "What kind of activities do club members usually do?",
+          "What kind of events do you run during the semester?",
+          "What kind of support sessions do you run for international students?"
+        ],
+        practiceTip: "这个句型适合社团摊位、orientation、student union。可以问：What kind of events do you usually run for new students?"
+      },
+      {
+        pattern: "Count me in.",
+        usage: "用于表达“算我一个”。这是非常自然的口语表达，用来接受邀请，适合同学邀请你参加活动、小组约一起学习、朋友约吃饭、社团组织活动，或临时决定加入某个计划。",
+        examples: [
+          "Count me in.",
+          "If you're going to the event, count me in.",
+          "That sounds fun. Count me in.",
+          "Count me in for the group study session.",
+          "Count me in if there's still space."
+        ],
+        practiceTip: "这是一个很短但很地道的表达。别人说 We're going to the student event tonight. 你可以说：Sounds good. Count me in."
+      },
+      {
+        pattern: "I might sit this one out.",
+        usage: "用于礼貌婉拒活动，表示“这次我可能不参加了”。适合太累、太忙、不方便、不想直接说 no，或某个活动不太适合你的场景。",
+        examples: [
+          "I might sit this one out.",
+          "I'm a bit tired, so I might sit this one out.",
+          "I have too much work, so I might sit this one out.",
+          "I'll join next time, but I might sit this one out today.",
+          "This event sounds fun, but I might sit this one out."
+        ],
+        practiceTip: "它比直接说 I don't want to go. 更自然、更委婉。可以加一句积极结尾：I might sit this one out, but please let me know about the next one."
+      }
+    ],
+    questions: [
+      {
+        question: "You want to join an orientation activity. What would you ask?",
+        answer: "Hi, are there any spots left for the orientation activity this week? I'm a new international student, and I'd like to learn more about the campus. What kind of events do you usually run for new students? If there's still space, I'd like to sign up."
+      },
+      {
+        question: "A classmate invites you to a campus event. You want to join. What would you say?",
+        answer: "That sounds fun. Count me in. I signed up for a campus tour before, but I haven't joined many social events yet. I think this could be a good chance to meet more people. What time does it start?"
+      },
+      {
+        question: "You are asking about a student club. What would you say?",
+        answer: "Hi, I'm interested in learning more about this club. What kind of events do you usually run during the semester? Are there any spots left for new members? I'm especially interested in activities related to engineering or technology."
+      },
+      {
+        question: "You are too tired to join an activity today. How would you politely decline?",
+        answer: "Thanks for inviting me, but I might sit this one out today. I'm a bit tired and need to finish some work. The event sounds really nice, though. Please let me know if there's another one next time."
+      },
+      {
+        question: "You signed up for a workshop and want to tell your classmate about it. What would you say?",
+        answer: "I signed up for a workshop on academic writing this Friday. I think it could be useful because I need to improve my academic English. There were only a few spots left, so I registered early. If you're interested, you should check whether there are any spots left."
+      }
+    ],
+    trainingFocus: "今天练习一套校园参与系统：I signed up for..., Are there any spots left for...?, What kind of events do you usually run?, Count me in., I might sit this one out. 可以组合成：I signed up for a language exchange event. Are there any spots left for the campus tour as well? What kind of events do you usually run for international students? If it's not too late, count me in. But if I'm too busy this week, I might sit this one out. 今天重点模拟两个场景：主动加入活动，包括报名、询问名额、了解活动内容；回应邀请，包括接受邀请或礼貌婉拒。",
+    quote: {
+      text: "No man is an island.",
+      author: "John Donne"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student at a campus orientation booth asking "Are there any spots left?", with club posters, friendly student volunteers, and a bright welcoming university atmosphere.
+    // 2. A lively but calm study-abroad cartoon scene where students invite a new classmate to a language exchange event, with speech bubbles saying "Count me in" and "I might sit this one out", positive social campus mood.
+  },
+  {
+    day: 27,
+    title: "Day 27 - Presentation 与课堂展示高频口语",
+    theme: "课堂 presentation、展示 slides、引出主题、转到下一部分、处理提问",
+    patterns: [
+      {
+        pattern: "Today, I'll be talking about...",
+        usage: "用于表达“今天我会讲……”。这是 presentation 开头最常用的句型之一，适合课堂展示开场、小组汇报开场、研讨课发言、介绍研究主题，或在线上会议中简短说明主题。",
+        examples: [
+          "Today, I'll be talking about AGV path planning.",
+          "Today, I'll be talking about our group project.",
+          "Today, I'll be talking about the main findings from this paper.",
+          "Today, I'll be talking about the challenges of studying abroad.",
+          "Today, I'll be talking about how simulation can support decision-making."
+        ],
+        practiceTip: "这个句型要练到自动化。以后 presentation 一开始，不要想复杂开场，直接说：Today, I'll be talking about..."
+      },
+      {
+        pattern: "The purpose of this presentation is to...",
+        usage: "用于表达“这次展示的目的是……”。这个句型比简单说 I will talk about... 更正式一点，很适合大学课堂。适合说明展示目标、介绍研究目的、解释报告结构、开始学术汇报或小组 presentation 开场。",
+        examples: [
+          "The purpose of this presentation is to introduce our research topic.",
+          "The purpose of this presentation is to explain the main problem.",
+          "The purpose of this presentation is to compare two different methods.",
+          "The purpose of this presentation is to discuss the results of our simulation.",
+          "The purpose of this presentation is to show how the model works."
+        ],
+        practiceTip: "这个句型很适合连接研究方向：The purpose of this presentation is to explain how AGV scheduling can improve warehouse efficiency."
+      },
+      {
+        pattern: "As you can see from this slide,...",
+        usage: "用于表达“正如你们从这页幻灯片可以看到的……”。这是讲 slides 时非常实用的引导句，适合解释图表、讲数据、指向图片或流程图、展示模型结构和实验结果。",
+        examples: [
+          "As you can see from this slide, the system has three main parts.",
+          "As you can see from this slide, the results improved after optimization.",
+          "As you can see from this slide, the process is divided into five steps.",
+          "As you can see from this slide, the problem becomes more complex when there are more AGVs.",
+          "As you can see from this slide, the simulation results are quite clear."
+        ],
+        practiceTip: "不要只是读 slide 上的文字。要练：As you can see from this slide, + 你对图表的解释。这样你才是在“讲”，不是在“念”。"
+      },
+      {
+        pattern: "Let's move on to...",
+        usage: "用于表达“接下来我们进入……”。这是 presentation 中最常用的转场句，适合从背景转到方法、从方法转到结果、从结果转到讨论、小组展示中切换部分，或课堂讲解中推进结构。",
+        examples: [
+          "Let's move on to the next slide.",
+          "Let's move on to the methodology.",
+          "Let's move on to the simulation results.",
+          "Let's move on to the main challenges.",
+          "Let's move on to the conclusion."
+        ],
+        practiceTip: "Presentation 不流畅，很多时候不是内容问题，而是缺少转场句。把 Let's move on to... 练熟，可以让展示显得更有结构。"
+      },
+      {
+        pattern: "I'll come back to that later.",
+        usage: "用于表达“这个问题我稍后会再讲”。当别人提前问到后面内容，或者你暂时不想打断展示节奏时，这句话非常有用。适合 presentation 中处理提前问题、课堂解释时保持结构、小组讨论中暂时搁置某个点，或会议中控制发言顺序。",
+        examples: [
+          "I'll come back to that later.",
+          "I'll come back to this point later in the presentation.",
+          "I'll come back to the results in a few minutes.",
+          "I'll come back to the limitations at the end.",
+          "That's a good question, and I'll come back to it later."
+        ],
+        practiceTip: "这句话可以帮你避免被问题打乱节奏。例如：That's a good question. I'll come back to that later when I discuss the results."
+      }
+    ],
+    questions: [
+      {
+        question: "You are starting a presentation about your research topic. What would you say?",
+        answer: "Good morning, everyone. Today, I'll be talking about AGV path planning and scheduling. The purpose of this presentation is to introduce the main problem and explain why it is important in warehouse systems. I'll first give some background, then discuss the method, and finally show some simulation results."
+      },
+      {
+        question: "You are explaining a slide with a system diagram. What would you say?",
+        answer: "As you can see from this slide, the system has three main parts: the warehouse environment, the AGV fleet, and the task scheduling module. The arrows show how information moves between different parts of the system. This diagram helps us understand the overall structure before we move on to the algorithm."
+      },
+      {
+        question: "You need to move from background to methodology. What would you say?",
+        answer: "Now that we have introduced the background, let's move on to the methodology. In this part, I'll explain how we model the problem and what assumptions we make. The purpose of this section is to show how the research question is translated into a workable model."
+      },
+      {
+        question: "Someone asks a question that you will answer later in your presentation. What would you say?",
+        answer: "That's a good question. I'll come back to that later when I discuss the simulation results. For now, I'd like to finish explaining the model structure first. Then the results will make more sense."
+      },
+      {
+        question: "You are presenting your group project and need to introduce the next speaker. What would you say?",
+        answer: "That's all for my part. I've introduced the background and the main problem. Now let's move on to the methodology. My group member will explain how we designed the model and how we tested it in the simulation."
+      }
+    ],
+    trainingFocus: "今天练习一套完整的 presentation 流程：Today, I'll be talking about..., The purpose of this presentation is to..., As you can see from this slide,..., Let's move on to..., I'll come back to that later. 可以组合成：Today, I'll be talking about AGV scheduling. The purpose of this presentation is to explain the problem and compare different methods. As you can see from this slide, the system includes tasks, vehicles, and routes. Now, let's move on to the methodology. If you have questions about the results, I'll come back to that later. 今天重点模拟两个场景：开场 30 秒，包括主题、目的、结构；讲 slide 30 秒，包括图表、流程、转场。",
+    quote: {
+      text: "If you can't explain it simply, you don't understand it well enough.",
+      author: "Albert Einstein"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student giving a classroom presentation about AGV path planning, pointing to a slide with a simple system diagram, with speech bubbles saying "Today, I'll be talking about..." and "Let's move on to...", confident academic mood.
+    // 2. A friendly university seminar cartoon scene where a student handles a question politely during a presentation, saying "I'll come back to that later", with classmates listening, slides on screen, soft colors and supportive atmosphere.
+  },
+  {
+    day: 28,
+    title: "Day 28 - 导师沟通、研究讨论与请教建议",
+    theme: "和导师 / 老师 / senior student 讨论研究方向、进展、问题和下一步",
+    patterns: [
+      {
+        pattern: "I'm currently looking into...",
+        usage: "用于表达“我目前正在研究 / 了解……”。比简单说 I'm studying... 更像研究语境。适合和导师介绍研究进展、和同学聊研究方向、说明自己正在查资料，或描述当前关注的问题。",
+        examples: [
+          "I'm currently looking into AGV path planning.",
+          "I'm currently looking into warehouse simulation.",
+          "I'm currently looking into scheduling problems.",
+          "I'm currently looking into different optimization methods.",
+          "I'm currently looking into how simulation can support decision-making."
+        ],
+        practiceTip: "这个句型很适合介绍当前课题：I'm currently looking into multi-AGV scheduling in warehouse systems."
+      },
+      {
+        pattern: "My understanding is that...",
+        usage: "用于表达“我的理解是……”。这是表达自己理解、同时保留修正空间的学术沟通句型。适合向老师确认理解、解释论文内容、小组讨论、课堂提问，或避免说得太绝对。",
+        examples: [
+          "My understanding is that the model has three main parts.",
+          "My understanding is that the algorithm is used to reduce travel time.",
+          "My understanding is that simulation is mainly used for validation.",
+          "My understanding is that the objective function focuses on efficiency.",
+          "My understanding is that the constraints define what the AGVs can and cannot do."
+        ],
+        practiceTip: "当不确定自己理解是否正确时，用：My understanding is that..., but please correct me if I'm wrong. 这句话非常适合和导师沟通。"
+      },
+      {
+        pattern: "I'm considering two options: ... and ...",
+        usage: "用于清楚表达“我正在考虑两个选择：……和……”。适合选研究方向、选方法、选软件工具、选课程或选论文结构。",
+        examples: [
+          "I'm considering two options: simulation and mathematical modelling.",
+          "I'm considering two options: FlexSim and a Python-based simulation platform.",
+          "I'm considering two options: exact optimization and heuristic algorithms.",
+          "I'm considering two options: focusing on scheduling or path planning.",
+          "I'm considering two options: a practical project or a more theoretical model."
+        ],
+        practiceTip: "这个句型能帮你把模糊问题说清楚。不要说 I don't know what to do. 要说：I'm considering two options: A and B. 这样别人更容易给你建议。"
+      },
+      {
+        pattern: "I'd appreciate your feedback on...",
+        usage: "用于表达“如果您能对……给我反馈，我会很感谢”。非常适合对导师、老师和 senior student 使用。适合请导师看研究计划、请老师看草稿、请同学看 presentation、请别人评价想法，或邮件/面对面沟通。",
+        examples: [
+          "I'd appreciate your feedback on my research proposal.",
+          "I'd appreciate your feedback on this model.",
+          "I'd appreciate your feedback on my presentation slides.",
+          "I'd appreciate your feedback on the structure of my report.",
+          "I'd appreciate your feedback on whether this topic is feasible."
+        ],
+        practiceTip: "这句话比 Please give me advice. 更礼貌、更成熟。可以直接说：I'd appreciate your feedback on whether this research direction is realistic."
+      },
+      {
+        pattern: "What would be a reasonable next step?",
+        usage: "用于表达“下一步比较合理的做法是什么？”这是非常适合研究讨论的句型。适合和导师讨论课题、项目遇到瓶颈、小组任务推进、选题不确定，或需要明确下一阶段工作。",
+        examples: [
+          "What would be a reasonable next step?",
+          "What would be a reasonable next step for this project?",
+          "What would be a reasonable next step after the literature review?",
+          "What would be a reasonable next step if the model becomes too complex?",
+          "What would be a reasonable next step before building the simulation?"
+        ],
+        practiceTip: "这个句型非常适合结尾。当你解释完现状后，可以问：Based on this, what would be a reasonable next step? 这会显得你很主动，也很清楚。"
+      }
+    ],
+    questions: [
+      {
+        question: "You want to introduce your current research interest to your supervisor. What would you say?",
+        answer: "I'm currently looking into AGV path planning and scheduling in warehouse systems. My understanding is that this topic connects optimization, simulation, and practical logistics problems. I'm especially interested in how multiple AGVs can work together efficiently. At this stage, I'm still trying to narrow down the research focus."
+      },
+      {
+        question: "You are unsure whether to use FlexSim or build a Python simulation. How would you explain this?",
+        answer: "I'm considering two options: using FlexSim for system simulation and developing a Python-based simulation platform for algorithm testing. My understanding is that FlexSim is useful for visual validation, while Python may offer more flexibility for algorithm experiments. I'd appreciate your feedback on which option would be more suitable for my research. What would be a reasonable next step?"
+      },
+      {
+        question: "You want your supervisor to comment on your research proposal. What would you say?",
+        answer: "I've prepared a draft of my research proposal. I'd appreciate your feedback on the research question, methodology, and overall structure. My understanding is that the proposal should clearly explain the problem, the method, and the expected contribution. Could you let me know whether the current direction is feasible?"
+      },
+      {
+        question: "You are discussing two possible research directions with a senior student. What would you say?",
+        answer: "I'm considering two options: focusing more on AGV scheduling or focusing more on path planning. My understanding is that scheduling is more related to task allocation and system efficiency, while path planning is more related to movement and conflict avoidance. I'm currently looking into both areas, but I need to choose a clearer focus. What would be a reasonable next step?"
+      },
+      {
+        question: "You want to confirm whether your understanding of a paper is correct. What would you say?",
+        answer: "My understanding is that this paper proposes a heuristic algorithm for improving AGV task allocation. It seems that the main objective is to reduce total completion time. I'm currently looking into how the authors define the constraints. I'd appreciate your feedback on whether I'm interpreting the model correctly."
+      }
+    ],
+    trainingFocus: "今天练习一套研究沟通系统：I'm currently looking into..., My understanding is that..., I'm considering two options: ... and ..., I'd appreciate your feedback on..., What would be a reasonable next step? 可以组合成：I'm currently looking into AGV scheduling and simulation. My understanding is that simulation can help validate the algorithm. I'm considering two options: using FlexSim or building a Python-based platform. I'd appreciate your feedback on which direction is more suitable. What would be a reasonable next step? 今天重点模拟两个场景：向导师介绍研究兴趣；向导师请教方法选择。",
+    quote: {
+      text: "Research is to see what everybody else has seen, and to think what nobody else has thought.",
+      author: "Albert Szent-Gyorgyi"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student discussing AGV scheduling with a supervisor in a university office, with notes about simulation, optimization, and next steps on a whiteboard, calm academic mood.
+    // 2. A friendly research meeting cartoon scene where a student compares FlexSim and Python simulation options with a senior student, laptops open, diagrams on paper, speech bubbles saying "I'd appreciate your feedback" and "What would be a reasonable next step?"
+  },
+  {
+    day: 29,
+    title: "Day 29 - 电脑、软件与技术故障高频口语",
+    theme: "电脑打不开文件、软件报错、系统卡住、和同学一起排查问题",
+    patterns: [
+      {
+        pattern: "The file won't open.",
+        usage: "用于表达“这个文件打不开”。这里的 won't 不只是“不会”，在口语里常表示“某个东西就是不工作 / 没反应”。适合文件打不开、软件打不开、链接打不开、设备没有反应或程序无法运行。",
+        examples: [
+          "The file won't open.",
+          "The link won't open.",
+          "The app won't start.",
+          "The document won't load.",
+          "The program won't run on my laptop."
+        ],
+        practiceTip: "重点练：The + thing + won't + verb. 例如：The printer won't connect. The website won't load. 这是非常高频的故障表达。"
+      },
+      {
+        pattern: "I keep getting...",
+        usage: "用于表达“我一直收到 / 一直遇到……”。适合软件反复报错、登录一直失败、系统反复提示、付款或提交多次失败，以及编程反复出现同一个错误。",
+        examples: [
+          "I keep getting an error message.",
+          "I keep getting the same warning.",
+          "I keep getting logged out.",
+          "I keep getting stuck on this page.",
+          "I keep getting this message when I try to submit the form."
+        ],
+        practiceTip: "结构是：I keep getting + 问题，或者 I keep getting + 过去分词。例如：I keep getting logged out. 这句话在学校系统、邮箱、学习平台里非常常用。"
+      },
+      {
+        pattern: "It says...",
+        usage: "用于表达“上面显示…… / 它提示……”。这里的 it 通常指屏幕、系统、软件或错误信息。适合读出错误提示、向 IT 人员描述屏幕内容、和同学一起排查系统问题，或说明系统要求。",
+        examples: [
+          "It says my password is incorrect.",
+          "It says the file is too large.",
+          "It says I need to update the software.",
+          "It says the page is not available.",
+          "It says the deadline has passed."
+        ],
+        practiceTip: "不要看到报错就慌。先读出来：It says... 例如：It says the file format is not supported. 这比只说 It doesn't work 有用得多。"
+      },
+      {
+        pattern: "Have you tried...?",
+        usage: "用于表达“你有没有试过……？”这是给建议时非常自然的句型。适合帮同学解决软件问题、小组项目排查错误、朋友电脑出问题、提出可能的解决办法，或不想命令别人时。",
+        examples: [
+          "Have you tried restarting your laptop?",
+          "Have you tried using a different browser?",
+          "Have you tried updating the software?",
+          "Have you tried logging out and logging back in?",
+          "Have you tried opening the file on another computer?"
+        ],
+        practiceTip: "这个句型比直接说 Restart your laptop. 更柔和、更像建议。结构：Have you tried + -ing? 例如：Have you tried checking the file name?"
+      },
+      {
+        pattern: "Let's try... first.",
+        usage: "用于表达“我们先试试……”。适合一起排查问题时提出第一步操作，例如小组一起解决技术问题、课堂设备出问题、presentation 前调试投影、编程或仿真项目排错，或帮别人一步一步处理问题。",
+        examples: [
+          "Let's try restarting it first.",
+          "Let's try another browser first.",
+          "Let's try checking the connection first.",
+          "Let's try opening the file again first.",
+          "Let's try a simpler example first."
+        ],
+        practiceTip: "这个句型能让你显得冷静、有条理。当别人着急时，可以说：Let's try restarting it first and see what happens."
+      }
+    ],
+    questions: [
+      {
+        question: "Your assignment file won't open. What would you say to a classmate?",
+        answer: "The file won't open on my laptop. I keep getting an error message when I try to open it. It says the file format is not supported. Have you tried opening it on your computer? Maybe let's try downloading it again first."
+      },
+      {
+        question: "You cannot submit an online form. What would you say to IT support?",
+        answer: "I'm trying to submit an online form, but I keep getting stuck on the final page. It says the system cannot process my request. I've tried refreshing the page, but it still doesn't work. Should I try using a different browser?"
+      },
+      {
+        question: "Your group's presentation slides will not load before class. What would you say?",
+        answer: "The slides won't load on this computer. It says the file is too large. Let's try opening the PDF version first. If that doesn't work, we can try using another laptop. We should also check whether the file is saved online."
+      },
+      {
+        question: "Your classmate's university account keeps logging them out. What advice would you give?",
+        answer: "Have you tried logging out and logging back in properly? Maybe the browser is causing the problem. Have you tried using a different browser or clearing the cache? Let's try that first before contacting IT support."
+      },
+      {
+        question: "Your simulation software won't run. How would you explain the problem?",
+        answer: "The simulation software won't run on my laptop. I keep getting the same error message every time I start it. It says a required file is missing. I'm not sure whether it is an installation problem. Let's try reinstalling the software first and then check the settings."
+      }
+    ],
+    trainingFocus: "今天练习一套技术故障表达系统：The file won't open., I keep getting..., It says..., Have you tried...?, Let's try... first. 可以组合成：The program won't run. I keep getting an error message. It says a required file is missing. Have you tried updating the software? Let's try reinstalling it first. 今天重点模拟两个场景：向 IT support 描述问题，包括文件、系统、账号、错误信息；和同学一起排查问题，包括提出建议、尝试第一步解决方案。",
+    quote: {
+      text: "The important thing is not to stop questioning.",
+      author: "Albert Einstein"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student at a university IT help desk showing a laptop error message that says "The file won't open", with a helpful staff member calmly troubleshooting, clean study-abroad campus setting.
+    // 2. A friendly research-lab cartoon scene where two students debug simulation software together, one saying "Let's try restarting it first", with laptops, code windows, a simple error dialog, and a patient problem-solving mood.
+  },
+  {
+    day: 30,
+    title: "Day 30 - 论文阅读、课堂讨论与文献汇报高频口语",
+    theme: "如何用英语简单清楚地介绍一篇论文",
+    patterns: [
+      {
+        pattern: "The paper focuses on...",
+        usage: "用于表达“这篇论文主要关注……”。这是介绍论文主题时非常高频的开头，适合课堂文献汇报、和导师讨论论文、小组讨论 reading material、总结论文主题或介绍研究领域。",
+        examples: [
+          "The paper focuses on AGV scheduling in warehouse systems.",
+          "The paper focuses on path planning for mobile robots.",
+          "The paper focuses on simulation-based optimization.",
+          "The paper focuses on reducing waiting time in logistics systems.",
+          "The paper focuses on improving efficiency in manufacturing operations."
+        ],
+        practiceTip: "不要一开始就说复杂背景。先用一句话抓住主题：The paper focuses on..."
+      },
+      {
+        pattern: "The authors point out that...",
+        usage: "用于表达“作者指出……”。适合介绍论文中的观点、发现或问题，也适合汇报论文内容、解释作者观点、总结文献中的关键论点和课堂讨论。",
+        examples: [
+          "The authors point out that AGV congestion can reduce system efficiency.",
+          "The authors point out that path planning becomes harder when there are many vehicles.",
+          "The authors point out that simulation is useful for testing different scenarios.",
+          "The authors point out that traditional methods may not work well in dynamic environments.",
+          "The authors point out that task allocation and routing should be considered together."
+        ],
+        practiceTip: "这个句型非常适合替代 The paper says... 更自然一点是：The authors point out that..."
+      },
+      {
+        pattern: "A key finding is that...",
+        usage: "用于表达“一个关键发现是……”。适合总结论文结果或实验结论、汇报实验结果、总结论文贡献、课堂 discussion、presentation 中解释 findings，或和导师讨论论文价值。",
+        examples: [
+          "A key finding is that the proposed method reduces total travel time.",
+          "A key finding is that simulation helps compare different scheduling strategies.",
+          "A key finding is that congestion has a strong impact on system performance.",
+          "A key finding is that the algorithm works better in large-scale scenarios.",
+          "A key finding is that coordination between AGVs is very important."
+        ],
+        practiceTip: "当你想说“这篇论文最重要的结果”时，用：A key finding is that... 这比简单说 The result is... 更学术、更自然。"
+      },
+      {
+        pattern: "This is relevant to...",
+        usage: "用于表达“这和……有关 / 这对……有参考价值”。适合解释为什么读这篇论文、和导师说明文献价值、文献综述中建立联系，以及小组讨论中连接主题。",
+        examples: [
+          "This is relevant to my research topic.",
+          "This is relevant to AGV path planning.",
+          "This is relevant to warehouse simulation.",
+          "This is relevant to our group project.",
+          "This is relevant to the problem we discussed in class."
+        ],
+        practiceTip: "读论文时，不要只问 What does this paper say? 还要问：How is this relevant to my research? 这是学术阅读的关键。"
+      },
+      {
+        pattern: "I still need to figure out...",
+        usage: "用于表达“我还需要弄清楚……”。这是表达“我还没完全理解，但我知道问题在哪里”的高频句型，适合和导师讨论困惑、小组讨论中说明不确定点、阅读论文后提出后续问题，或做研究计划时明确下一步。",
+        examples: [
+          "I still need to figure out how the model works.",
+          "I still need to figure out how the authors define the constraints.",
+          "I still need to figure out whether this method applies to my topic.",
+          "I still need to figure out how to compare this paper with others.",
+          "I still need to figure out what the main contribution is."
+        ],
+        practiceTip: "不要只说 I don't understand. 更成熟的表达是：I still need to figure out... 它说明你正在主动解决问题。"
+      }
+    ],
+    questions: [
+      {
+        question: "You are introducing a paper about AGV scheduling. What would you say?",
+        answer: "The paper focuses on AGV scheduling in warehouse systems. The authors point out that poor task allocation can increase waiting time and reduce efficiency. A key finding is that coordinated scheduling can improve overall system performance. This is relevant to my research topic because I'm also interested in AGV systems and simulation."
+      },
+      {
+        question: "You read a paper but do not fully understand the model. How would you explain your problem?",
+        answer: "The paper focuses on optimization for multi-AGV systems. I understand the general topic, but I still need to figure out how the model works. In particular, I need to understand how the authors define the constraints. This is relevant to my research, so I want to spend more time reading the modelling section carefully."
+      },
+      {
+        question: "You want to explain why a paper is useful for your research. What would you say?",
+        answer: "This paper is relevant to my research because it discusses AGV path planning and task scheduling. The authors point out that these two problems are closely connected in real warehouse systems. A key finding is that considering them together can improve system efficiency. I think this could help me develop my own research direction."
+      },
+      {
+        question: "You are discussing a paper with a classmate. How would you summarize the main idea?",
+        answer: "The paper focuses on simulation-based optimization. The authors point out that simulation can be used to test different scenarios before real implementation. A key finding is that simulation helps compare different strategies under realistic conditions. I still need to figure out how they designed the experiments, but the main idea is clear."
+      },
+      {
+        question: "You want to tell your supervisor what you still need to understand. What would you say?",
+        answer: "I've read the paper once, and I understand the general direction. The paper focuses on AGV scheduling, which is relevant to my topic. However, I still need to figure out how the algorithm is evaluated. I'd like to compare this paper with other methods before deciding whether it is useful for my research."
+      }
+    ],
+    trainingFocus: "今天练习一套论文汇报系统：The paper focuses on..., The authors point out that..., A key finding is that..., This is relevant to..., I still need to figure out... 可以组合成：The paper focuses on AGV path planning. The authors point out that multi-AGV coordination is difficult in dynamic environments. A key finding is that the proposed method can reduce travel time. This is relevant to my research topic. I still need to figure out how the model handles conflicts between AGVs. 今天重点模拟两个场景：用30秒介绍一篇论文；用30秒说明自己哪里还没读懂。Day 30 小提醒：从明天开始，每天至少用当天5个句型脱稿说一段60秒英文。",
+    quote: {
+      text: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      author: "Mahatma Gandhi"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student presenting a research paper in a seminar, with a slide titled "The paper focuses on..." and diagrams of AGV scheduling, calm academic discussion mood.
+    // 2. A friendly study-abroad library cartoon scene where a student explains a paper to a classmate, pointing to highlighted findings and saying "I still need to figure out...", with laptops, printed papers, and thoughtful research atmosphere.
   }
 ];
 
