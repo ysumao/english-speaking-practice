@@ -178,6 +178,7 @@ images: [
 - Day 26: 参加 orientation、加入社团、报名活动、接受或婉拒邀请
 - Day 27: 课堂 presentation、展示 slides、引出主题、转到下一部分、处理提问
 - Day 28: 和导师 / 老师 / senior student 讨论研究方向、进展、问题和下一步
+- Day 29: 电脑打不开文件、软件报错、系统卡住、和同学一起排查问题
 
 ## Implementation Notes
 

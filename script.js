@@ -2824,6 +2824,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student discussing AGV scheduling with a supervisor in a university office, with notes about simulation, optimization, and next steps on a whiteboard, calm academic mood.
     // 2. A friendly research meeting cartoon scene where a student compares FlexSim and Python simulation options with a senior student, laptops open, diagrams on paper, speech bubbles saying "I'd appreciate your feedback" and "What would be a reasonable next step?"
+  },
+  {
+    day: 29,
+    title: "Day 29 - 电脑、软件与技术故障高频口语",
+    theme: "电脑打不开文件、软件报错、系统卡住、和同学一起排查问题",
+    patterns: [
+      {
+        pattern: "The file won't open.",
+        usage: "用于表达“这个文件打不开”。这里的 won't 不只是“不会”，在口语里常表示“某个东西就是不工作 / 没反应”。适合文件打不开、软件打不开、链接打不开、设备没有反应或程序无法运行。",
+        examples: [
+          "The file won't open.",
+          "The link won't open.",
+          "The app won't start.",
+          "The document won't load.",
+          "The program won't run on my laptop."
+        ],
+        practiceTip: "重点练：The + thing + won't + verb. 例如：The printer won't connect. The website won't load. 这是非常高频的故障表达。"
+      },
+      {
+        pattern: "I keep getting...",
+        usage: "用于表达“我一直收到 / 一直遇到……”。适合软件反复报错、登录一直失败、系统反复提示、付款或提交多次失败，以及编程反复出现同一个错误。",
+        examples: [
+          "I keep getting an error message.",
+          "I keep getting the same warning.",
+          "I keep getting logged out.",
+          "I keep getting stuck on this page.",
+          "I keep getting this message when I try to submit the form."
+        ],
+        practiceTip: "结构是：I keep getting + 问题，或者 I keep getting + 过去分词。例如：I keep getting logged out. 这句话在学校系统、邮箱、学习平台里非常常用。"
+      },
+      {
+        pattern: "It says...",
+        usage: "用于表达“上面显示…… / 它提示……”。这里的 it 通常指屏幕、系统、软件或错误信息。适合读出错误提示、向 IT 人员描述屏幕内容、和同学一起排查系统问题，或说明系统要求。",
+        examples: [
+          "It says my password is incorrect.",
+          "It says the file is too large.",
+          "It says I need to update the software.",
+          "It says the page is not available.",
+          "It says the deadline has passed."
+        ],
+        practiceTip: "不要看到报错就慌。先读出来：It says... 例如：It says the file format is not supported. 这比只说 It doesn't work 有用得多。"
+      },
+      {
+        pattern: "Have you tried...?",
+        usage: "用于表达“你有没有试过……？”这是给建议时非常自然的句型。适合帮同学解决软件问题、小组项目排查错误、朋友电脑出问题、提出可能的解决办法，或不想命令别人时。",
+        examples: [
+          "Have you tried restarting your laptop?",
+          "Have you tried using a different browser?",
+          "Have you tried updating the software?",
+          "Have you tried logging out and logging back in?",
+          "Have you tried opening the file on another computer?"
+        ],
+        practiceTip: "这个句型比直接说 Restart your laptop. 更柔和、更像建议。结构：Have you tried + -ing? 例如：Have you tried checking the file name?"
+      },
+      {
+        pattern: "Let's try... first.",
+        usage: "用于表达“我们先试试……”。适合一起排查问题时提出第一步操作，例如小组一起解决技术问题、课堂设备出问题、presentation 前调试投影、编程或仿真项目排错，或帮别人一步一步处理问题。",
+        examples: [
+          "Let's try restarting it first.",
+          "Let's try another browser first.",
+          "Let's try checking the connection first.",
+          "Let's try opening the file again first.",
+          "Let's try a simpler example first."
+        ],
+        practiceTip: "这个句型能让你显得冷静、有条理。当别人着急时，可以说：Let's try restarting it first and see what happens."
+      }
+    ],
+    questions: [
+      {
+        question: "Your assignment file won't open. What would you say to a classmate?",
+        answer: "The file won't open on my laptop. I keep getting an error message when I try to open it. It says the file format is not supported. Have you tried opening it on your computer? Maybe let's try downloading it again first."
+      },
+      {
+        question: "You cannot submit an online form. What would you say to IT support?",
+        answer: "I'm trying to submit an online form, but I keep getting stuck on the final page. It says the system cannot process my request. I've tried refreshing the page, but it still doesn't work. Should I try using a different browser?"
+      },
+      {
+        question: "Your group's presentation slides will not load before class. What would you say?",
+        answer: "The slides won't load on this computer. It says the file is too large. Let's try opening the PDF version first. If that doesn't work, we can try using another laptop. We should also check whether the file is saved online."
+      },
+      {
+        question: "Your classmate's university account keeps logging them out. What advice would you give?",
+        answer: "Have you tried logging out and logging back in properly? Maybe the browser is causing the problem. Have you tried using a different browser or clearing the cache? Let's try that first before contacting IT support."
+      },
+      {
+        question: "Your simulation software won't run. How would you explain the problem?",
+        answer: "The simulation software won't run on my laptop. I keep getting the same error message every time I start it. It says a required file is missing. I'm not sure whether it is an installation problem. Let's try reinstalling the software first and then check the settings."
+      }
+    ],
+    trainingFocus: "今天练习一套技术故障表达系统：The file won't open., I keep getting..., It says..., Have you tried...?, Let's try... first. 可以组合成：The program won't run. I keep getting an error message. It says a required file is missing. Have you tried updating the software? Let's try reinstalling it first. 今天重点模拟两个场景：向 IT support 描述问题，包括文件、系统、账号、错误信息；和同学一起排查问题，包括提出建议、尝试第一步解决方案。",
+    quote: {
+      text: "The important thing is not to stop questioning.",
+      author: "Albert Einstein"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student at a university IT help desk showing a laptop error message that says "The file won't open", with a helpful staff member calmly troubleshooting, clean study-abroad campus setting.
+    // 2. A friendly research-lab cartoon scene where two students debug simulation software together, one saying "Let's try restarting it first", with laptops, code windows, a simple error dialog, and a patient problem-solving mood.
   }
 ];
 
