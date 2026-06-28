@@ -2527,6 +2527,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of two international student roommates calmly making a shared cleaning schedule in a dorm kitchen, with speech bubbles saying "Let's take turns" and "I'll make sure to clean up", friendly cooperative mood.
     // 2. A cozy study-abroad dorm cartoon scene where one student politely asks a roommate to keep the noise down after 10 p.m., with soft lighting, textbooks, laundry basket, and a peaceful respectful atmosphere.
+  },
+  {
+    day: 26,
+    title: "Day 26 - 社团、校园活动与认识新圈子高频口语",
+    theme: "参加 orientation、加入社团、报名活动、接受或婉拒邀请",
+    patterns: [
+      {
+        pattern: "I signed up for...",
+        usage: "用于表达“我报名了……”。适合报名 orientation、社团活动、workshop、语言交换、校园旅行或志愿活动。",
+        examples: [
+          "I signed up for the orientation session.",
+          "I signed up for a campus tour.",
+          "I signed up for the engineering club.",
+          "I signed up for a language exchange event.",
+          "I signed up for a workshop on academic writing."
+        ],
+        practiceTip: "这个句型很适合回答 What are you doing this week? 例如：I signed up for a campus tour this Friday."
+      },
+      {
+        pattern: "Are there any spots left for...?",
+        usage: "用于表达“……还有名额吗？”这里的 spot 表示“名额、位置”。适合活动报名、预约 workshop、加入社团活动、参加旅行/讲座/课程，或预约学习小组。",
+        examples: [
+          "Are there any spots left for the campus tour?",
+          "Are there any spots left for the workshop?",
+          "Are there any spots left for the language exchange event?",
+          "Are there any spots left for this Friday's activity?",
+          "Are there any spots left for new members?"
+        ],
+        practiceTip: "这句话比 Can I join? 更具体。如果活动可能满员，用它非常自然。"
+      },
+      {
+        pattern: "What kind of events do you usually run?",
+        usage: "用于表达“你们通常办什么类型的活动？”这里的 run 表示“组织、举办”。适合询问社团活动、学生组织、志愿者项目、学术协会或学校服务部门。",
+        examples: [
+          "What kind of events do you usually run?",
+          "What kind of workshops do you usually run?",
+          "What kind of activities do club members usually do?",
+          "What kind of events do you run during the semester?",
+          "What kind of support sessions do you run for international students?"
+        ],
+        practiceTip: "这个句型适合社团摊位、orientation、student union。可以问：What kind of events do you usually run for new students?"
+      },
+      {
+        pattern: "Count me in.",
+        usage: "用于表达“算我一个”。这是非常自然的口语表达，用来接受邀请，适合同学邀请你参加活动、小组约一起学习、朋友约吃饭、社团组织活动，或临时决定加入某个计划。",
+        examples: [
+          "Count me in.",
+          "If you're going to the event, count me in.",
+          "That sounds fun. Count me in.",
+          "Count me in for the group study session.",
+          "Count me in if there's still space."
+        ],
+        practiceTip: "这是一个很短但很地道的表达。别人说 We're going to the student event tonight. 你可以说：Sounds good. Count me in."
+      },
+      {
+        pattern: "I might sit this one out.",
+        usage: "用于礼貌婉拒活动，表示“这次我可能不参加了”。适合太累、太忙、不方便、不想直接说 no，或某个活动不太适合你的场景。",
+        examples: [
+          "I might sit this one out.",
+          "I'm a bit tired, so I might sit this one out.",
+          "I have too much work, so I might sit this one out.",
+          "I'll join next time, but I might sit this one out today.",
+          "This event sounds fun, but I might sit this one out."
+        ],
+        practiceTip: "它比直接说 I don't want to go. 更自然、更委婉。可以加一句积极结尾：I might sit this one out, but please let me know about the next one."
+      }
+    ],
+    questions: [
+      {
+        question: "You want to join an orientation activity. What would you ask?",
+        answer: "Hi, are there any spots left for the orientation activity this week? I'm a new international student, and I'd like to learn more about the campus. What kind of events do you usually run for new students? If there's still space, I'd like to sign up."
+      },
+      {
+        question: "A classmate invites you to a campus event. You want to join. What would you say?",
+        answer: "That sounds fun. Count me in. I signed up for a campus tour before, but I haven't joined many social events yet. I think this could be a good chance to meet more people. What time does it start?"
+      },
+      {
+        question: "You are asking about a student club. What would you say?",
+        answer: "Hi, I'm interested in learning more about this club. What kind of events do you usually run during the semester? Are there any spots left for new members? I'm especially interested in activities related to engineering or technology."
+      },
+      {
+        question: "You are too tired to join an activity today. How would you politely decline?",
+        answer: "Thanks for inviting me, but I might sit this one out today. I'm a bit tired and need to finish some work. The event sounds really nice, though. Please let me know if there's another one next time."
+      },
+      {
+        question: "You signed up for a workshop and want to tell your classmate about it. What would you say?",
+        answer: "I signed up for a workshop on academic writing this Friday. I think it could be useful because I need to improve my academic English. There were only a few spots left, so I registered early. If you're interested, you should check whether there are any spots left."
+      }
+    ],
+    trainingFocus: "今天练习一套校园参与系统：I signed up for..., Are there any spots left for...?, What kind of events do you usually run?, Count me in., I might sit this one out. 可以组合成：I signed up for a language exchange event. Are there any spots left for the campus tour as well? What kind of events do you usually run for international students? If it's not too late, count me in. But if I'm too busy this week, I might sit this one out. 今天重点模拟两个场景：主动加入活动，包括报名、询问名额、了解活动内容；回应邀请，包括接受邀请或礼貌婉拒。",
+    quote: {
+      text: "No man is an island.",
+      author: "John Donne"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student at a campus orientation booth asking "Are there any spots left?", with club posters, friendly student volunteers, and a bright welcoming university atmosphere.
+    // 2. A lively but calm study-abroad cartoon scene where students invite a new classmate to a language exchange event, with speech bubbles saying "Count me in" and "I might sit this one out", positive social campus mood.
   }
 ];
 
