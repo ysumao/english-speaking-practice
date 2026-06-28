@@ -2230,6 +2230,105 @@ const lessons = [
     // AI comic prompt ideas:
     // 1. A warm comic illustration of an international student writing a polite email to a professor on a laptop, with a clean inbox interface and speech bubbles showing "I'm writing to..." and "Could you confirm whether...?", calm study desk setting.
     // 2. A friendly campus office cartoon scene where a student sends attached documents to student services and receives a confirmation message, with soft colors, clear email icons, and a practical study-abroad mood.
+  },
+  {
+    day: 23,
+    title: "Day 23 - 图书馆、学习资源与打印高频口语",
+    theme: "图书馆借书、续借、查数据库、预约自习室、打印材料",
+    patterns: [
+      {
+        pattern: "I'd like to borrow...",
+        usage: "用于表达“我想借……”。适合在图书馆借书、借电脑、耳机、充电器、课程教材，以及实验或学习设备。",
+        examples: [
+          "I'd like to borrow this book.",
+          "I'd like to borrow a laptop.",
+          "I'd like to borrow a charger.",
+          "I'd like to borrow these textbooks.",
+          "I'd like to borrow some books on engineering."
+        ],
+        practiceTip: "这个句型比直接说 I want this book. 更自然、更礼貌。在图书馆可以说：Hi, I'd like to borrow this book. Do I need my student card?"
+      },
+      {
+        pattern: "When is this due?",
+        usage: "用于表达“这个什么时候到期 / 什么时候该还？”due 是留学生活中非常重要的词，可以用于借书归还日期、作业截止日期、账单付款日期和表格提交日期。",
+        examples: [
+          "When is this due?",
+          "When is the book due?",
+          "When is the assignment due?",
+          "When is the payment due?",
+          "When is the form due?"
+        ],
+        practiceTip: "把 due 练到非常熟。不要总说 What is the deadline? 也可以说：When is it due? 这句话非常口语、非常高频。"
+      },
+      {
+        pattern: "Can I renew...?",
+        usage: "用于表达“我可以续借 / 延长……吗？”renew 在图书馆和服务类场景很常见，适合续借图书、延长借用设备时间、延长会员/账户/服务，或更新许可证和文件。",
+        examples: [
+          "Can I renew this book?",
+          "Can I renew it online?",
+          "Can I renew my library card?",
+          "Can I renew the loan for another week?",
+          "Can I renew this if nobody else has reserved it?"
+        ],
+        practiceTip: "注意：renew a book = 续借一本书；renew a card = 更新 / 延长卡的有效期；renew online = 在线续借。图书馆里很实用的一句是：Can I renew this book online?"
+      },
+      {
+        pattern: "How do I access...?",
+        usage: "用于表达“我怎样访问 / 使用……？”这个句型非常适合大学学习资源，适合访问学校数据库、使用电子书、查看课程资料、进入学习平台和登录打印系统。",
+        examples: [
+          "How do I access the online library?",
+          "How do I access the course materials?",
+          "How do I access academic journals?",
+          "How do I access the printing system?",
+          "How do I access the lecture recordings?"
+        ],
+        practiceTip: "这个句型特别适合学校 IT、图书馆和课程平台。例如：How do I access academic journals from home? 这句话很适合以后查论文。"
+      },
+      {
+        pattern: "Is there a limit on...?",
+        usage: "用于表达“……有没有限制？”适合询问数量、时间、次数或权限限制，例如借书数量限制、打印页数限制、自习室预约时长、数据库访问限制和续借次数限制。",
+        examples: [
+          "Is there a limit on how many books I can borrow?",
+          "Is there a limit on printing pages?",
+          "Is there a limit on study room bookings?",
+          "Is there a limit on how long I can use this computer?",
+          "Is there a limit on how many times I can renew a book?"
+        ],
+        practiceTip: "这个句型适合办事时提前问清楚规则。结构是：Is there a limit on + noun / how many / how long...? 例如：Is there a limit on how long I can book a study room?"
+      }
+    ],
+    questions: [
+      {
+        question: "You want to borrow a textbook from the library. What would you say?",
+        answer: "Hi, I'd like to borrow this textbook. Do I need to use my student card? When is this book due? Also, can I renew it online if I need more time?"
+      },
+      {
+        question: "You want to access academic journals from home. What would you ask?",
+        answer: "Hi, how do I access academic journals from home? Do I need to log in through the university library website? I'm looking for papers related to engineering and operations research. Is there a limit on how many articles I can download?"
+      },
+      {
+        question: "You borrowed a book but need more time. What would you say?",
+        answer: "Hi, can I renew this book for another week? I still need it for my assignment. It is due tomorrow, so I wanted to check before it becomes late. Can I renew it online, or do I need to do it at the library desk?"
+      },
+      {
+        question: "You want to book a study room for group work. What would you ask?",
+        answer: "Hi, how do I book a study room for group work? Is there a limit on how long we can use it? We need a quiet place to prepare our presentation. Also, do we need to check in when we arrive?"
+      },
+      {
+        question: "You need to print your assignment but don't know how the system works. What would you say?",
+        answer: "Hi, how do I access the printing system? I need to print my assignment before class. Is there a limit on printing pages? Also, can I pay with my student card, or do I need to add credit first?"
+      }
+    ],
+    trainingFocus: "今天练习一套完整的图书馆学习流程：I'd like to borrow..., When is this due?, Can I renew...?, How do I access...?, Is there a limit on...? 可以组合成：I'd like to borrow this book. When is it due? Can I renew it online? Also, how do I access the online library? Is there a limit on how many articles I can download? 今天请重点模拟两个场景：借书和续借，包括 borrow / due / renew；查论文和打印，包括 access journals / printing system / limit。",
+    quote: {
+      text: "Reading is to the mind what exercise is to the body.",
+      author: "Joseph Addison"
+    },
+    images: []
+
+    // AI comic prompt ideas:
+    // 1. A warm comic illustration of an international student at a university library desk borrowing engineering textbooks and asking "When is this due?", with bookshelves, a student card, and a helpful librarian, calm study-focused mood.
+    // 2. A friendly campus library cartoon scene where a student accesses academic journals on a laptop and prints an assignment nearby, with subtle icons for databases, printing credits, and study rooms, bright and positive atmosphere.
   }
 ];
 
